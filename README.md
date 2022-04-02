@@ -6,3 +6,6 @@ Fedora fixes
 
 ## install-vmware-modules.sh
 * This script fixes the build of VMware modules on Fedora
+
+## disable-turbo-boost.service
+* This service disables turbo boost (please check if /sys/devices/system/cpu/cpufreq/boost is present and then copy the service to /etc/systemd/system and enable it using sudo systemctl enable --now disable-turbo-boost.service
