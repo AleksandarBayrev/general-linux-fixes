@@ -1,5 +1,5 @@
-# fedora-fixes
-Fedora fixes
+# general-linux-fixes
+General Linux fixes
 
 ## prime-run
 * Copy prime-run and prime-run-novsync to /bin and chmod +x both executables.
