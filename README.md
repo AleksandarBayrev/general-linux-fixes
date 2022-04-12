@@ -1,7 +1,7 @@
 # general-linux-fixes
 General Linux fixes
 
-## prime-run
+## prime-run/prime-run-novsync
 * Copy prime-run and prime-run-novsync to /bin and chmod +x both executables.
 
 ## install-vmware-modules.sh
