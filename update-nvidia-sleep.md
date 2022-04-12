@@ -1,9 +1,9 @@
 # How to fix sleep issues with NVIDIA and sleeping issues
-* Install Node.JS latest LTS version and run the script
+* Install .NET SDK 6.0 and build the project, then run the executable
 ```bash
-sudo node update-nvidia-sleep.js
+sudo update-nvidia-sleep
 ```
 * To revert the changes
 ```bash
-sudo node update-nvidia-sleep.js --revert
+sudo update-nvidia-sleep --revert
 ```
