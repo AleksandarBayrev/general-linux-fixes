@@ -11,4 +11,4 @@ General Linux fixes
 * This service disables turbo boost (please check if /sys/devices/system/cpu/cpufreq/boost is present and then copy the service to /etc/systemd/system and enable it using sudo systemctl enable --now disable-turbo-boost.service
 
 ## update-nvidia-sleep-sh.txt
-* This text file describes how to fix sleep state in hybrid NVIDIA/iGPU setups (AMD/Intel)
+* This text file describes how to fix sleep state in hybrid NVIDIA/iGPU setups (AMD/Intel) and it will work for NVIDIA-only related sleep issues
