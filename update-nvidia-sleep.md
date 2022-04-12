@@ -1,4 +1,4 @@
-# How to fix sleep issues with NVIDIA hybrid graphics
+# How to fix sleep issues with NVIDIA and sleeping issues
 * Install Node.JS latest LTS version and run the script
 ```bash
 sudo node update-nvidia-sleep.js
