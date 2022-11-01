@@ -15,3 +15,6 @@ General Linux fixes
 
 ## How to Install KVM_QEMU on Manjaro_Archlinux.pdf
 * This file includes a tutorial on how to setup KVM/QEMU on Arch/Manjaro
+
+## zram-generator.conf
+* This file configures ZRAM on new Linux distros that do not have swap partition enabled. Copy it to /etc/systemd.
