@@ -12,3 +12,6 @@ General Linux fixes
 
 ## update-nvidia-sleep-sh.md
 * This text file describes how to fix sleep state in hybrid NVIDIA/iGPU setups (AMD/Intel) and it will work for NVIDIA-only related sleep issues
+
+## How to Install KVM_QEMU on Manjaro_Archlinux.pdf
+* This file includes a tutorial on how to setup KVM/QEMU on Arch/Manjaro
