@@ -1,0 +1,2 @@
+# Use these command line options to run it properly (note - prime-run-novsync and gamemoderun are for my specs)
+`eval $(echo "prime-run-novsync gamemoderun %command%" | sed "s/2KLauncher\/LauncherPatcher.exe'.*/mafiadefinitiveedition.exe'/")`

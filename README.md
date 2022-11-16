@@ -18,3 +18,6 @@ General Linux fixes
 
 ## zram-generator.conf
 * This file configures ZRAM on new Linux distros that do not have swap partition enabled. Copy it to /etc/systemd.
+
+## Fix-For-Mafia-DE.md
+* This file describes how to run Mafia DE on Linux.
