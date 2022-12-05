@@ -24,3 +24,6 @@ General Linux fixes
 
 ## KDE crashes randomly with KWin log
 * If KDE crashes suddenly and restarts, and the logs contain Nov 27 10:58:25 nitro5-ryzen7 plasmashell[60717]: kf.plasma.quick: Couldn't create KWindowShadow for ToolTipDialog(0x55926af0f470) install plasma-wayland-protocols (on Arch Linux, search for a similar package on other distros)
+
+## Fedora-After-Install.md
+* Contains steps that you should use as a guideline after a new or updated installation of Fedora.
