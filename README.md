@@ -27,3 +27,6 @@ General Linux fixes
 
 ## Fedora-After-Install.md
 * Contains steps that you should use as a guideline after a new or updated installation of Fedora.
+
+## Linux stress tests
+* Install glmark2 and s-tui to perform GPU/CPU stress tests.
