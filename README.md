@@ -33,3 +33,6 @@ General Linux fixes
 
 ## Switch-Java-Versions-Fedora.md
 * Describes how to switch between different Java versions on Fedora (can be applicable to other distributions).
+
+## distrobox-manual.md
+* Describes how to install and use distrobox.
