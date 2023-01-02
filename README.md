@@ -30,3 +30,6 @@ General Linux fixes
 
 ## Linux stress tests
 * Install glmark2 and s-tui to perform GPU/CPU stress tests.
+
+## Switch-Java-Versions-Fedora.md
+* Describes how to switch between different Java versions on Fedora (can be applicable to other distributions).
