@@ -1,4 +1,8 @@
 # After installation of Fedora
+
+## Remove zram-generator (if using a separate swap partition)
+* Run `sudo dnf remove zram-generator-defaults zram-generator`
+
 ## Base tools
 * Install groups `Multimedia`, `Development Tools` via `sudo dnf group install YOUR_GROUP`
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
