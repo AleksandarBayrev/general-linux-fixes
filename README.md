@@ -36,3 +36,6 @@ General Linux fixes
 
 ## distrobox-manual.md
 * Describes how to install and use distrobox.
+
+## nouveau-problem-fixes.md
+* If you have problems after replacing nouveau with Proprietary NVIDIA drivers read this.
