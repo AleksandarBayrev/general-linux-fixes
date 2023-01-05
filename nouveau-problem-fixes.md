@@ -6,4 +6,4 @@ blacklist nouveau
 options nouveau modeset=0
 ```
 
-# And regenerate grub configuration
+# And regenerate grub/initramfs configuration
