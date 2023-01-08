@@ -39,3 +39,6 @@ General Linux fixes
 
 ## nouveau-problem-fixes.md
 * If you have problems after replacing nouveau with Proprietary NVIDIA drivers read this.
+
+## Flatpak-Nvidia-Settings.md
+* Contains information how to pass NVIDIA GPU to flatpak installed apps (on NVIDIA Prime laptops).
