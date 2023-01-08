@@ -14,3 +14,5 @@
 * Run `sudo remove-retired-packages YOUR_PREVIOUS_VERSION` to remove old packages not needed after the update. 
 * Run `sudo rpmconf -a` to update RPM configurations after upgrade.
  
+## After kernel upgrade
+* It is recommended after running `dnf update` to run `sudo akmods-shutdown` to rebuild kernel modules and then reboot.
