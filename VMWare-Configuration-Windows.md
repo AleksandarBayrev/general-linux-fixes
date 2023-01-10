@@ -4,3 +4,4 @@
 * Run `bcdedit /set hypervisorlaunchtype off` in command prompt to speed up the VM.
 * Disable `Core Isolation`
 * Remove `Hyper-V` and `Windows Sandbox` or other related features.
+* Disable 'Enable Write Caching' for the virtual SSD/HDD in VMWare.
