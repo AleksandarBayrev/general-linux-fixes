@@ -42,3 +42,6 @@ General Linux fixes
 
 ## Flatpak-Nvidia-Settings.md
 * Contains information how to pass NVIDIA GPU to flatpak installed apps (on NVIDIA Prime laptops).
+
+## VMWare-Configuraton-Windows.md
+* Gives configuration steps on how to setup Windows 11 on Linux with VMWare.
