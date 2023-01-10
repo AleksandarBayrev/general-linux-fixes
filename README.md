@@ -45,3 +45,6 @@ General Linux fixes
 
 ## VMWare-Configuraton-Windows.md
 * Gives configuration steps on how to setup Windows 11 on Linux with VMWare.
+
+## ABRT-Config.md
+* Gives configuration steps to disable non-reportable errors appearing in the reporting tool.
