@@ -48,3 +48,6 @@ General Linux fixes
 
 ## ABRT-Config.md
 * Gives configuration steps to disable non-reportable errors appearing in the reporting tool.
+
+## AMD-GPUs-Linux-Control-Panel.md
+* Gives AMD GUI utility to control the GPUs/CPUs.
