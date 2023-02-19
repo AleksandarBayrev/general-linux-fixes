@@ -16,3 +16,6 @@
  
 ## After kernel upgrade
 * It is recommended after running `dnf update` to run `sudo akmods-shutdown` to rebuild kernel modules and then reboot.
+
+## Running in VMware
+* Issue noticed on Fedora 37 - sound is choppy, to resolve it: `sudo dnf install pulseaudio --allowerasing`
