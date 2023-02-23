@@ -51,3 +51,6 @@ General Linux fixes
 
 ## AMD-GPUs-Linux-Control-Panel.md
 * Gives AMD GUI utility to control the GPUs/CPUs.
+
+## rocky-linux-autoupdate-no-downtime.pdf
+* Describes how to enable Rocky Linux auto update and no downtime.
