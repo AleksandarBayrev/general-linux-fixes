@@ -54,3 +54,6 @@ General Linux fixes
 
 ## rocky-linux-autoupdate-no-downtime.pdf
 * Describes how to enable Rocky Linux auto update and no downtime.
+
+## Nested Virtualization - Hyper-V 2019 in qemu-kvm – _techblog.pdf
+* KVM settings for Windows guest VM.
