@@ -57,3 +57,6 @@ General Linux fixes
 
 ## Nested Virtualization - Hyper-V 2019 in qemu-kvm – _techblog.pdf
 * KVM settings for Windows guest VM.
+
+## How-To-Boot-Android-x86-Or-BlissOS-When-Stuck-On-Console-In-VM.pdf
+* Describes how to boot Android x86/BlissOS or other Android based x86 OS in a VM.
