@@ -63,3 +63,6 @@ General Linux fixes
 
 ## OpenSUSE-Tumbleweed-After-Install.md
 * Describes how to setup OpenSUSE Tumbleweed and how to setup .NET/Node on it.
+
+## Swap-Configuration.md
+* Describes how to setup swap on Linux.
