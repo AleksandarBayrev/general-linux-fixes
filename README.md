@@ -67,5 +67,5 @@ General Linux fixes
 ## Swap-Configuration.md
 * Describes how to setup swap on Linux.
 
-## Arch-EnvyControl.md
-* Describes Arch setup with envycontrol
+## Arch-After-Install.md
+* Describes Arch setup + configurations after installation.
