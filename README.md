@@ -69,3 +69,6 @@ General Linux fixes
 
 ## Arch-After-Install.md
 * Describes Arch setup + configurations after installation.
+
+## How do I change the default file manager back to Nautilus
+* Describes how to set the default file manager to Nautilus.
