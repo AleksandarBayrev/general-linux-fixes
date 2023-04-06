@@ -72,3 +72,6 @@ General Linux fixes
 
 ## How do I change the default file manager back to Nautilus
 * Describes how to set the default file manager to Nautilus.
+
+## Installing Microsoft Windows 98 in DOSBox-X.pdf
+* Describes how to install Windows 98 in DOSBox-X.
