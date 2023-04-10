@@ -75,3 +75,6 @@ General Linux fixes
 
 ## Installing Microsoft Windows 98 in DOSBox-X.pdf
 * Describes how to install Windows 98 in DOSBox-X.
+
+## Arch-Before-Install-And-Update-Problems.md
+* Describes how to tackle some issues before installation or update related problems.
