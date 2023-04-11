@@ -5,3 +5,4 @@
 * Disable `Core Isolation`
 * Remove `Hyper-V` and `Windows Sandbox` or other related features.
 * Disable 'Enable Write Caching' for the virtual SSD/HDD in VMWare.
+* Add `mks.vk.allowUnsupportedDevices = "TRUE"` to ~/.vmware/preferences.
