@@ -78,3 +78,6 @@ General Linux fixes
 
 ## Arch-Before-Install-And-Update-Problems.md
 * Describes how to tackle some issues before installation or update related problems.
+
+## OBS-Fix-Wayland.md
+* Describes how to enable screen recording on Wayland.

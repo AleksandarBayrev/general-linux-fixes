@@ -1,0 +1,1 @@
+# Install `xdg-desktop-portal` (if you're running Arch/Arch based distros, for others check the package name) to enable screen recording on Wayland.
