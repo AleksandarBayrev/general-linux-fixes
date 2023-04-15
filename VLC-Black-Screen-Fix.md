@@ -1,0 +1,1 @@
+# If VLC results in black screen and only audio working - disable hardware acceleration.

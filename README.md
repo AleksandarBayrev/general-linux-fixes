@@ -81,3 +81,6 @@ General Linux fixes
 
 ## OBS-Fix-Wayland.md
 * Describes how to enable screen recording on Wayland.
+
+## VLC-Black-Screen-Fix.md
+* Describes how to fix black screen and audio working only in VLC.
