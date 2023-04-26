@@ -84,3 +84,6 @@ General Linux fixes
 
 ## VLC-Black-Screen-Fix.md
 * Describes how to fix black screen and audio working only in VLC.
+
+## Ubuntu-Tips.md
+* Describes some Ubuntu tips (may work on other Debian/Ubuntu based distros).
