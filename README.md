@@ -87,3 +87,6 @@ General Linux fixes
 
 ## Ubuntu-Tips.md
 * Describes some Ubuntu tips (may work on other Debian/Ubuntu based distros).
+
+## Fix-Ubuntu-Sound-Problems.md
+* Describes how to fix sound problems in Ubuntu 22.04 (and later versions probably).
