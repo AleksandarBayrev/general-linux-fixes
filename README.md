@@ -90,3 +90,6 @@ General Linux fixes
 
 ## Fix-Ubuntu-Sound-Problems.md
 * Describes how to fix sound problems in Ubuntu 22.04 (and later versions probably).
+
+## default-sources-list-ubuntu-2204.list
+* Provides default sources configuration for Bulgaria.
