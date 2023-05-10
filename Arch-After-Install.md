@@ -9,4 +9,4 @@
 
 # Install `libstrangle` to limit framerate (example: `strangle 60 glxgears`)
 
-# To downgrade packages install `downgrade` from AUR, and to use it - `sudo downgrade MY_PACKAGE`
+# To downgrade/change versions of packages install `downgrade` from AUR, and to use it - `sudo downgrade MY_PACKAGE`
