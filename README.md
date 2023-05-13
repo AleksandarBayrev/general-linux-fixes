@@ -93,3 +93,6 @@ General Linux fixes
 
 ## default-sources-list-ubuntu-2204.list
 * Provides default sources configuration for Bulgaria.
+
+## QEMU-KVM.md
+* Provides tips to install QEMU/KVM on Linux.
