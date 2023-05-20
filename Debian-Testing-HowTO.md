@@ -14,4 +14,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Remove `raspi-firmware` if not running Raspberry (`sudo nala purge raspi-firmware`)
 # Upgrade system via `sudo nala upgrade`
 # Install `systemd-zram-generator` and `zram-tools`
-# Install `wayland-protocols` and `qt6-wayland`
+# Install `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre` and `qt6-wayland`
