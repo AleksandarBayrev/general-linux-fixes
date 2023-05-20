@@ -15,3 +15,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Upgrade system via `sudo nala upgrade`
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre` and `qt6-wayland`
+# Install `Thumbnail Grid` task switcher for KDE.
