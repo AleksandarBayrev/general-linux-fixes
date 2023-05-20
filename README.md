@@ -96,3 +96,6 @@ General Linux fixes
 
 ## QEMU-KVM.md
 * Provides tips to install QEMU/KVM on Linux.
+
+## Debian-Testing-HowTO.md
+* Describes how to start with Debian Testing on a hardware.
