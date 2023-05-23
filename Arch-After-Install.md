@@ -12,3 +12,4 @@
 # To downgrade/change versions of packages install `downgrade` from AUR, and to use it - `sudo downgrade MY_PACKAGE`
 
 # Install `akregator` and subscribe to Arch News (check out how to [here](https://archlinux.org/feeds/))
+* Use `--hide-mainwindow` as an argument in `Autostart` app in KDE to make `akregator` start in minimized window in system tray.
