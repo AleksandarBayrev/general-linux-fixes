@@ -99,3 +99,6 @@ General Linux fixes
 
 ## Debian-Testing-HowTO.md
 * Describes how to start with Debian Testing on a hardware.
+
+## Debian-Stable-HowTO.md
+* Describes hoa to start with Debian Stable on a hardware.
