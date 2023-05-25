@@ -19,4 +19,5 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to display system info.
 # Install `acpi` to check battery status (on laptops)
+# Install `ttf-mscorefonts-installer` to add Microsoft fonts
 # IMPORTANT!!! - Upgrade system with `sudo apt dist-upgrade`

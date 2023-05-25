@@ -8,5 +8,6 @@
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to show display system info.
 # Install `acpi` to check battery status (on laptops)
+# Install `ttf-mscorefonts-installer` to add Microsoft fonts
 # To enable automatic time sync install `systemd-timesyncd`
 # To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break.
