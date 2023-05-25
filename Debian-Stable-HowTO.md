@@ -1,4 +1,4 @@
-# Install latest Debian Stable or get latest Live DVD from [here](https://cdimage.debian.org/cdimage/weekly-live-builds/amd64/iso-hybrid/)
+# Install latest Debian Stable
 # Install `nala`
 # Remove `raspi-firmware` if not running Raspberry (`sudo nala purge raspi-firmware`)
 # Upgrade system via `sudo nala upgrade`
@@ -8,4 +8,4 @@
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `acpi` to check battery status (on laptops)
 # To enable automatic time sync install `systemd-timesyncd`
-# To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames
+# To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break.
