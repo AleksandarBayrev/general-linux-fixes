@@ -15,7 +15,7 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Upgrade system via `sudo nala upgrade`
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
-# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `plasma-firewall`, `firewall-config`, `stress`, `s-tui`  and `qt6-wayland`
+# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`  and `qt6-wayland`
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to display system info.
 # Install `acpi` to check battery status (on laptops)
