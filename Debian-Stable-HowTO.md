@@ -12,3 +12,19 @@
 # Install `ttf-mscorefonts-installer` to add Microsoft fonts
 # To enable automatic time sync install `systemd-timesyncd`
 # To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break.
+# Example `/etc/apt/sources.list` for Debian Bookworm (version 12)
+```
+# See https://wiki.debian.org/SourcesList for more information.
+deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+
+deb http://security.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+deb-src http://security.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+
+# Backports allow you to install newer versions of software made available for this release
+deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
+```
