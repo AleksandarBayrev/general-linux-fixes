@@ -4,6 +4,7 @@
 # Upgrade system via `sudo nala upgrade`
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
+# Install `net-tools` for the `netstat` command and other tools
 # Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `audacity`, `obs-studio`, `kdenlive`, `handbrake`, `libreoffice` and `qt6-wayland`
 # Flatpaks: `duckstation`, `PCSX2`, `RPCS3`, `Postman`, `Bottles`
 # Install `Thumbnail Grid` task switcher for KDE.
