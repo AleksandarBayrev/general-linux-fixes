@@ -102,3 +102,6 @@ General Linux fixes
 
 ## Debian-Stable-HowTO.md
 * Describes hoa to start with Debian Stable on a hardware.
+
+## NVIDIA-Fixes-Linux.md
+* Small fixes to allow sleeping to work properly.
