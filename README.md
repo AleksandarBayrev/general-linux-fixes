@@ -105,3 +105,6 @@ General Linux fixes
 
 ## NVIDIA-Fixes-Linux.md
 * Small fixes to allow sleeping to work properly.
+
+## Mangohud-GOverlay.md
+* Describes how to use `mangohud` and `goverlay`
