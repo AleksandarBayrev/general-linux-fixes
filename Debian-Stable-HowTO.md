@@ -6,7 +6,7 @@
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `net-tools` for the `netstat` command and other tools
 # Install `pkexec` for GUI authorization
-# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `audacity`, `obs-studio`, `kdenlive`, `handbrake`, `libreoffice`, `rar`, `unrar` and `qt6-wayland`
+# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `audacity`, `obs-studio`, `kdenlive`, `handbrake`, `libreoffice`, `rar`, `unrar`, `usbutils` and `qt6-wayland`
 # Flatpaks: `duckstation`, `PCSX2`, `RPCS3`, `Postman`, `Bottles`
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to show display system info.
