@@ -101,10 +101,13 @@ General Linux fixes
 * Describes how to start with Debian Testing on a hardware.
 
 ## Debian-Stable-HowTO.md
-* Describes hoa to start with Debian Stable on a hardware.
+* Describes how to start with Debian Stable on a hardware.
 
 ## NVIDIA-Fixes-Linux.md
 * Small fixes to allow sleeping to work properly.
 
 ## Mangohud-GOverlay.md
 * Describes how to use `mangohud` and `goverlay`
+
+## openSUSE-Tumbleweed-HowTO.md
+* Describes how to start with openSUSE Tumbleweed on a hardware.
