@@ -61,9 +61,6 @@ General Linux fixes
 ## How-To-Boot-Android-x86-Or-BlissOS-When-Stuck-On-Console-In-VM.pdf
 * Describes how to boot Android x86/BlissOS or other Android based x86 OS in a VM.
 
-## OpenSUSE-Tumbleweed-After-Install.md
-* Describes how to setup OpenSUSE Tumbleweed and how to setup .NET/Node on it.
-
 ## Swap-Configuration.md
 * Describes how to setup swap on Linux.
 
