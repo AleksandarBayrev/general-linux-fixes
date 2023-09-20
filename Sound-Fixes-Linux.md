@@ -1,1 +1,1 @@
-# Remove speech-dispatcher to remove HDMI crackling
+# Remove `speech-dispatcher` to remove HDMI crackling
