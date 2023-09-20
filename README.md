@@ -108,3 +108,6 @@ General Linux fixes
 
 ## openSUSE-Tumbleweed-HowTO.md
 * Describes how to start with openSUSE Tumbleweed on a hardware.
+
+## Sound-Fixes-Linux.md
+* Describes how to fix HDMI crackling.
