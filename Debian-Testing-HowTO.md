@@ -10,7 +10,8 @@ deb-src http://deb.debian.org/debian testing-updates main contrib non-free non-f
 deb http://security.debian.org/debian-security/ testing-security main contrib non-free non-free-firmware
 deb-src http://security.debian.org/debian-security/ testing-security main contrib non-free non-free-firmware
 ```
-# Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
+# Install `aptitude`
+# Remove `raspi-firmware` if not running Raspberry (`sudo aptitude purge raspi-firmware`)
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `audacity`, `usbutils` and `qt6-wayland`
@@ -19,4 +20,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Install `acpi` to check battery status (on laptops)
 # Install `upower` to check battery status (on laptops) and enable `upower` service
 # Install `ttf-mscorefonts-installer` to add Microsoft fonts
-# IMPORTANT!!! - Upgrade system with `sudo apt dist-upgrade`
+# IMPORTANT!!! - Upgrade system with `sudo aptitude dist-upgrade`
