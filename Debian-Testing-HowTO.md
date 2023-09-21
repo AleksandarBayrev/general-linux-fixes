@@ -10,7 +10,7 @@ deb-src http://deb.debian.org/debian testing-updates main contrib non-free non-f
 deb http://security.debian.org/debian-security/ testing-security main contrib non-free non-free-firmware
 deb-src http://security.debian.org/debian-security/ testing-security main contrib non-free non-free-firmware
 ```
-# Install `aptitude`
+# Install `aptitude`, `apt-listbugs`, `apt-listchanges`
 # Remove `raspi-firmware` if not running Raspberry (`sudo aptitude purge raspi-firmware`)
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
