@@ -1,7 +1,6 @@
 # Install latest Debian Stable
-# Install `nala`
-# Remove `raspi-firmware` if not running Raspberry (`sudo nala purge raspi-firmware`)
-# Upgrade system via `sudo nala upgrade`
+# Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
+# Upgrade system via `sudo apt dist-upgrade`
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `net-tools` for the `netstat` command and other tools
