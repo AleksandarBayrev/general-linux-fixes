@@ -1,4 +1,5 @@
 # Install latest Debian Stable
+# IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
 # Upgrade system via `sudo apt dist-upgrade`
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`

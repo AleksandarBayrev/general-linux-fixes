@@ -1,4 +1,5 @@
 # Install latest Debian Stable or get latest Live DVD from [here](https://cdimage.debian.org/cdimage/weekly-live-builds/amd64/iso-hybrid/)
+# IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # Update `/etc/apt/sources.list` like this:
 ```
 deb http://deb.debian.org/debian testing main contrib non-free non-free-firmware
