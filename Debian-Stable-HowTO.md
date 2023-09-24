@@ -1,7 +1,8 @@
 # Install latest Debian Stable
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
-# Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
-# Upgrade system via `sudo apt dist-upgrade`
+# Install `aptitude`, `apt-listbugs`, `apt-listchanges`
+# Remove `raspi-firmware` if not running Raspberry (`sudo aptitude purge raspi-firmware`)
+# Upgrade system via `sudo aptitude dist-upgrade`
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `net-tools` for the `netstat` command and other tools
