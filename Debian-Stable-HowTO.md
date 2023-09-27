@@ -8,7 +8,7 @@
 # Install `net-tools` for the `netstat` command and other tools
 # Install `pkexec` for GUI authorization
 # Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `rar`, `unrar`, `usbutils` and `qt6-wayland`
-# Flatpaks: `duckstation`, `PCSX2`, `RPCS3`, `Postman`, `Bottles`, `GIMP`, `VLC`, `LibreOffice`, `FlatSeal`, `OBS Studio`, `Handbrake`, `qBittorrent`, `Audacity`, `Kdenlive`
+# Flatpaks: `duckstation`, `PCSX2`, `RPCS3`, `Postman`, `Bottles`, `GIMP`, `VLC`, `LibreOffice`, `FlatSeal`, `OBS Studio`, `Handbrake`, `qBittorrent`, `Audacity`, `Kdenlive`, `KDiff3`
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to show display system info.
 # Install `acpi` to check battery status (on laptops)
@@ -22,11 +22,11 @@
 deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
 deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
 
-deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
-deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
-
 deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
 deb-src http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
 
 # Backports allow you to install newer versions of software made available for this release
 deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
