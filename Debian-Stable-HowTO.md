@@ -32,5 +32,5 @@ deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-
 deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 ```
-# Install `linux-image-amd64` and `linux-headers-amd64` from bookworm-backports
+# Install `linux-image-amd64` and `linux-headers-amd64` from `bookworm-backports` or `whatever release you are on-backports` for updated kernel
 # IMPORTANT!!! - replace `bookworm` with the currently released stable version of Debian
