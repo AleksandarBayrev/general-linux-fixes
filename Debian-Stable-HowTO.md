@@ -7,15 +7,15 @@
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `net-tools` for the `netstat` command and other tools
 # Install `pkexec` for GUI authorization
-# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `audacity`, `obs-studio`, `kdenlive`, `handbrake`, `libreoffice`, `rar`, `unrar`, `usbutils` and `qt6-wayland`
-# Flatpaks: `duckstation`, `PCSX2`, `RPCS3`, `Postman`, `Bottles`
+# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `rar`, `unrar`, `usbutils` and `qt6-wayland`
+# Flatpaks: `duckstation`, `PCSX2`, `RPCS3`, `Postman`, `Bottles`, `GIMP`, `VLC`, `LibreOffice`, `FlatSeal`, `OBS Studio`, `Handbrake`, `qBittorrent`, `Audacity`, `Kdenlive`
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to show display system info.
 # Install `acpi` to check battery status (on laptops)
 # Install `upower` to check battery status (on laptops) and enable `upower` service
 # Install `ttf-mscorefonts-installer` to add Microsoft fonts
 # To enable automatic time sync install `systemd-timesyncd`
-# To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break.
+# To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break. Use `sudo aptitude full-upgrade` after changing release codename
 # Example `/etc/apt/sources.list` for Debian Bookworm (version 12)
 ```
 # See https://wiki.debian.org/SourcesList for more information.
@@ -32,3 +32,5 @@ deb-src http://security.debian.org/debian-security/ bookworm-security main contr
 deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 ```
+# Install `linux-image-amd64` and `linux-headers-amd64` from bookworm-backports
+# IMPORTANT!!! - replace `bookworm` with the currently released stable version of Debian
