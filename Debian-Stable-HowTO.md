@@ -1,8 +1,8 @@
 # Install latest Debian Stable
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # Install `aptitude`, `apt-listbugs`, `apt-listchanges`
-# Remove `raspi-firmware` if not running Raspberry (`sudo aptitude purge raspi-firmware`)
-# Upgrade system via `sudo aptitude dist-upgrade`
+# Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
+# Upgrade system process - first update the current version with `sudo apt update`, change codename in `/etc/apt/sources.list` and then upgrade via `sudo apt full-upgrade`
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `net-tools` for the `netstat` command and other tools
@@ -15,7 +15,7 @@
 # Install `upower` to check battery status (on laptops) and enable `upower` service
 # Install `ttf-mscorefonts-installer` to add Microsoft fonts
 # To enable automatic time sync install `systemd-timesyncd`
-# To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break. Use `sudo aptitude full-upgrade` after changing release codename
+# To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break. Use `sudo apt full-upgrade` after changing release codename
 # Example `/etc/apt/sources.list` for Debian Bookworm (version 12)
 ```
 # See https://wiki.debian.org/SourcesList for more information.
