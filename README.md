@@ -111,3 +111,6 @@ General Linux fixes
 
 ## Sound-Fixes-Linux.md
 * Describes how to fix HDMI crackling.
+
+## Samba-Share-HowTO.md
+* Describes how to setup Samba shares.
