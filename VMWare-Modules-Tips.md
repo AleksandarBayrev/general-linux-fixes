@@ -1,0 +1,1 @@
+# If you are running a new kernel (or a rolling release distro) - check out this repo that provides patches to build VMware to a recent kernel [https://github.com/mkubecek/vmware-host-modules](https://github.com/mkubecek/vmware-host-modules) 

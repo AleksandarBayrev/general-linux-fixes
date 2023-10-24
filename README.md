@@ -114,3 +114,6 @@ General Linux fixes
 
 ## Samba-Share-HowTO.md
 * Describes how to setup Samba shares.
+
+## VMWare-Modules-Tips.md
+* Describes how to maintain VMWare in a rolling release distro.
