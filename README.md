@@ -117,3 +117,6 @@ General Linux fixes
 
 ## VMWare-Modules-Tips.md
 * Describes how to maintain VMWare in a rolling release distro.
+
+## Podman-Stop-Containers-On-Shutdown.md
+* Describes how to fix slow shutdown when using Podman.
