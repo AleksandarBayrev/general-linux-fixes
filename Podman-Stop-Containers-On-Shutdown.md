@@ -15,7 +15,7 @@ DefaultDependencies=no
 Before=shutdown.target
 
 [Service]
-Type=oneshot
+Type=exec
 ExecStart=/path/to/your/bash/script.sh
 TimeoutStartSec=0
 
