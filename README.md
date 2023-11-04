@@ -120,3 +120,6 @@ General Linux fixes
 
 ## Podman-Stop-Containers-On-Shutdown.md
 * Describes how to fix slow shutdown when using Podman.
+
+## DNF-Tips.md
+* Describes some tips for DNF based distros (Fedora, Rocky, RHEL, Alma).
