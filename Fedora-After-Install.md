@@ -6,6 +6,9 @@
 ## Remove abrt
 * Run `sudo dnf remove abrt*`
 
+## Install firewall-config
+* Run `sudo dnf install firewall-config`
+
 ## Base tools
 * Install groups `Multimedia`, `Development Tools` via `sudo dnf group install YOUR_GROUP`
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
