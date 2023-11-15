@@ -9,6 +9,9 @@
 ## Install firewall-config
 * Run `sudo dnf install firewall-config`
 
+## Install codecs
+* Run `sudo dnf install ffmpeg-free libavcodec-freeworld`
+
 ## Base tools
 * Install groups `Multimedia`, `Development Tools` via `sudo dnf group install YOUR_GROUP`
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
