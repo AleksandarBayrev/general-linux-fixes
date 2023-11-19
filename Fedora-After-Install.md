@@ -41,3 +41,5 @@
 * Disable indexing in `File Search` if you experience stutter after installing apps.
 
 ## For Multimedia (FFmpeg/Mesa) from RPMFusion check this - [https://rpmfusion.org/Howto/Multimedia](https://rpmfusion.org/Howto/Multimedia)
+
+## For Lutris - `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope/x86_64/23.08`
