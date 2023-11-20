@@ -17,7 +17,7 @@
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
 
 ## Flatpaks
-* `Flatseal`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`
+* `Flatseal`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`
 
 ## How to upgrade
 * Install `system-upgrade` using the command `sudo dnf install dnf-plugin-system-upgrade`
