@@ -46,4 +46,6 @@
 
 ## If you have system-wide hangs without internet - `sudo dnf reinstall linux-firmware`
 
+## Install Mesa from RPMFusion - `sudo dnf install mesa-*-freeworld.* --allowerasing`
+
 ## For Discord - install `Vencord Desktop` from github - [https://github.com/Vencord/Vesktop/](https://github.com/Vencord/Vesktop/)
