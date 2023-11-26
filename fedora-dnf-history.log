@@ -1,0 +1,49 @@
+ID     | Command line                                                                                          | Date and time    | Action(s)      | Altered
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+    47 | install ksystemlog -y                                                                                 | 2023-11-26 07:18 | Install        |    1   
+    46 | install openssl1.1-1:1.1.1q-5.fc39.i686                                                               | 2023-11-25 23:18 | Install        |    1   
+    45 | reinstall linux-firmware                                                                              | 2023-11-25 13:23 | R              |    2   
+    44 | update -y                                                                                             | 2023-11-25 11:28 | I, U           |   32 EE
+    43 | update -y                                                                                             | 2023-11-24 08:37 | Upgrade        |   11   
+    42 | update -y                                                                                             | 2023-11-23 12:43 | Upgrade        |   19   
+    41 | group install LibreOffice                                                                             | 2023-11-22 10:35 | Install        |    1   
+    40 | group update Development Tools                                                                        | 2023-11-22 10:34 | Upgrade        |    1   
+    39 | install kernel-devel-matched                                                                          | 2023-11-22 08:42 | Install        |    1   
+    38 | update                                                                                                | 2023-11-22 08:32 | I, U           |   15   
+    37 | update                                                                                                | 2023-11-21 22:16 | Upgrade        |    7   
+    36 | update                                                                                                | 2023-11-21 08:35 | Upgrade        |   37 EE
+    35 | install glibc-devel.*                                                                                 | 2023-11-20 12:03 | Install        |    2   
+    34 | group install Development Tools                                                                       | 2023-11-20 11:45 | Install        |    1   
+    33 | install mangohud goverlay                                                                             | 2023-11-20 09:36 | Install        |    7   
+    32 | install java-17-openjdk                                                                               | 2023-11-20 08:29 | Install        |    3   
+    31 | install lm_sensors                                                                                    | 2023-11-20 08:28 | Install        |    1 EE
+    30 | install gcc-c++                                                                                       | 2023-11-20 08:18 | Install        |    2   
+    29 | group install Development Tools                                                                       | 2023-11-20 08:18 | Install        |   23 EE
+    28 | install kernel-devel                                                                                  | 2023-11-20 08:17 | Install        |   18   
+    27 |                                                                                                       | 2023-11-20 08:03 | Upgrade        |    2   
+    26 | remove lutris                                                                                         | 2023-11-20 01:42 | C, E           |   25   
+    25 | install fluidsynth                                                                                    | 2023-11-20 01:37 | Install        |    3   
+    24 | install lutris                                                                                        | 2023-11-20 01:29 | Install        |  152   
+    23 | install gamescope                                                                                     | 2023-11-20 00:00 | Install        |    5   
+    22 | remove gamescope                                                                                      | 2023-11-19 23:59 | Removed        |    5   
+    21 | install gamescope                                                                                     | 2023-11-19 23:59 | Install        |    5   
+    20 | group install Multimedia --allowerasing                                                               | 2023-11-19 23:28 | E, I           |   30   
+    19 | install corectrl                                                                                      | 2023-11-19 23:22 | Install        |    8   
+    18 | install rpmconf                                                                                       | 2023-11-19 23:15 | Install        |    3   
+    17 | install distrobox                                                                                     | 2023-11-19 23:14 | Install        |    1   
+    16 | remove zram-*                                                                                         | 2023-11-19 23:14 | Removed        |    2   
+    15 | install fastfetch                                                                                     | 2023-11-19 23:12 | Install        |    8   
+    14 | install libappindicator*.*                                                                            | 2023-11-19 23:12 | Install        |   93   
+    13 | install btop                                                                                          | 2023-11-19 23:10 | Install        |    1   
+    12 | install ./VencordDesktop-0.4.3.x86_64.rpm                                                             | 2023-11-19 23:10 | Install        |    1 EE
+    11 | install steam                                                                                         | 2023-11-19 23:09 | Install        |  161 E<
+    10 | install mesa-*-freeworld.* --allowerasing                                                             | 2023-11-19 23:08 | E, I           |    3 > 
+     9 | swap --allowerasing mesa-vdpau-drivers-free mesa-vdpau-drivers-freeworld                              | 2023-11-19 23:08 | Install        |    1   
+     8 | swap --allowerasing mesa-va-drivers-free mesa-va-drivers-freeworld                                    | 2023-11-19 23:07 | Install        |   20  <
+     7 | install ./rpmfusion-free-release-39.noarch.rpm ./rpmfusion-nonfree-release-39.noarch.rpm              | 2023-11-19 23:06 | Install        |    2 > 
+     6 | group install Container Management                                                                    | 2023-11-19 23:04 | Install        |   43   
+     5 | install git                                                                                           | 2023-11-19 23:02 | Install        |    8   
+     4 | remove abrt*                                                                                          | 2023-11-19 23:02 | Removed        |   32 EE
+     3 | install gnome-disk-utility                                                                            | 2023-11-19 22:56 | Install        |    1   
+     2 | update                                                                                                | 2023-11-19 22:53 | I, U           |  689 E<
+     1 |                                                                                                       | 2023-11-01 03:04 | Install        | 2049 >E
