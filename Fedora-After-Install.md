@@ -51,3 +51,5 @@
 ## For Discord - install `Vencord Desktop` from github - [https://github.com/Vencord/Vesktop/](https://github.com/Vencord/Vesktop/)
 
 ## Check `fedora-dnf-history.log` for some tips about installing/removing initially.
+
+## Check `Fix-Linux-Sleep.md`
