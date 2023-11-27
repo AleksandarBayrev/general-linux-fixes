@@ -123,3 +123,6 @@ General Linux fixes
 
 ## DNF-Tips.md
 * Describes some tips for DNF based distros (Fedora, Rocky, RHEL, Alma).
+
+## Fix-Linux-Sleep.md
+* Provides some SystemD fixes.
