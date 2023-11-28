@@ -126,3 +126,6 @@ General Linux fixes
 
 ## Fix-Linux-Sleep.md
 * Provides some SystemD fixes.
+
+## nvidia-novsync
+* Copy the script to `/bin` and use it to disable vsync on NVIDIA, example: `nvidia-novsync glxgears`
