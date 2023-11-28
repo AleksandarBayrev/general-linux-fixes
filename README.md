@@ -129,3 +129,6 @@ General Linux fixes
 
 ## nvidia-novsync
 * Copy the script to `/bin` and use it to disable vsync on NVIDIA, example: `nvidia-novsync glxgears`
+
+## TLP-Enable-Battery-Conservation.md
+* Describes how to enable battery conservation on laptops that support it.
