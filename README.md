@@ -132,3 +132,6 @@ General Linux fixes
 
 ## TLP-Enable-Battery-Conservation.md
 * Describes how to enable battery conservation on laptops that support it.
+
+## set-cpu-freq.md
+* Describes how to limit CPU frequency in Linux.
