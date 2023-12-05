@@ -135,3 +135,6 @@ General Linux fixes
 
 ## set-cpu-freq.md
 * Describes how to limit CPU frequency in Linux.
+
+## app-order.png
+* Shows how to order your desktop.
