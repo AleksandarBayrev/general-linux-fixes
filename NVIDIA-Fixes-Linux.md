@@ -1,6 +1,6 @@
 # NVIDIA Fixes Linux
 
-## Fixing sleep/hibernation
+## Fixing sleep/hibernation (use fixes only if you have problems, newer drivers could be better OOTB and this will not be needed)
 
 * 1. Copy `nvidia-resume.service`, `nvidia-suspend.service`, `nvidia-hibernate.service` to `/etc/systemd/system
 * 2. Copy `nvidia-sleep.sh` to `/usr/bin`
@@ -10,7 +10,7 @@ options nvidia NVreg_PreserveVideoMemoryAllocations=1 NVreg_TemporaryFilePath=/t
 ```
 * 4. Enable services and restart your PC
 
-## Fixing KWin crashes
+## Fixing KWin crashes (use fix only if you have problems, newer drivers could be better OOTB and this will not be needed)
 * Stop compositor on startup via Compositing -> `Enable on startup` should be unchecked
 
 ## Fixing black screen when alt+tab on Xorg
