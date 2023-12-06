@@ -13,5 +13,10 @@ options nvidia NVreg_PreserveVideoMemoryAllocations=1 NVreg_TemporaryFilePath=/t
 ## Fixing KWin crashes
 * Stop compositor on startup via Compositing -> `Enable on startup` should be unchecked
 
-## Fixing black screen on Xorg/Wayland
-* Enable `Force Full Composition Pipeline` in NVIDIA Settings
+## Fixing black screen when alt+tab on Xorg
+* Add this to `/etc/environment`
+
+```ini
+KWIN_TRIPLE_BUFFER=1
+KWIN_USE_BUFFER_AGE=0
+```
