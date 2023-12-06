@@ -6,7 +6,7 @@
 Description=Set-CPU-Freq
 
 [Service]
-ExecStart=sudo /bin/set-cpu-freq.sh
+ExecStart=/bin/set-cpu-freq.sh
 
 [Install]
 WantedBy=multi-user.target
