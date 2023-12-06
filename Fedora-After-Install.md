@@ -39,6 +39,7 @@
 
 ## For NVIDIA Users
 * Install `envycontrol` to switch between graphics cards.
+* Check `NVIDIA-Fixes-Linux.md`
 
 ## For KDE
 * Disable indexing in `File Search` if you experience stutter after installing apps.
