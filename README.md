@@ -138,3 +138,6 @@ General Linux fixes
 
 ## app-order.png
 * Shows how to order your desktop.
+
+## Which-Distro-To-Use.md
+* Describes which Linux distro is appropriate based on your hardware.
