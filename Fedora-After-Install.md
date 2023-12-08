@@ -7,7 +7,7 @@
 * Run `sudo dnf remove abrt*`
 
 ## Install firmware
-* `amd-ucode-firmware`, `nvidia-gpu-firmware`
+* Check `Linux-Firmware-For-Hardware.md`
 
 ## Install firewall-config
 * Run `sudo dnf install firewall-config`

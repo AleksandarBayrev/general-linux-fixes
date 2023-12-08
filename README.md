@@ -141,3 +141,6 @@ General Linux fixes
 
 ## Which-Distro-To-Use.md
 * Describes which Linux distro is appropriate based on your hardware.
+
+## Linux-Firmware-For-Hardware.md
+* Describes what firmware you need to install for some hardware.

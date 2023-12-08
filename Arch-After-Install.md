@@ -15,3 +15,6 @@
 * Use `--hide-mainwindow` as an argument in `Autostart` app in KDE to make `akregator` start in minimized window in system tray.
 
 # Install `jre11-openjdk`, `jre17-opendjk`, `jre-openjdk` to support java and switch versions with `archlinux-java` command
+
+# Install firmware
+* Check `Linux-Firmware-For-Hardware.md`
