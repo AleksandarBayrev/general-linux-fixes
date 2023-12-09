@@ -21,4 +21,4 @@ KWIN_TRIPLE_BUFFER=1
 KWIN_USE_BUFFER_AGE=0
 ```
 
-## To use wayland add to `/etc/default/grub` in the command line parameters `nvidia-drm.modeset=1`
+## To use wayland add to `/etc/default/grub` in the command line parameters `rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 initcall_blacklist=simpledrm_platform_driver_init`
