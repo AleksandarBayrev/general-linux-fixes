@@ -21,6 +21,7 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Install `acpi` to check battery status (on laptops)
 # Install `upower` to check battery status (on laptops) and enable `upower` service
 # Install `ttf-mscorefonts-installer` to add Microsoft fonts
+# Install `nvtop` if you have a NVIDIA GPU
 # IMPORTANT!!! - Upgrade system with `sudo apt full-upgrade`
 # IMPORTANT!!! - Upgrading the system from testing branch should be done one release at a time. Example - current testing branch is pointing to `trixie` (Debian 13), if let's say you were running testing branch from `buster` at that time -> what you should do is this: upgrade `buster` to `bullseye` and then point `bullseye` to `bookworm`, and then point `bookworm` to `testing` (which is actually `trixie` at the time of writing the tutorial). More info here -> [https://www.debian.org/releases/](https://www.debian.org/releases/). Check current codename with `lsb_release -a`, sample output will be: `Codename: trixie`
 # Install firmware
