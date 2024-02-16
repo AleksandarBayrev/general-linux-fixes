@@ -18,3 +18,4 @@
 * `Telegram`
 * `MediaInfo`
 * `PlayOnLinux 4`
+* `Vesktop`
