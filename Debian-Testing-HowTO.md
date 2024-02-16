@@ -15,7 +15,7 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
-# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `btop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `audacity`, `usbutils` and `qt6-wayland`
+# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `btop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `audacity`, `usbutils`, `smartmontools`, `nvme-cli` and `qt6-wayland`
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to display system info.
 # Install `acpi` to check battery status (on laptops)
