@@ -144,3 +144,6 @@ General Linux fixes
 
 ## Linux-Firmware-For-Hardware.md
 * Describes what firmware you need to install for some hardware.
+
+## Flatpak-Apps.md
+* List of Flatpak apps that are useful.

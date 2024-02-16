@@ -1,0 +1,20 @@
+# List of Flatpak apps that you can find useful
+* `Duckstation`
+* `PCSX2`
+* `RPCS3`
+* `Postman`
+* `Bottles`
+* `GIMP`
+* `VLC`
+* `LibreOffice`
+* `FlatSeal`
+* `OBS Studio`
+* `Handbrake`
+* `qBittorrent`
+* `Audacity`
+* `Kdenlive`
+* `KDiff3`
+* `Filezilla`
+* `Telegram`
+* `MediaInfo`
+* `PlayOnLinux 4`
