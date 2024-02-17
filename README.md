@@ -147,3 +147,6 @@ General Linux fixes
 
 ## Flatpak-Apps.md
 * List of Flatpak apps that are useful.
+
+## VMWare-Configuration-Linux.md
+* Tips for VMWare Workstation on Linux hosts.
