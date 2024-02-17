@@ -2,7 +2,8 @@
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # Install `aptitude`, `apt-listbugs`, `apt-listchanges`
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
-# Upgrade system process - first update the current version with `sudo apt update`, change codename in `/etc/apt/sources.list` and then upgrade via `sudo apt full-upgrade`
+# To update the system - `sudo apt update && sudo apt update -t codename-backports && sudo apt dist-upgrade && sudo apt dist-upgrade -t codename-backports` where `codename` is your current Debian version
+# Upgrade system process - first update the current system, then change codename in `/etc/apt/sources.list` and then upgrade via `sudo apt full-upgrade`
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
 # Install `net-tools` for the `netstat` command and other tools
