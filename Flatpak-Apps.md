@@ -19,3 +19,4 @@
 * `MediaInfo`
 * `PlayOnLinux 4`
 * `Vesktop`
+* `Postman`
