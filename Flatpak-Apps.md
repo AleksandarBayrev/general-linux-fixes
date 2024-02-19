@@ -20,3 +20,5 @@
 * `PlayOnLinux 4`
 * `Vesktop`
 * `Postman`
+* `Apache JMeter`
+* `ProtonUp-Qt`
