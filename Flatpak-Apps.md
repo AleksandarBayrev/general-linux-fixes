@@ -22,3 +22,4 @@
 * `Postman`
 * `Apache JMeter`
 * `ProtonUp-Qt`
+* `Caprine`
