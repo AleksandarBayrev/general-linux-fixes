@@ -23,3 +23,4 @@
 * `Apache JMeter`
 * `ProtonUp-Qt`
 * `Caprine`
+* `Avidemux`
