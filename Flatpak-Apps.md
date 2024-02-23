@@ -24,3 +24,4 @@
 * `ProtonUp-Qt`
 * `Caprine`
 * `Avidemux`
+* `KDE Subtitle Composer`
