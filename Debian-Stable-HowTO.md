@@ -17,6 +17,7 @@
 # Install `acpi` to check battery status (on laptops)
 # Install `upower` to check battery status (on laptops) and enable `upower` service
 # Install `ttf-mscorefonts-installer` to add Microsoft fonts
+# Install `KSystemLog` to view logs
 # To enable automatic time sync install `systemd-timesyncd`
 # To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break. Use `sudo apt full-upgrade` after changing release codename
 # Example `/etc/apt/sources.list` for Debian Bookworm (version 12)
