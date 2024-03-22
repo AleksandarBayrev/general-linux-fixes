@@ -1,5 +1,6 @@
 Flatseal	com.github.tchx84.Flatseal	2.1.1	stable	system
 OBS Project	com.obsproject.Studio	30.1.0	stable	system
+Sindre Sorhus	com.sindresorhus.Caprine	2.59.3	stable	system
 Bottles Contributors	com.usebottles.bottles	51.11	stable	system
 Valve Corporation	com.valvesoftware.Steam	1.0.0.79	stable	system
 Vencord Contributors	dev.vencord.Vesktop	1.5.1	stable	system
