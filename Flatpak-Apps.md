@@ -27,3 +27,4 @@
 * `KDE Subtitle Composer`
 * `Zenmap`
 * `Heroic Games Launcher`
+* `DBeaver`

@@ -20,7 +20,7 @@
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
 
 ## Flatpaks
-* `Flatseal`, `Firefox`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `Inkscape`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`, `Vencord`, `Avidemux`, `Bottles`, `RPCS3`, `Filezilla`, `Audacity`, `LibreOffice`
+* `Flatseal`, `Firefox`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `Inkscape`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`, `Vencord`, `Avidemux`, `Bottles`, `RPCS3`, `Filezilla`, `Audacity`, `LibreOffice`, `DBeaver`
 * Check app-order-linux.png from `random-important-stuff` repo.
 
 ## How to update
