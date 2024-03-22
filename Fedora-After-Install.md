@@ -20,7 +20,8 @@
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
 
 ## Flatpaks
-* `Flatseal`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`
+* `Flatseal`, `Firefox`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `Inkscape`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`, `Vencord`, `Avidemux`, `Bottles`, `RPCS3`, `Filezilla`, `Audacity`, `LibreOffice`
+* Check app-order-linux.png from `random-important-stuff` repo.
 
 ## How to update
 * Run `sudo dnf upgrade --refresh`
@@ -60,3 +61,5 @@
 ## Check `fedora-dnf-history.log` for some tips about installing/removing initially.
 
 ## Check `Fix-Linux-Sleep.md`
+
+## Check `fedora-flatpaks.txt` and `fedora-packages.txt` for apps that I might have missed.
