@@ -14,3 +14,5 @@ AllowHybridSleep=No
 #HibernateDelaySec=
 #SuspendEstimationSec=60min
 ```
+
+# If there are problems with ACPI related stuff (Wi-Fi not turning on after wakeup) install `acpi` and `acpid` and enable `acpi.service` (`sudo systemctl enable --now acpid.service`)
