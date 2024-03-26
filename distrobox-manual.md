@@ -9,4 +9,4 @@
 
 # For containers that you are using you need to install DE CLI tools such as `kde-cli-tools`
 
-# IMPORTANT - If you run a system with NVIDIA GPU - add `--nvidia` parameter when creating a container. Example: `distrobox create --name $YOUR_BOX_NAME$ --image $YOUR_IMAGE$`
+# IMPORTANT - If you run a system with NVIDIA GPU - add `--nvidia` parameter when creating a container. Example: `distrobox create --name $YOUR_BOX_NAME$ --image $YOUR_IMAGE$ --nvidia`
