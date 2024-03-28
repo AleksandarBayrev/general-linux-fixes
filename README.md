@@ -150,3 +150,6 @@ General Linux fixes
 
 ## VMWare-Configuration-Linux.md
 * Tips for VMWare Workstation on Linux hosts.
+
+## Swap-File-Creation.md
+* Describes how to setup swap file instead of partition (better manageability).

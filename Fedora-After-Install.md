@@ -3,6 +3,8 @@
 ## Remove zram-generator (if using a separate swap partition)
 * Run `sudo dnf remove zram-generator-defaults zram-generator`
 
+## Check `Swap-File-Creation.md`
+
 ## Remove abrt
 * Run `sudo dnf remove abrt*`
 
