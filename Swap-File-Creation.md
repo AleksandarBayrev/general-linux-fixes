@@ -5,6 +5,8 @@ sync
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
-cp /etc/fstab /etc/fstab.back
-echo "/swapfile none swap sw 0 0" >> /etc/fstab 
+```
+## Add it to `/etc/fstab`
+```text
+/swapfile none swap sw 0 0
 ```
