@@ -28,3 +28,4 @@
 * `Zenmap`
 * `Heroic Games Launcher`
 * `DBeaver`
+* `Protontricks`
