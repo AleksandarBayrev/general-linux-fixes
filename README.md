@@ -154,5 +154,5 @@ General Linux fixes
 ## Swap-File-Creation.md
 * Describes how to setup swap file instead of partition (better manageability).
 
-## suse-wallpaper.jpg
+## suse-wallpaper.png
 * openSUSE black wallpaper
