@@ -156,3 +156,6 @@ General Linux fixes
 
 ## suse-wallpaper.png
 * openSUSE black wallpaper
+
+## ssh-login-tips.png
+* Some SSH login tips.
