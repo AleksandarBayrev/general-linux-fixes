@@ -29,3 +29,4 @@
 * `Heroic Games Launcher`
 * `DBeaver`
 * `Protontricks`
+* `ATLauncher`
