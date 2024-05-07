@@ -13,8 +13,8 @@ options nvidia NVreg_PreserveVideoMemoryAllocations=1 NVreg_TemporaryFilePath=/t
 ## Fixing KWin crashes (use fix only if you have problems, newer drivers could be better OOTB and this will not be needed)
 * Stop compositor on startup via Compositing -> `Enable on startup` should be unchecked
 
-## Fixing black screen when alt+tab on Xorg/Wayland
-* Add this to `/etc/environment`
+## Fixing black screen when alt+tab on Xorg/Wayland (use if you have this issue only)
+* Add this to `/etc/environment` or `$HOME/.profile`
 
 ```ini
 KWIN_TRIPLE_BUFFER=1
@@ -22,3 +22,9 @@ KWIN_USE_BUFFER_AGE=0
 ```
 
 ## To use wayland add to `/etc/default/grub` in the command line parameters `rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 initcall_blacklist=simpledrm_platform_driver_init`
+
+## To fix flickering (heavy ones) add to `/etc/environment` or `$HOME/.profile`
+```bash
+export GBM_BACKEND=nvidia-drm
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
+```
