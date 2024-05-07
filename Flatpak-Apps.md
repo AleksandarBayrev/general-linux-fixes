@@ -30,3 +30,4 @@
 * `DBeaver`
 * `Protontricks`
 * `ATLauncher`
+* `PowerISO`
