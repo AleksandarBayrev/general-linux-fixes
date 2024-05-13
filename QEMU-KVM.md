@@ -4,3 +4,8 @@
 # Note - if you want to use bridge networking do this
 * Set your device name (get it from the terminal via `ip addr` for example)
 <img src="howto-bridge.png" />
+
+# If there is such error appearing while trying ot pass through an USB device:
+<img src="usb-passthrough-kvm-error.png">
+
+* Do this: `sudo usermod -aG libvirt,qemu,kvm $YOUR_USER` and reboot
