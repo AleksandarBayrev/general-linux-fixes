@@ -1,5 +1,7 @@
 # After installation of Fedora
 
+## Add Flathub repository
+
 ## Remove zram-generator (if using a separate swap partition)
 * Run `sudo dnf remove zram-generator-defaults zram-generator`
 
