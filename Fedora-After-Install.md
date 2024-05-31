@@ -9,6 +9,9 @@
 
 ## Check `Swap-File-Creation.md`
 
+## Setup sysctl swappiness
+* Create `10-swappiness.conf` with contents `vm.swappiness=10` in `/etc/sysctl.d`
+
 ## Remove abrt
 * Run `sudo dnf remove abrt*`
 
