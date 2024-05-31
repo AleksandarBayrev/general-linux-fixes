@@ -5,6 +5,8 @@
 ## Remove zram-generator (if using a separate swap partition)
 * Run `sudo dnf remove zram-generator-defaults zram-generator`
 
+## Disable SELinux
+
 ## Check `Swap-File-Creation.md`
 
 ## Remove abrt
