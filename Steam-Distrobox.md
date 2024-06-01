@@ -1,0 +1,1 @@
+## IMPORTANT!!! - Install `Steam` via `distrobox` (create image of `opensuse/tumbleweed`, run `sudo zypper in xdg*` and then `sudo zypper in steam`)

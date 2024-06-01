@@ -165,3 +165,6 @@ General Linux fixes
 
 ## Steam-libstrangle-Flatpak.md
 * Describes how to setup `libstrangle` to be accessible by `Steam` from `Flatpak`.
+
+## Steam-Distrobox.md
+* Describes how to setup `Steam` in `distrobox`.
