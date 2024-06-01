@@ -74,3 +74,5 @@
 ## Check `Flatpak-Apps.md`, `fedora-flatpaks.txt` and `fedora-packages.txt` for apps that I might have missed.
 
 ## Check `QEMU-KVM.md` to see how to setup QEMU/KVM.
+
+## IMPORTANT!!! - Install `Steam` via `distrobox` (create image of `opensuse/tumbleweed`, run `sudo zypper in xdg*` and then `sudo zypper in steam`)
