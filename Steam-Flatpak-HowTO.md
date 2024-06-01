@@ -1,3 +1,4 @@
+# DISCLAIMER - obsolete, use `distrobox` with `opensuse/tumbleweed` image, it is better experience when you need to use tools such as `libstrangle`
 # Install `steam` from flatpak
 # Install `flatseal` from flatpak
 # Set up your path like that - `/mnt/OtherStuff/SteamLibrary:rw` where `:rw` specifies read and write
