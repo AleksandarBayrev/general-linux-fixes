@@ -1,4 +1,4 @@
-# Steam libstrangle Flatpak
+# Steam libstrangle Flatpak (NOTE!!!: STILL WORK IN PROGRESS)
 ## First - clone `libstrangle` from [https://gitlab.com/torkel104/libstrangle](https://gitlab.com/torkel104/libstrangle)
 ## Build and install it (use `distrobox` for easier dependecy management)
 ## Use `Flatseal` to give access to all `system libraries, executables and static data`
