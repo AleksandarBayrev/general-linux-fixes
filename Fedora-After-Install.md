@@ -71,4 +71,6 @@
 
 ## Check `Fix-Linux-Sleep.md`
 
-## Check `fedora-flatpaks.txt` and `fedora-packages.txt` for apps that I might have missed.
+## Check `Flatpak-Apps.md`, `fedora-flatpaks.txt` and `fedora-packages.txt` for apps that I might have missed.
+
+## Check `QEMU-KVM.md` to see how to setup QEMU/KVM.
