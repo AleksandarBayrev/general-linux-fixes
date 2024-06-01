@@ -162,3 +162,6 @@ General Linux fixes
 
 ## TimeShift-HowTO.md
 * Describes how to do system backups.
+
+## Steam-libstrangle-Flatpak.md
+* Describes how to setup `libstrangle` to be accessible by `Steam` from `Flatpak`.
