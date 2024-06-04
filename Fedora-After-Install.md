@@ -22,7 +22,7 @@
 * Run `sudo dnf install firewall-config`
 
 ## Install codecs
-* Run `sudo dnf install ffmpeg-free libavcodec-freeworld`
+* Run `sudo dnf swap ffmpeg-free ffmpeg --allow-erasing`
 
 ## Base tools
 * Install groups `Multimedia` (not needed if you use Flatpak apps for Multimedia [Firefox, VLC, etc...]), `Development Tools` via `sudo dnf group install YOUR_GROUP`
@@ -63,7 +63,7 @@
 
 ## If you have system-wide hangs without internet - `sudo dnf reinstall linux-firmware`
 
-## Install Mesa from RPMFusion - `sudo dnf install mesa-*-freeworld.* --allowerasing`
+## Install Mesa from RPMFusion - `sudo dnf swap mesa-*-drivers mesa-*-drivers-freeworld.* --allowerasing`
 
 ## For Discord - install `Vencord Desktop` from github - [https://github.com/Vencord/Vesktop/](https://github.com/Vencord/Vesktop/)
 
