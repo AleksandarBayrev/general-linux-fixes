@@ -1,1 +1,1 @@
-## IMPORTANT!!! - Install `Steam` via `distrobox` (create image of `opensuse/tumbleweed`, run `sudo zypper in xdg*`, `sudo zypper in dolphin` and then `sudo zypper in steam`)
+## IMPORTANT!!! - Install `Steam` via `distrobox` (create image of `opensuse/tumbleweed`, run `sudo zypper in xdg*`, `sudo zypper in dolphin`, `sudo zypper in gamemode` and then `sudo zypper in steam`)
