@@ -75,4 +75,4 @@
 
 ## Check `QEMU-KVM.md` to see how to setup QEMU/KVM.
 
-## IMPORTANT!!! - Install `Steam` via `distrobox` (create image of `opensuse/tumbleweed`, run `sudo zypper in xdg*` and then `sudo zypper in steam`)
+## IMPORTANT!!! - Install `Steam` via `distrobox` - check `Steam-Distrobox.md` on how to setup the container.
