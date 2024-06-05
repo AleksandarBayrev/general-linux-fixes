@@ -9,6 +9,8 @@
 
 ## Check `Swap-File-Creation.md`
 
+## For NVIDIA - install `akmods-nvidia`, run `sudo akmods-shutdown` and edit `/etc/default/grub` to add parameter `nvidia-drm.modeset=1` and then run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
+
 ## Setup sysctl swappiness
 * Create `10-swappiness.conf` with contents `vm.swappiness=10` in `/etc/sysctl.d`
 
