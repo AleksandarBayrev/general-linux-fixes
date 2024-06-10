@@ -31,4 +31,3 @@
 * `Protontricks`
 * `ATLauncher`
 * `PowerISO`
-* `Minigalaxy`
