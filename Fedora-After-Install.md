@@ -9,7 +9,7 @@
 
 ## Check `Swap-File-Creation.md`
 
-## For NVIDIA - install `akmods-nvidia`, run `sudo akmods-shutdown` and edit `/etc/default/grub` to add parameter `nvidia-drm.modeset=1` and then run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
+## For NVIDIA - install `akmods-nvidia`, run `sudo akmods-shutdown` and edit `/etc/default/grufb` to add parameter `nvidia-drm.modeset=1` and then run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
 
 ## Setup sysctl swappiness
 * Create `10-swappiness.conf` with contents `vm.swappiness=10` in `/etc/sysctl.d`
@@ -65,7 +65,7 @@
 
 ## If you have system-wide hangs without internet - `sudo dnf reinstall linux-firmware`
 
-## Install Mesa from RPMFusion - `sudo dnf swap mesa-*-drivers mesa-*-drivers-freeworld.* --allowerasing`
+## *OPTIONAL* (if you don't use flatpaks): Install Mesa from RPMFusion - `sudo dnf swap mesa-*-drivers mesa-*-drivers-freeworld.* --allowerasing`
 
 ## For Discord - install `Vencord Desktop` from github - [https://github.com/Vencord/Vesktop/](https://github.com/Vencord/Vesktop/)
 
