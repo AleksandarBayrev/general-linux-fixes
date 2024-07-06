@@ -168,3 +168,6 @@ General Linux fixes
 
 ## Steam-Distrobox.md
 * Describes how to setup `Steam` in `distrobox`.
+
+## ALSA-Fixes.md
+* Provides some fixes for Linux audio.
