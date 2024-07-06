@@ -1,3 +1,6 @@
+# Installation
+* Download minimal ISO and install `Fedora KDE Plasma Workspace`. Remove checkboxes for everything in the `Additional software` tab, select then only `RPM Development Tools` and `System Tools`.
+
 # After installation of Fedora
 
 ## Add Flathub repository
