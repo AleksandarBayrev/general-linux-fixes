@@ -174,3 +174,6 @@ General Linux fixes
 
 ## Steam-mangohud-Flatpak.md
 * Provides info on how to setup `Mangohud`
+
+## Battle-NET-Linux-Fix.md
+* Provides fixes for Battle.NET on Linux
