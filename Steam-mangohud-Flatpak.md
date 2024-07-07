@@ -1,2 +1,2 @@
-# Install `MangoHud` from flatpak
+# Install `MangoHud` from flatpak (`runtime/com.valvesoftware.Steam.Utility.MangoHud/x86_64/stable`, `runtime/org.freedesktop.Platform.VulkanLayer.MangoHud/x86_64/23.08 (or the latest)`)
 # To limit FPS use this `MANGOHUD_CONFIG="fps_limit=YOUR_FPS_LIMIT,no_display" mangohud %command%` (`no_display` hides `MangoHud` overlay)
