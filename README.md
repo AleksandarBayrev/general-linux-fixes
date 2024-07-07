@@ -171,3 +171,6 @@ General Linux fixes
 
 ## ALSA-Fixes.md
 * Provides some fixes for Linux audio.
+
+## Steam-mangohud-Flatpak.md
+* Provides info on how to setup `Mangohud`
