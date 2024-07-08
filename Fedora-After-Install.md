@@ -39,7 +39,7 @@
 * Check app-order-linux.png from `random-important-stuff` repo.
 
 ## How to update
-* Run `sudo dnf upgrade --refresh`
+* Run `sudo dnf upgrade --refresh && sudo akmods-shutdown` (call `sudo akmods-shutdown` only if you use some sort of akmods (NVIDIA drivers, VirtualBox))
 
 ## How to upgrade
 * Install `system-upgrade` using the command `sudo dnf install dnf-plugin-system-upgrade`
