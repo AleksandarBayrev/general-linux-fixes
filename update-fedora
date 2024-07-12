@@ -1,4 +1,10 @@
 #!/bin/bash
+distro=`cat /etc/*-release | grep -i "Fedora"`
+if [[ -z $distro ]]
+then
+    echo "Distribution is not Fedora, exiting..."
+    exit 0
+fi
 echo 'Performing system update'
 sudo dnf update -y
 if [ -x /usr/bin/flatpak ]
