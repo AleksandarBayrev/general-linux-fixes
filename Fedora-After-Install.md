@@ -3,6 +3,8 @@
 
 # After installation of Fedora
 
+## Copy `update-fedora` bash script to `/usr/sbin`, use it to update the system
+
 ## Add Flathub repository
 
 ## Remove zram-generator (if using a separate swap partition)
