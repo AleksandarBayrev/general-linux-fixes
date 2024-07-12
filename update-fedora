@@ -1,5 +1,5 @@
 #!/bin/bash
-distro=`cat /etc/*-release | grep -i "Fedora"`
+distro=`cat /etc/*-release | grep -i "NAME=\"Fedora"`
 if [[ -z $distro ]]
 then
     echo "Distribution is not Fedora, exiting..."
