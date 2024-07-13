@@ -3,7 +3,7 @@
 
 # After installation of Fedora
 
-## Clone `update-fedora` repo [https://github.com/AleksandarBayrev/update-fedora](https://github.com/AleksandarBayrev/update-fedora) and run `make install`, use the script to update the system
+## Clone `update-fedora` repo [https://github.com/AleksandarBayrev/update-fedora](https://github.com/AleksandarBayrev/update-fedora) and run `make install`, use the script  to update the system
 
 ## Add Flathub repository
 
