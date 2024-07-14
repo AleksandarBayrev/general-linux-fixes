@@ -54,7 +54,7 @@
 * Run `sudo rpmconf -a` to update RPM configurations after upgrade.
  
 ## After kernel upgrade
-* It is recommended after running `dnf update` to run `sudo akmods-shutdown` to rebuild kernel modules and then reboot (mainly NVIDIA users are affected).
+* It is recommended after running `dnf update` to run `sudo akmods-shutdown` to rebuild kernel modules and then reboot (mainly NVIDIA users are affected) (update-fedora script automatically does this).
 
 ## Running in VMware
 * Issue noticed on Fedora 37 - sound is choppy, to resolve it: `sudo dnf install pulseaudio --allowerasing`
