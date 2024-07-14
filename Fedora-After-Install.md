@@ -80,7 +80,11 @@
 
 ## Check `fedora-dnf-history.log` for some tips about installing/removing initially.
 
-## Check `Fix-Linux-Sleep.md`
+## Check `Fix-Linux-Sleep.md` (should not be relevant with newer kernels)
+
+## Customize power profiles
+
+<img src="./kde-power-profiles.png" />
 
 ## Check `Flatpak-Apps.md`, `fedora-flatpaks.txt` and `fedora-packages.txt` for apps that I might have missed.
 
