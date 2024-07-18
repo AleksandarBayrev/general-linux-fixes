@@ -67,6 +67,7 @@
 * Disable indexing in `File Search` if you experience stutter after installing apps.
 * Set `Start with an empty session` in `Settings -> Session -> Desktop Session`
 * Remove all bindings to screen edges in `Settings -> Mouse & Touchpad -> Screen Edges`
+* Set default path in `Dolphin` file manager to home folder
 
 ## For Multimedia (FFmpeg/Mesa) from RPMFusion check this - [https://rpmfusion.org/Howto/Multimedia](https://rpmfusion.org/Howto/Multimedia)
 
