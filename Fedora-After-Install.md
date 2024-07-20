@@ -28,7 +28,7 @@
 ## Install firewall-config
 * Run `sudo dnf install firewall-config`
 
-## Install codecs
+## Install codecs (*OPTIONAL* if you use flatpaks it is not required)
 * Run `sudo dnf swap ffmpeg-free ffmpeg --allow-erasing`
 
 ## Base tools
