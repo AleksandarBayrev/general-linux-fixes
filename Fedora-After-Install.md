@@ -92,3 +92,5 @@
 ## Check `QEMU-KVM.md` to see how to setup QEMU/KVM.
 
 ## IMPORTANT!!! - Install `Steam` via `distrobox` - check `Steam-Distrobox.md` on how to setup the container.
+
+## Install glmark2 and s-tui to perform GPU/CPU stress tests.
