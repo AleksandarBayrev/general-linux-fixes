@@ -177,3 +177,6 @@ General Linux fixes
 
 ## Battle-NET-Linux-Fix.md
 * Provides fixes for Battle.NET on Linux
+
+## corectrl-profile.ccpro
+* Example `CoreCtrl` profile for fans.
