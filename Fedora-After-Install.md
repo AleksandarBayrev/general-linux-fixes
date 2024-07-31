@@ -95,3 +95,5 @@
 ## IMPORTANT!!! - Install `Steam` via `distrobox` - check `Steam-Distrobox.md` on how to setup the container.
 
 ## Install glmark2 and s-tui to perform GPU/CPU stress tests.
+
+## IMPORTANT!!! - Check `FSTAB-Important.md` when you need to change disks or have disk problems.

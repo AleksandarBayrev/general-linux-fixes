@@ -180,3 +180,6 @@ General Linux fixes
 
 ## corectrl-profile.ccpro
 * Example `CoreCtrl` profile for fans.
+
+## FSTAB-Important.md
+* Important note for disk changes.
