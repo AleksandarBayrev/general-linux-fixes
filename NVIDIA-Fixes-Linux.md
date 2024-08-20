@@ -28,3 +28,13 @@ KWIN_USE_BUFFER_AGE=0
 export GBM_BACKEND=nvidia-drm
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
+
+## When a laptop does not have a way to disable integrated GPU
+* Clone `envycontrol` from GIT, run `sudo ./envycontrol.py --switch nvidia --dm sddm`
+* Add to `/etc/environment`
+```ini
+KWIN_DRM_DEVICES=/dev/dri/card1:/dev/dri/card0
+DRI_PRIME=pci-0000_01_00_0
+VK_LAYER_NV_optimus=NVIDIA_only
+GLX_VENDOR_LIBRARY_NAME=nvidia
+```
