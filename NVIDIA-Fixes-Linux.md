@@ -29,7 +29,7 @@ export GBM_BACKEND=nvidia-drm
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 
-## When a laptop does not have a way to disable integrated GPU
+## When a laptop does not have a way to disable integrated GPU (no MUX switch)
 * Clone `envycontrol` from GIT, run `sudo ./envycontrol.py --switch nvidia --dm sddm`
 * Add to `/etc/environment`
 ```ini
