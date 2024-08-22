@@ -183,3 +183,6 @@ General Linux fixes
 
 ## FSTAB-Important.md
 * Important note for disk changes.
+
+## How to Properly Install a Windows 11 Virtual Machine on KVM.pdf
+* Describes how to configure Windows 11 in QEMU/KVM.
