@@ -60,6 +60,9 @@
 ## After kernel upgrade
 * It is recommended after running `dnf update` to run `sudo akmods-shutdown` to rebuild kernel modules and then reboot (mainly NVIDIA users are affected) (update-fedora script automatically does this).
 
+## After updating NVIDIA driver version
+* If you are using for example `Steam` flatpak, please run `flatpak update` after you have rebuilded kernel modules and restarted the system, to install the new flatpak drivers for NVIDIA.
+
 ## Running in VMware
 * Issue noticed on Fedora 37 - sound is choppy, to resolve it: `sudo dnf install pulseaudio --allowerasing`
 
