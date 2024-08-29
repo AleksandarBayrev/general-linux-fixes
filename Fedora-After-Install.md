@@ -1,5 +1,7 @@
 # Installation
-* Download minimal ISO and install `Fedora KDE Plasma Workspace`. Remove checkboxes for everything in the `Additional software` tab, select then only `RPM Development Tools` and `System Tools`.
+* Download minimal ISO and install `Fedora KDE Plasma Workspace`.
+* Set password for your user and root user (mandatory if you want to troubleshoot the system in case of a failure without chroot).
+* Remove checkboxes for everything in the `Additional software` tab, select then only `RPM Development Tools` and `System Tools`.
 
 # After installation of Fedora
 
