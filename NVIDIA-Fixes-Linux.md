@@ -23,6 +23,8 @@ KWIN_USE_BUFFER_AGE=0
 
 ## To use wayland add to `/etc/default/grub` in the command line parameters `rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 initcall_blacklist=simpledrm_platform_driver_init`
 
+## To disable GSP add `nvidia.NVreg_EnableGpuFirmware=0` to the parameters
+
 ## To fix flickering (heavy ones) add to `/etc/environment` or `$HOME/.profile`
 ```bash
 export GBM_BACKEND=nvidia-drm
