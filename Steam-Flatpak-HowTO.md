@@ -8,5 +8,6 @@
 # If you need only FPS limiter for games - use this as advanced options - `DXVK_FRAME_RATE=YOUR_FPS %command%`
 # How to setup `libstrangle` for Flatpak - `Steam-libstrangle-Flatpak.md` OR use MangoHud - `Steam-mangohud-Flatpak.md` (MangoHud recommended)
 # Disable shader pre-cache in `Settings -> Downloads`
+# If a controller is not detected - right click on the game -> `Properties -> Controller -> Switch Disable/Enable` and check if it works.            
 
 <img src="./steam-flatpak.png" />
