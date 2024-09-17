@@ -41,7 +41,7 @@
 * Install `corectrl` (for AMD GPU users), `nvtop` (for GPU monitoring), check `AMD-GPUs-Linux-Control-Panel.md` for additional configuration
 
 ## Flatpaks
-* `Flatseal`, `Firefox`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `Inkscape`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`, `Vencord`, `Avidemux`, `Bottles`, `RPCS3`, `Filezilla`, `Audacity`, `LibreOffice`, `DBeaver`, `Heroic Games Launcher`, `gamescope from org.freedesktop.Platform.VulkanLayer.gamescope`
+* `Flatseal`, `Firefox`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `Inkscape`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`, `Vencord`, `Avidemux`, `Bottles`, `RPCS3`, `Filezilla`, `Audacity`, `LibreOffice`, `DBeaver`, `Heroic Games Launcher`, `gamescope from org.freedesktop.Platform.VulkanLayer.gamescope`, `Viber`, `Telegram`, `Caprine`
 * Check app-order-linux.png from `random-important-stuff` repo.
 
 ## How to update
@@ -59,6 +59,9 @@
  
 ## After kernel upgrade
 * It is recommended after running `dnf update` to run `sudo akmods-shutdown` to rebuild kernel modules and then reboot (mainly NVIDIA users are affected) (update-fedora script automatically does this).
+
+## After updating NVIDIA driver version
+* If you are using for example `Steam` flatpak, please run `flatpak update` after you have rebuilded kernel modules and restarted the system, to install the new flatpak drivers for NVIDIA.
 
 ## Running in VMware
 * Issue noticed on Fedora 37 - sound is choppy, to resolve it: `sudo dnf install pulseaudio --allowerasing`
