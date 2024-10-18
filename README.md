@@ -186,3 +186,6 @@ General Linux fixes
 
 ## How to Properly Install a Windows 11 Virtual Machine on KVM.pdf
 * Describes how to configure Windows 11 in QEMU/KVM.
+
+## novsync
+* Shell script for NVIDIA to disable VSync. Copy it to `/bin`.
