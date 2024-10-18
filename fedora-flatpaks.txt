@@ -1,61 +1,59 @@
-Flatseal	com.github.tchx84.Flatseal	2.1.1	stable	system
-OBS Project	com.obsproject.Studio	30.1.0	stable	system
-Sindre Sorhus	com.sindresorhus.Caprine	2.59.3	stable	system
-Bottles Contributors	com.usebottles.bottles	51.11	stable	system
-Valve Corporation	com.valvesoftware.Steam	1.0.0.79	stable	system
-Vencord Contributors	dev.vencord.Vesktop	1.5.1	stable	system
-HandBrake	fr.handbrake.ghb	1.7.3	stable	system
-ProtonUp-Qt	net.davidotek.pupgui2	2.9.0	stable	system
-MediaInfo	net.mediaarea.MediaInfo	23.11	stable	system
-PCSX2	net.pcsx2.PCSX2	v1.7.5584	stable	system
-RPCS3 Developers	net.rpcs3.RPCS3	0.0.31-1-77485747	stable	system
-Audacity	org.audacityteam.Audacity	3.4.2	stable	system
-Codecs	org.audacityteam.Audacity.Codecs		stable	system
-Avidemux Team	org.avidemux.Avidemux	2.8.1	stable	system
-Stenzek	org.duckstation.DuckStation	0.1-6457-gc4f0a757	stable	system
-FileZilla	org.filezillaproject.Filezilla	3.66.1	stable	system
-TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	23.08	system
-SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	23.08	system
-Freedesktop Platform	org.freedesktop.Platform	22.08.22	22.08	system
-Freedesktop Platform	org.freedesktop.Platform	23.08.14	23.08	system
-i386	org.freedesktop.Platform.Compat.i386		23.08	system
-Mesa	org.freedesktop.Platform.GL.default	24.0.3	22.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	24.0.3	22.08-extra	system
-Mesa	org.freedesktop.Platform.GL.default	24.0.3	23.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	24.0.3	23.08-extra	system
-Mesa	org.freedesktop.Platform.GL32.default	24.0.3	23.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL32.default	24.0.3	23.08-extra	system
-ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		22.08	system
-ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		23.08	system
-i386	org.freedesktop.Platform.ffmpeg_full.i386		23.08	system
-openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
-openh264	org.freedesktop.Platform.openh264	2.1.0	2.3.0	system
-The GIMP team	org.gimp.GIMP	2.10.36	stable	system
-GNOME Application Platform version 44	org.gnome.Platform		44	system
-GNOME Application Platform version 45	org.gnome.Platform		45	system
-i386	org.gnome.Platform.Compat.i386		45	system
-The Inkscape Community	org.inkscape.Inkscape	1.3.2	stable	system
-Adwaita theme	org.kde.KStyle.Adwaita		5.15-23.08	system
-Adwaita theme	org.kde.KStyle.Adwaita		6.5	system
-Adwaita theme	org.kde.KStyle.Adwaita		6.6	system
-KDE Application Platform	org.kde.Platform		5.15-23.08	system
-KDE Application Platform	org.kde.Platform		6.5	system
-KDE Application Platform	org.kde.Platform		6.6	system
-QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15-23.08	system
-QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		6.5	system
-QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		6.6	system
-QAdwaitaDecorations	org.kde.WaylandDecoration.QAdwaitaDecorations		5.15-23.08	system
-QAdwaitaDecorations	org.kde.WaylandDecoration.QAdwaitaDecorations		6.5	system
-QAdwaitaDecorations	org.kde.WaylandDecoration.QAdwaitaDecorations		6.6	system
-QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-23.08	system
-QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		6.5	system
-KDE	org.kde.kdenlive	24.02.0	stable	system
-The Document Foundation	org.libreoffice.LibreOffice	24.2.1.2	stable	system
-Firefox	org.mozilla.firefox	124.0.1	stable	system
-PPSSPP	org.ppsspp.PPSSPP	1.17.1	stable	system
-qBittorrent	org.qbittorrent.qBittorrent	4.6.3	stable	system
-Hiroyuki_Tanaka	org.remmina.Remmina	1.4.35	stable	system
-VLC	org.videolan.VLC	3.0.20	stable	system
-DXVK	org.winehq.Wine.DLLs.dxvk	2.3	stable-23.08	system
-Gecko	org.winehq.Wine.gecko		stable-23.08	system
-Mono	org.winehq.Wine.mono		stable-23.08	system
+com.atlauncher.ATLauncher
+com.github.tchx84.Flatseal
+com.heroicgameslauncher.hgl
+com.obsproject.Studio
+com.playonlinux.PlayOnLinux4
+com.sindresorhus.Caprine
+com.usebottles.bottles
+com.valvesoftware.Steam
+com.viber.Viber
+dev.vencord.Vesktop
+fr.handbrake.ghb
+net.davidotek.pupgui2
+net.mediaarea.MediaInfo
+net.pcsx2.PCSX2
+org.audacityteam.Audacity
+org.audacityteam.Audacity.Codecs
+org.avidemux.Avidemux
+org.duckstation.DuckStation
+org.freedesktop.LinuxAudio.Plugins.TAP
+org.freedesktop.LinuxAudio.Plugins.swh
+org.freedesktop.Platform
+org.freedesktop.Platform
+org.freedesktop.Platform.Compat.i386
+org.freedesktop.Platform.Compat.i386
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.GL32.default
+org.freedesktop.Platform.GL32.default
+org.freedesktop.Platform.GL32.default
+org.freedesktop.Platform.ffmpeg-full
+org.freedesktop.Platform.ffmpeg-full
+org.freedesktop.Platform.ffmpeg_full.i386
+org.freedesktop.Platform.openh264
+org.freedesktop.Platform.openh264
+org.gimp.GIMP
+org.gnome.Platform
+org.gnome.Platform
+org.gnome.Platform.Compat.i386
+org.gtk.Gtk3theme.Breeze
+org.inkscape.Inkscape
+org.kde.KStyle.Adwaita
+org.kde.KStyle.Adwaita
+org.kde.KStyle.Adwaita
+org.kde.Platform
+org.kde.Platform
+org.kde.Platform
+org.kde.kdenlive
+org.kde.kdiff3
+org.libreoffice.LibreOffice
+org.mozilla.firefox
+org.ppsspp.PPSSPP
+org.qbittorrent.qBittorrent
+org.telegram.desktop
+org.telegram.desktop.webview
+org.videolan.VLC
+org.winehq.Wine.gecko
+org.winehq.Wine.mono
