@@ -12,7 +12,7 @@
 ## Remove zram-generator (if using a separate swap partition)
 * Run `sudo dnf remove zram-generator-defaults zram-generator`
 
-## Disable SELinux - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled`
+## Disable SELinux - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled` (or use `grubby --update-kernel ALL --args selinux=0`)
 
 ## Check `Swap-File-Creation.md`
 
