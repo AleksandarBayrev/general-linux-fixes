@@ -38,6 +38,8 @@
 ## Install `sysfsutils` to check for VRR for example:
 * Run `sudo dnf install sysfsutils`
 
+## Install `KDE Connect` and enable it in `Firewall` to be able to connect your phone.
+
 ## Base tools
 * Install groups `Multimedia` (not needed if you use Flatpak apps for Multimedia [Firefox, VLC, etc...]), `Development Tools`, `Administration Tools`, `Container Management`, `Desktop accessibility`, `Development Tools`, `RPM Development Tools`, `KDE (K Desktop Environment) (minimal)`, `Fonts`, `Hardware Support`, `System Tools` via `sudo dnf group install YOUR_GROUP`
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
