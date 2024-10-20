@@ -5,6 +5,7 @@
 options nvidia_drm modeset=1
 options nvidia_drm fbdev=1
 options nvidia NVreg_EnableGpuFirmware=0
+options nvidia NVreg_PreserveVideoMemoryAllocations=1 NVreg_TemporaryFilePath=/tmp/nvidia
 ```
 
 ## Fixing sleep/hibernation (use fixes only if you have problems, newer drivers could be better OOTB and this will not be needed)
@@ -12,7 +13,7 @@ options nvidia NVreg_EnableGpuFirmware=0
 * 1. Copy `nvidia-resume.service`, `nvidia-suspend.service`, `nvidia-hibernate.service` to `/etc/systemd/system
 * 2. Copy `nvidia-sleep.sh` to `/usr/bin`
 * 3. Add new file `nvidia-power-management.conf` to `/etc/modprobe.d` with the following content:
-```
+```ini
 options nvidia NVreg_PreserveVideoMemoryAllocations=1 NVreg_TemporaryFilePath=/tmp/nvidia
 ```
 * 4. Enable services and restart your PC
