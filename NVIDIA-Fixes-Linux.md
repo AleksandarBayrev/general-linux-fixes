@@ -1,5 +1,12 @@
 # NVIDIA Fixes Linux
 
+## To use Wayland create a file `/etc/modprobe.d/nvidia.conf` with the following contents
+```ini
+options nvidia_drm modeset=1
+options nvidia_drm fbdev=1
+options nvidia NVreg_EnableGpuFirmware=0
+```
+
 ## Fixing sleep/hibernation (use fixes only if you have problems, newer drivers could be better OOTB and this will not be needed)
 
 * 1. Copy `nvidia-resume.service`, `nvidia-suspend.service`, `nvidia-hibernate.service` to `/etc/systemd/system
@@ -20,10 +27,6 @@ options nvidia NVreg_PreserveVideoMemoryAllocations=1 NVreg_TemporaryFilePath=/t
 KWIN_TRIPLE_BUFFER=1
 KWIN_USE_BUFFER_AGE=0
 ```
-
-## To use wayland add to `/etc/default/grub` in the command line parameters `rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 initcall_blacklist=simpledrm_platform_driver_init`
-
-## To disable GSP add `nvidia.NVreg_EnableGpuFirmware=0` to the parameters
 
 ## To fix flickering (heavy ones) add to `/etc/environment` or `$HOME/.profile`
 ```bash
