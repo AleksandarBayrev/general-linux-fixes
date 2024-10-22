@@ -26,5 +26,6 @@ org.mozilla.firefox
 org.openmw.OpenMW
 org.ppsspp.PPSSPP
 org.qbittorrent.qBittorrent
+org.soundconverter.SoundConverter
 org.telegram.desktop
 org.videolan.VLC
