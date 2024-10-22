@@ -42,7 +42,7 @@
 * Install `corectrl` (for AMD GPU users), `nvtop` (for GPU monitoring), check `AMD-GPUs-Linux-Control-Panel.md` for additional configuration
 
 ## Flatpaks
-* `Flatseal`, `Firefox`, `Postman`, `OBS Studio`, `Viber`, `Handbrake`, `ProtonUp-Qt`, `MediaInfo`, `PCSX2`, `Duckstation`, `GIMP`, `Kdenlive`, `Inkscape`, `KDiff3`, `OpenMW`, `PPSSPP`, `qBittorrent`, `Remmina`, `VLC`, `Lutris`, `Apache JMeter`, `Vencord`, `Avidemux`, `Bottles`, `RPCS3`, `Filezilla`, `Audacity`, `LibreOffice`, `DBeaver`, `Heroic Games Launcher`, `gamescope from org.freedesktop.Platform.VulkanLayer.gamescope`, `Viber`, `Telegram`, `Caprine`, `Protontricks`, `Flacon`, `SoundConverter`
+* Check `flatpaks-to-install.txt`
 * Check app-order-linux.png from `random-important-stuff` repo.
 
 ## How to update

@@ -11,7 +11,7 @@
 # Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `btop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `rar`, `unrar`, `usbutils`, `smartmontools`, `nvme-cli` and `qt6-wayland`
 # Install `bash-completion` for bash autocomplete
 # Install `nvtop` if you have a NVIDIA GPU
-# Flatpaks: `duckstation`, `PCSX2`, `RPCS3`, `Postman`, `Bottles`, `GIMP`, `VLC`, `LibreOffice`, `FlatSeal`, `OBS Studio`, `Handbrake`, `qBittorrent`, `Audacity`, `Kdenlive`, `KDiff3`, `Filezilla`, `Telegram`
+# Flatpaks: check `flatpaks-to-install.txt`
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to show display system info.
 # Install `acpi` to check battery status (on laptops)
