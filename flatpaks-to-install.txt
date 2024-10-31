@@ -21,8 +21,8 @@ org.gimp.GIMP
 org.inkscape.Inkscape
 org.kde.kdenlive
 org.kde.kdiff3
-org.libreoffice.LibreOffice
 org.mozilla.firefox
+org.onlyoffice.desktopeditors
 org.openmw.OpenMW
 org.ppsspp.PPSSPP
 org.qbittorrent.qBittorrent
