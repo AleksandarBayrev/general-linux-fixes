@@ -46,7 +46,7 @@
 * Check app-order-linux.png from `random-important-stuff` repo.
 
 ## How to update
-* Run `sudo dnf upgrade --refresh && sudo akmods-shutdown` (call `sudo akmods-shutdown` only if you use some sort of akmods (NVIDIA drivers, VirtualBox))
+* Run `sudo dnf upgrade --refresh && sudo akmods` (call `sudo akmods` only if you use some sort of akmods (NVIDIA drivers, VirtualBox))
 * Or run `update-fedora` bash script (copy it to `/usr/sbin`). It does everything automatically.
 
 ## How to upgrade
@@ -59,7 +59,7 @@
 * Run `sudo rpmconf -a` to update RPM configurations after upgrade.
  
 ## After kernel upgrade
-* It is recommended after running `dnf update` to run `sudo akmods-shutdown` to rebuild kernel modules and then reboot (mainly NVIDIA users are affected) (update-fedora script automatically does this).
+* It is recommended after running `dnf update` to run `sudo akmods` to rebuild kernel modules and then reboot (mainly NVIDIA users are affected) (update-fedora script automatically does this).
 
 ## After updating NVIDIA driver version
 * If you are using for example `Steam` flatpak, please run `flatpak update` after you have rebuilded kernel modules and restarted the system, to install the new flatpak drivers for NVIDIA.
