@@ -6,7 +6,8 @@
 * Select only `lxdbr0` into `lxd` zone in `firewalld`
 * Add `dhcp`, `dhcpv6`, `dns` into `lxd` zone
 ## How to set static IP for container
-* First unset the active IP: `lxc config device unset YOUR_CONTAINER eth0 ipv4.address`
+* First add an override: `lxc config device override YOUR_CONTAINER eth0`
+* Then unset the active IP: `lxc config device unset YOUR_CONTAINER eth0 ipv4.address`
 * Add a new IP: `lxc config device set YOUR_CONTAINER eth0 ipv4.address YOUR_NEW_IP`
 * There is a predefined firewalld xml file in `firewalld-config-backup` GIT repo
 ## How to expose ports from containers
