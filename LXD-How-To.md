@@ -12,3 +12,6 @@
 * There is a predefined firewalld xml file in `firewalld-config-backup` GIT repo
 ## How to expose ports from containers
 * Add port forward in `firewalld` from host to guest - for example your host IP is 1.2.3.4, and your guest is 1.1.1.1, service port is 9090, you need to expose the port on guest (whatever you want) and forward it to 1.1.1.1:9090
+## How to setup SSH in the container
+* In `/etc/ssh/sshd_config` set `PermitRootLogin` to yes
+* In `/etc/ssh/sshd_config.d/*` check if `PasswordAuthentication` is set to `no`, if so - set it to `yes`
