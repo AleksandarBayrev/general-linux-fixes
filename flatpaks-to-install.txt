@@ -1,8 +1,10 @@
 com.atlauncher.ATLauncher
+com.getpostman.Postman
 com.github.Flacon
 com.github.Matoking.protontricks
 com.github.tchx84.Flatseal
 com.heroicgameslauncher.hgl
+com.ktechpit.ultimate-media-downloader
 com.obsproject.Studio
 com.playonlinux.PlayOnLinux4
 com.sindresorhus.Caprine
@@ -17,6 +19,7 @@ net.pcsx2.PCSX2
 org.audacityteam.Audacity
 org.avidemux.Avidemux
 org.duckstation.DuckStation
+org.filezillaproject.Filezilla
 org.gimp.GIMP
 org.inkscape.Inkscape
 org.kde.kdenlive
@@ -24,6 +27,7 @@ org.kde.kdiff3
 org.mozilla.firefox
 org.onlyoffice.desktopeditors
 org.openmw.OpenMW
+org.pgadmin.pgadmin4
 org.ppsspp.PPSSPP
 org.qbittorrent.qBittorrent
 org.soundconverter.SoundConverter
