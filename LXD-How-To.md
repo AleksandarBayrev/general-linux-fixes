@@ -5,6 +5,11 @@
 * In `firewalld` create a new zone `lxd`
 * Select only `lxdbr0` into `lxd` zone in `firewalld`
 * Add `dhcp`, `dhcpv6`, `dns` into `lxd` zone
+## How to generate certificates
+* Generate certificate and key: `openssl req -new -newkey rsa:4096 -x509 -days 36500 -nodes -sha256 -out YOUR_CERT.crt -keyout YOUR_CERT.key` (36500 days validity (~100 years))
+* Register the certificate in the server: `lxc config trust add ./YOUR_CERT.crt`
+* Generate pkcs12 certificate for web browsers: `openssl pkcs12 -export -out YOUR_CERT.p12 -inkey YOUR_CERT.key -in YOUR_CERT.crt`
+* Add it to your browser
 ## How to set static IP for container
 * First add an override: `lxc config device override YOUR_CONTAINER eth0`
 * Then unset the active IP: `lxc config device unset YOUR_CONTAINER eth0 ipv4.address`
