@@ -190,5 +190,5 @@ General Linux fixes
 ## novsync
 * Shell script for NVIDIA to disable VSync. Copy it to `/bin`.
 
-## LXD-How-To.md
-* Describes how to setup LXD.
+## Incus-How-To.md
+* Describes how to setup Incus.
