@@ -20,3 +20,6 @@
 ## How to setup SSH in the container
 * In `/etc/ssh/sshd_config` set `PermitRootLogin` to yes
 * In `/etc/ssh/sshd_config.d/*` check if `PasswordAuthentication` is set to `no`, if so - set it to `yes`
+## How to allow podman containers inside Incus container
+* Enable `Nesting`
+<img src="./incus-nested-container.png" />
