@@ -192,3 +192,6 @@ General Linux fixes
 
 ## Incus-How-To.md
 * Describes how to setup Incus.
+
+## Heroic-Games-Launcher-HowTO.md
+* Describes how to limit FPS.
