@@ -7,7 +7,6 @@ com.heroicgameslauncher.hgl
 com.ktechpit.ultimate-media-downloader
 com.obsproject.Studio
 com.playonlinux.PlayOnLinux4
-com.sindresorhus.Caprine
 com.usebottles.bottles
 com.valvesoftware.Steam
 com.viber.Viber
