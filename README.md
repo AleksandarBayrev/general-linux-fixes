@@ -195,3 +195,6 @@ General Linux fixes
 
 ## Heroic-Games-Launcher-HowTO.md
 * Describes how to limit FPS.
+
+## Heroic-Mangohud.md
+* Describes how to setup `mangohud` for `Heroic Games Launcher`
