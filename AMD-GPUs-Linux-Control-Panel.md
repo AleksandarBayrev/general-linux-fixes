@@ -2,6 +2,7 @@
 * Install `corectrl` on your distribution of choice. [Gitlab Link](https://gitlab.com/corectrl/corectrl)
 * OR install `LACT` on your distribution of choice. [Github Link](https://github.com/ilya-zlobintsev/LACT)
 * Add it to `Autostart` (for `LACT` it is not mandatory) in KDE (or whathever the utility is for other DEs)
+* Add `amdgpu.ppfeaturemask=0xffffffff` to your bootloader config and rebuild it if necessary.
 
 # How to disable password prompt - [https://gitlab.com/corectrl/corectrl/-/wikis/Setup](https://gitlab.com/corectrl/corectrl/-/wikis/Setup)
 
