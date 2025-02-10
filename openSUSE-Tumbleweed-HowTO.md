@@ -9,6 +9,7 @@
 # Install `Ark`, `Spectacle`, `Gwenview`
 # Install `Timeshift` and `cron` to make system backups (check `TimeShift-HowTO.md` for more information).
 # Install `xdg-desktop-portal-gnome`, `flatpak-xdg-utils`
+# Check `opensuse-tumbleweed-patterns.txt` to see what you can install.
 # IMPORTANT!!! - To check zypper history log - use `sudo cat /var/log/zypp/history` to check transactions (install/remove/update)
 # IMPORTANT!!! - Before running `sudo zypper dup` use `Timeshift` to make a snapshot of your current system, if something breaks you can rollback easily.
 # IMPORTANT!!! - Use QEMU/KVM for virtualization

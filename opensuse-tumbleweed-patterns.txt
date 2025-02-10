@@ -1,0 +1,197 @@
+Loading repository data...
+Reading installed packages...
+S  | Name                    | Version           | Repository                | Dependency
+---+-------------------------+-------------------+---------------------------+-----------
+i+ | 32bit                   | 20200505-62.1     | Main Repository (OSS)     | 
+i+ | 32bit                   | 20200505-62.1     | openSUSE-20250206-0       | 
+i+ | apparmor                | 20200505-62.1     | Main Repository (OSS)     | 
+i+ | apparmor                | 20200505-62.1     | openSUSE-20250206-0       | 
+i+ | base                    | 20200505-62.1     | Main Repository (OSS)     | 
+i+ | base                    | 20200505-62.1     | openSUSE-20250206-0       | 
+   | basic_desktop           | 20200505-62.1     | Main Repository (OSS)     | 
+   | basic_desktop           | 20200505-62.1     | openSUSE-20250206-0       | 
+i+ | books                   | 20201106-4.2      | Main Repository (OSS)     | 
+i+ | books                   | 20201106-4.2      | openSUSE-20250206-0       | 
+   | budgie                  | 20220527-2.5      | Main Repository (OSS)     | 
+   | budgie                  | 20220527-2.5      | openSUSE-20250206-0       | 
+   | budgie_applets          | 20220527-2.5      | Main Repository (OSS)     | 
+   | budgie_applets          | 20220527-2.5      | openSUSE-20250206-0       | 
+   | ceph_base               | 1.0-5.5           | Main Repository (OSS)     | 
+   | ceph_base               | 1.0-5.5           | openSUSE-20250206-0       | 
+   | cinnamon                | 202021205-2.11    | Main Repository (OSS)     | 
+   | cinnamon                | 202021205-2.11    | openSUSE-20250206-0       | 
+i+ | console                 | 20200505-62.1     | Main Repository (OSS)     | 
+i+ | console                 | 20200505-62.1     | openSUSE-20250206-0       | 
+   | container_runtime       | 5.1-7.1           | Main Repository (OSS)     | 
+   | container_runtime       | 5.1-7.1           | openSUSE-20250206-0       | 
+   | deepin                  | 15.4.20220603-2.7 | Main Repository (OSS)     | 
+   | deepin                  | 15.4.20220603-2.7 | openSUSE-20250206-0       | 
+i  | devel_basis             | 20170319-12.6     | Main Repository (OSS)     | 
+i  | devel_basis             | 20170319-12.6     | openSUSE-20250206-0       | 
+i+ | devel_C_C++             | 20170319-4.7      | Main Repository (OSS)     | 
+i+ | devel_C_C++             | 20170319-4.7      | openSUSE-20250206-0       | 
+   | devel_gnome             | 20241112-1.1      | Main Repository (OSS)     | 
+   | devel_gnome             | 20241112-1.1      | openSUSE-20250206-0       | 
+   | devel_java              | 20170319-5.17     | Main Repository (OSS)     | 
+   | devel_java              | 20170319-5.17     | openSUSE-20250206-0       | 
+   | devel_kde_frameworks    | 20240311-2.3      | Main Repository (OSS)     | 
+   | devel_kde_frameworks    | 20240311-2.3      | openSUSE-20250206-0       | 
+   | devel_kde_frameworks6   | 20240311-2.3      | Main Repository (OSS)     | 
+   | devel_kde_frameworks6   | 20240311-2.3      | openSUSE-20250206-0       | 
+i+ | devel_kernel            | 20170319-12.6     | Main Repository (OSS)     | 
+i+ | devel_kernel            | 20170319-12.6     | openSUSE-20250206-0       | 
+   | devel_mono              | 20170319-1.19     | Main Repository (OSS)     | 
+   | devel_mono              | 20170319-1.19     | openSUSE-20250206-0       | 
+   | devel_osc_build         | 20170319-3.22     | Main Repository (OSS)     | 
+   | devel_osc_build         | 20170319-3.22     | openSUSE-20250206-0       | 
+   | devel_perl              | 20170319-2.18     | Main Repository (OSS)     | 
+   | devel_perl              | 20170319-2.18     | openSUSE-20250206-0       | 
+   | devel_python3           | 20180125-4.13     | Main Repository (OSS)     | 
+   | devel_python3           | 20180125-4.13     | openSUSE-20250206-0       | 
+   | devel_qt5               | 20240311-2.3      | Main Repository (OSS)     | 
+   | devel_qt5               | 20240311-2.3      | openSUSE-20250206-0       | 
+   | devel_qt6               | 20240311-2.3      | Main Repository (OSS)     | 
+   | devel_qt6               | 20240311-2.3      | openSUSE-20250206-0       | 
+   | devel_rpm_build         | 20170319-12.6     | Main Repository (OSS)     | 
+   | devel_rpm_build         | 20170319-12.6     | openSUSE-20250206-0       | 
+   | devel_ruby              | 20170319-2.17     | Main Repository (OSS)     | 
+   | devel_ruby              | 20170319-2.17     | openSUSE-20250206-0       | 
+   | devel_tcl               | 20170319-2.16     | Main Repository (OSS)     | 
+   | devel_tcl               | 20170319-2.16     | openSUSE-20250206-0       | 
+   | devel_vulkan            | 20221115-2.5      | Main Repository (OSS)     | 
+   | devel_vulkan            | 20221115-2.5      | openSUSE-20250206-0       | 
+   | devel_web               | 20170319-12.6     | Main Repository (OSS)     | 
+   | devel_web               | 20170319-12.6     | openSUSE-20250206-0       | 
+   | devel_yast              | 20220411-1.8      | Main Repository (OSS)     | 
+   | devel_yast              | 20220411-1.8      | openSUSE-20250206-0       | 
+   | dhcp_dns_server         | 20210330-8.4      | Main Repository (OSS)     | 
+   | dhcp_dns_server         | 20210330-8.4      | openSUSE-20250206-0       | 
+   | directory_server        | 20210330-8.4      | Main Repository (OSS)     | 
+   | directory_server        | 20210330-8.4      | openSUSE-20250206-0       | 
+i  | documentation           | 20200505-62.1     | Main Repository (OSS)     | 
+i  | documentation           | 20200505-62.1     | openSUSE-20250206-0       | 
+i+ | enhanced_base           | 20200505-62.1     | Main Repository (OSS)     | 
+i+ | enhanced_base           | 20200505-62.1     | openSUSE-20250206-0       | 
+   | enlightenment           | 20170319-2.20     | Main Repository (OSS)     | 
+   | enlightenment           | 20170319-2.20     | openSUSE-20250206-0       | 
+   | file_server             | 20210330-8.4      | Main Repository (OSS)     | 
+   | file_server             | 20210330-8.4      | openSUSE-20250206-0       | 
+   | fips                    | 20200505-62.1     | Main Repository (OSS)     | 
+   | fips                    | 20200505-62.1     | openSUSE-20250206-0       | 
+i  | fonts                   | 20170319-12.2     | Main Repository (OSS)     | 
+i  | fonts                   | 20170319-12.2     | openSUSE-20250206-0       | 
+   | games                   | 20220126-1.8      | Main Repository (OSS)     | 
+   | games                   | 20220126-1.8      | openSUSE-20250206-0       | 
+   | gateway_server          | 20210330-8.4      | Main Repository (OSS)     | 
+   | gateway_server          | 20210330-8.4      | openSUSE-20250206-0       | 
+   | gnome                   | 20241112-1.1      | Main Repository (OSS)     | 
+   | gnome                   | 20241112-1.1      | openSUSE-20250206-0       | 
+   | gnome_basic             | 20241112-1.1      | Main Repository (OSS)     | 
+   | gnome_basic             | 20241112-1.1      | openSUSE-20250206-0       | 
+   | gnome_x11               | 20241112-1.1      | Main Repository (OSS)     | 
+   | gnome_x11               | 20241112-1.1      | openSUSE-20250206-0       | 
+   | imaging                 | 20201106-4.2      | Main Repository (OSS)     | 
+   | imaging                 | 20201106-4.2      | openSUSE-20250206-0       | 
+   | kalpa_base              | 6.0-4.1           | Main Repository (OSS)     | 
+   | kalpa_base              | 6.0-4.1           | openSUSE-20250206-0       | 
+   | kde                     | 20240311-2.3      | Main Repository (OSS)     | 
+   | kde                     | 20240311-2.3      | openSUSE-20250206-0       | 
+   | kde_pim                 | 20240311-2.3      | Main Repository (OSS)     | 
+   | kde_pim                 | 20240311-2.3      | openSUSE-20250206-0       | 
+i+ | kde_plasma              | 20240311-2.3      | Main Repository (OSS)     | 
+i+ | kde_plasma              | 20240311-2.3      | openSUSE-20250206-0       | 
+   | kvm_server              | 20210330-8.4      | Main Repository (OSS)     | 
+   | kvm_server              | 20210330-8.4      | openSUSE-20250206-0       | 
+   | kvm_tools               | 20210330-8.4      | Main Repository (OSS)     | 
+   | kvm_tools               | 20210330-8.4      | openSUSE-20250206-0       | 
+   | lamp_server             | 20210330-8.4      | Main Repository (OSS)     | 
+   | lamp_server             | 20210330-8.4      | openSUSE-20250206-0       | 
+i+ | laptop                  | 20201106-4.2      | Main Repository (OSS)     | 
+i+ | laptop                  | 20201106-4.2      | openSUSE-20250206-0       | 
+   | lxde                    | 20170319-3.8      | Main Repository (OSS)     | 
+   | lxde                    | 20170319-3.8      | openSUSE-20250206-0       | 
+   | lxqt                    | 20240611-1.2      | Main Repository (OSS)     | 
+   | lxqt                    | 20240611-1.2      | openSUSE-20250206-0       | 
+   | mail_server             | 20210330-8.4      | Main Repository (OSS)     | 
+   | mail_server             | 20210330-8.4      | openSUSE-20250206-0       | 
+   | mate                    | 20170319-5.8      | Main Repository (OSS)     | 
+   | mate                    | 20170319-5.8      | openSUSE-20250206-0       | 
+   | microos_apparmor        | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_apparmor        | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_base            | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_base            | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_base_microdnf   | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_base_microdnf   | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_base_packagekit | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_base_packagekit | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_base_zypper     | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_base_zypper     | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_cloud           | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_cloud           | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_cockpit         | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_cockpit         | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_gnome_desktop   | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_gnome_desktop   | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_hardware        | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_hardware        | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_ima_evm         | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_ima_evm         | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_kde_desktop     | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_kde_desktop     | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_ra_agent        | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_ra_agent        | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_ra_verifier     | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_ra_verifier     | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_selinux         | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_selinux         | 5.0-94.1          | openSUSE-20250206-0       | 
+   | microos_sssd_ldap       | 5.0-94.1          | Main Repository (OSS)     | 
+   | microos_sssd_ldap       | 5.0-94.1          | openSUSE-20250206-0       | 
+i  | minimal_base            | 20200505-62.1     | Main Repository (OSS)     | 
+i  | minimal_base            | 20200505-62.1     | openSUSE-20250206-0       | 
+   | multimedia              | 20201106-4.2      | Main Repository (OSS)     | 
+   | multimedia              | 20201106-4.2      | openSUSE-20250206-0       | 
+   | network_admin           | 20170319-3.10     | Main Repository (OSS)     | 
+   | network_admin           | 20170319-3.10     | openSUSE-20250206-0       | 
+   | non_oss                 | 20170319-1.62     | Main Repository (NON-OSS) | 
+   | office                  | 20170506-3.17     | Main Repository (OSS)     | 
+   | office                  | 20170506-3.17     | openSUSE-20250206-0       | 
+   | openSUSEway             | 0.16.5-1.2        | Main Repository (OSS)     | 
+   | openSUSEway             | 0.16.5-1.2        | openSUSE-20250206-0       | 
+   | print_server            | 20210330-8.4      | Main Repository (OSS)     | 
+   | print_server            | 20210330-8.4      | openSUSE-20250206-0       | 
+   | selinux                 | 20200505-62.1     | Main Repository (OSS)     | 
+   | selinux                 | 20200505-62.1     | openSUSE-20250206-0       | 
+i  | sw_management           | 20200505-62.1     | Main Repository (OSS)     | 
+i  | sw_management           | 20200505-62.1     | openSUSE-20250206-0       | 
+   | sway                    | 20200619-6.4      | Main Repository (OSS)     | 
+   | sway                    | 20200619-6.4      | openSUSE-20250206-0       | 
+   | technical_writing       | 20201106-4.2      | Main Repository (OSS)     | 
+   | technical_writing       | 20201106-4.2      | openSUSE-20250206-0       | 
+   | update_test             | 20200505-62.1     | Main Repository (OSS)     | 
+   | update_test             | 20200505-62.1     | openSUSE-20250206-0       | 
+   | wsl_base                | 20240327-1.2      | Main Repository (OSS)     | 
+   | wsl_base                | 20240327-1.2      | openSUSE-20250206-0       | 
+   | wsl_gui                 | 20240327-1.2      | Main Repository (OSS)     | 
+   | wsl_gui                 | 20240327-1.2      | openSUSE-20250206-0       | 
+   | wsl_systemd             | 20240327-1.2      | Main Repository (OSS)     | 
+   | wsl_systemd             | 20240327-1.2      | openSUSE-20250206-0       | 
+i+ | x11                     | 20200505-62.1     | Main Repository (OSS)     | 
+i+ | x11                     | 20200505-62.1     | openSUSE-20250206-0       | 
+i+ | x11_yast                | 20220411-1.8      | Main Repository (OSS)     | 
+i+ | x11_yast                | 20220411-1.8      | openSUSE-20250206-0       | 
+i  | x86_64_v3               | 20230201-3.4      | Main Repository (OSS)     | 
+i  | x86_64_v3               | 20230201-3.4      | openSUSE-20250206-0       | 
+   | xen_server              | 20210330-8.4      | Main Repository (OSS)     | 
+   | xen_server              | 20210330-8.4      | openSUSE-20250206-0       | 
+   | xen_tools               | 20210330-8.4      | Main Repository (OSS)     | 
+   | xen_tools               | 20210330-8.4      | openSUSE-20250206-0       | 
+   | xfce                    | 20230212-4.4      | Main Repository (OSS)     | 
+   | xfce                    | 20230212-4.4      | openSUSE-20250206-0       | 
+   | xfce_extra              | 20230212-4.4      | Main Repository (OSS)     | 
+   | xfce_extra              | 20230212-4.4      | openSUSE-20250206-0       | 
+i+ | yast2_basis             | 20220411-1.8      | Main Repository (OSS)     | 
+i+ | yast2_basis             | 20220411-1.8      | openSUSE-20250206-0       | 
+i  | yast2_desktop           | 20220411-1.8      | Main Repository (OSS)     | 
+i  | yast2_desktop           | 20220411-1.8      | openSUSE-20250206-0       | 
+   | yast2_server            | 20220411-1.8      | Main Repository (OSS)     | 
+   | yast2_server            | 20220411-1.8      | openSUSE-20250206-0       | 
