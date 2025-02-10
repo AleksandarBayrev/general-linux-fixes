@@ -12,3 +12,4 @@
 <img src="usb-passthrough-kvm-error.png">
 
 * Do this: `sudo usermod -aG libvirt,qemu,kvm $YOUR_USER` and reboot
+* Add two USB Redirectos per VM if you want to add a device
