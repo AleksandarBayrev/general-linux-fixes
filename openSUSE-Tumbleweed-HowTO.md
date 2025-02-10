@@ -2,7 +2,7 @@
 # Check `Fedora-After-Install.md` for some other stuff that you may require.
 # Check `AMD-GPUs-Linux-Control-Panel.md` for controlling your AMD GPU.
 # Use flatpaks for everything possible, otherwise use distrobox (only as a last resort install system-wide)
-# Add user to `flatpak` and `wheel` groups, then run `newgrp` to update them
+# Add user to `flatpak`, `libvirt`, `kvm` and `wheel` groups, then run `newgrp` to update them
 # Note for VMWare - run `sudo vmware-modconfig --install-all` after earch kernel update (or find a way to add a zypper hook) (DEPRECATED, check QEMU/KVM step)
 # opensuse-tumbleweed-installed-packages.txt contains the system packages installed as of 17.07.2023 on my desktop system
 # Note for NVIDIA - install `nvidia-drivers-G06` `nvidia-gl-G06` and copy `nvidia_icd.json` to `/usr/share/vulkan/icd.d`
