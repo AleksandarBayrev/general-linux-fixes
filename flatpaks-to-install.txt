@@ -13,6 +13,7 @@ com.viber.Viber
 com.vysp3r.ProtonPlus
 dev.vencord.Vesktop
 fr.handbrake.ghb
+net.lutris.Lutris
 net.mediaarea.MediaInfo
 net.pcsx2.PCSX2
 org.audacityteam.Audacity
