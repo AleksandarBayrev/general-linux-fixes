@@ -8,6 +8,7 @@
 # Note for NVIDIA - install `nvidia-drivers-G06` `nvidia-gl-G06` and copy `nvidia_icd.json` to `/usr/share/vulkan/icd.d`
 # It is recommended to install `dkms` and `NVIDIA` driver from the `NVIDIA` website, follow this guide - [https://en.opensuse.org/SDB:NVIDIA_the_hard_way](https://en.opensuse.org/SDB:NVIDIA_the_hard_way)
 # IMPORTANT!!! - if you installed the `NVIDIA` driver from the `NVIDIA` website, please update it manually from the terminal, with the `run` file downloaded from there.
+# IMPORTANT!!! - enable `nvidia-powerd` service.
 # Install `Ark`, `Spectacle`, `Gwenview`
 # Install `Timeshift` and `cron` to make system backups (check `TimeShift-HowTO.md` for more information).
 # Install `xdg-desktop-portal-gnome`, `flatpak-xdg-utils`
