@@ -1,6 +1,7 @@
 # Use it to do incremental system backups.
 # Create an image with the create button, don't backup `/home` or `/root`, or external drives
-# To restore see this - make sure you check `update initramfs` to be good. You don't need to check `(Re)Install GRUB2` option if GRUB is already working.
+# If the system is booting correctly, do not check anything from the `Bootloader Options (Advanced)`
+# To restore the system to be ablle to boot see this - make sure you check `update initramfs` to be good. You don't need to check `(Re)Install GRUB2` option if GRUB is already working.
 <img src="./timeshift-important.png" />
 <img src="./timeshift-important-2.png" />
 
