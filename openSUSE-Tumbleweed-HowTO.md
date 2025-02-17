@@ -6,6 +6,7 @@
 # Note for VMWare - run `sudo vmware-modconfig --install-all` after earch kernel update (or find a way to add a zypper hook) (DEPRECATED, check QEMU/KVM step)
 # opensuse-tumbleweed-installed-packages.txt contains the system packages installed as of 17.07.2023 on my desktop system
 # Note for NVIDIA - install `nvidia-drivers-G06` `nvidia-gl-G06` and copy `nvidia_icd.json` to `/usr/share/vulkan/icd.d`
+# It is recommended to install `dkms` and `NVIDIA` driver from the `NVIDIA` website, follow this guide - [https://en.opensuse.org/SDB:NVIDIA_the_hard_way](https://en.opensuse.org/SDB:NVIDIA_the_hard_way)
 # Install `Ark`, `Spectacle`, `Gwenview`
 # Install `Timeshift` and `cron` to make system backups (check `TimeShift-HowTO.md` for more information).
 # Install `xdg-desktop-portal-gnome`, `flatpak-xdg-utils`
