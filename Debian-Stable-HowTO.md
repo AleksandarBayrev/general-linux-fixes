@@ -1,5 +1,6 @@
 # Install latest Debian Stable
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
+# Add user to `flatpak`, `libvirt`, `kvm`, `sudo` and `wheel` groups, then run `newgrp` to update them
 # Install `aptitude`, `apt-listbugs`, `apt-listchanges`
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
 # To update the system - `sudo apt update && sudo apt update -t codename-backports && sudo apt dist-upgrade && sudo apt dist-upgrade -t codename-backports` where `codename` is your current Debian version
