@@ -1,4 +1,5 @@
 # Install openSUSE Tumbleweed with the DE of your choice.
+* Use `AppArmor` instead of `SELinux`
 # Check `Fedora-After-Install.md` for some other stuff that you may require.
 # Check `AMD-GPUs-Linux-Control-Panel.md` for controlling your AMD GPU.
 # Use flatpaks for everything possible, otherwise use distrobox (only as a last resort install system-wide)
