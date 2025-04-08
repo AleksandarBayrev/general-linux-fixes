@@ -33,3 +33,4 @@ org.qbittorrent.qBittorrent
 org.soundconverter.SoundConverter
 org.telegram.desktop
 org.videolan.VLC
+io.missioncenter.MissionCenter
