@@ -9,6 +9,8 @@
 
 ## Add Flathub repository
 
+## Add user to `flatpak`, `libvirt`, `kvm` and `wheel` groups, then run `newgrp` to update them
+
 ## Remove zram-generator (if using a separate swap partition)
 * Run `sudo dnf remove zram-generator-defaults zram-generator`
 
@@ -39,7 +41,7 @@
 ## Base tools
 * Install groups `Multimedia` (not needed if you use Flatpak apps for Multimedia [Firefox, VLC, etc...]), `Development Tools`, `Administration Tools`, `Container Management`, `Desktop accessibility`, `Development Tools`, `RPM Development Tools`, `KDE (K Desktop Environment) (minimal)`, `Fonts`, `Hardware Support`, `System Tools` via `sudo dnf group install YOUR_GROUP`
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
-* Install `corectrl` (for AMD GPU users), `nvtop` (for GPU monitoring), check `AMD-GPUs-Linux-Control-Panel.md` for additional configuration
+* Install `lact` (or `corectrl`) (for AMD GPU users), `nvtop` (for GPU monitoring), check `AMD-GPUs-Linux-Control-Panel.md` for additional configuration
 
 ## Flatpaks
 * Check `flatpaks-to-install.txt`
@@ -102,7 +104,7 @@
 
 ## IMPORTANT!!! - Install `Steam` via `distrobox` - check `Steam-Distrobox.md` on how to setup the container.
 
-## Install glmark2 and s-tui to perform GPU/CPU stress tests.
+## Install `glmark2` and `s-tui` to perform GPU/CPU stress tests.
 
 ## IMPORTANT!!! - Check `FSTAB-Important.md` when you need to change disks or have disk problems.
 
