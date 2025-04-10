@@ -88,7 +88,7 @@
 
 ## *OPTIONAL* (if you don't use flatpaks): Install Mesa from RPMFusion - `sudo dnf swap mesa-*-drivers mesa-*-drivers-freeworld.* --allowerasing`
 
-## For Discord - install `Vencord Desktop` from github - [https://github.com/Vencord/Vesktop/](https://github.com/Vencord/Vesktop/)
+## For Discord - install `ArmCord`
 
 ## Check `fedora-dnf-history.log` for some tips about installing/removing initially.
 

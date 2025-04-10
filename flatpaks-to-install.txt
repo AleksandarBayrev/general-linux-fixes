@@ -34,3 +34,4 @@ org.soundconverter.SoundConverter
 org.telegram.desktop
 org.videolan.VLC
 io.missioncenter.MissionCenter
+xyz.armcord.ArmCord
