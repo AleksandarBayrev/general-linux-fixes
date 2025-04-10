@@ -88,7 +88,7 @@
 
 ## *OPTIONAL* (if you don't use flatpaks): Install Mesa from RPMFusion - `sudo dnf swap mesa-*-drivers mesa-*-drivers-freeworld.* --allowerasing`
 
-## For Discord - install `ArmCord`
+## For Discord - install `ArmCord` (check `ArmCord-HowTO.md`)
 
 ## Check `fedora-dnf-history.log` for some tips about installing/removing initially.
 
