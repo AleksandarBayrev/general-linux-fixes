@@ -7,6 +7,7 @@ com.heroicgameslauncher.hgl
 com.ktechpit.ultimate-media-downloader
 com.obsproject.Studio
 com.playonlinux.PlayOnLinux4
+com.poweriso.PowerISO
 com.teamspeak.TeamSpeak3
 com.usebottles.bottles
 com.valvesoftware.Steam
