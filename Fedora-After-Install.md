@@ -5,6 +5,8 @@
 
 # After installation of Fedora
 
+## Install `fedora-repos-archive` package to use with `dnf rollback` if needed
+
 ## Clone `update-fedora` repo [https://github.com/AleksandarBayrev/update-fedora](https://github.com/AleksandarBayrev/update-fedora) and run `make install`, use the script  to update the system
 
 ## Add Flathub repository
