@@ -201,3 +201,6 @@ General Linux fixes
 
 ## ArmCord-HowTO.md
 * Describes how to setup `ArmCord`
+
+## Bottles-Notes.md
+* Tips & tricks for `Bottles`
