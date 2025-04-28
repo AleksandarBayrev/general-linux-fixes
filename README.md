@@ -204,3 +204,6 @@ General Linux fixes
 
 ## Bottles-Notes.md
 * Tips & tricks for `Bottles`
+
+## KDE-Borderless-HowTO.md
+* Describes how to setup `Borderless Window` game mode if the game doesn't support it (Sleeping Dogs for example)
