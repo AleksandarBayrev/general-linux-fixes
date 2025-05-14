@@ -43,7 +43,7 @@
 ## Base tools
 * Install groups `Multimedia` (not needed if you use Flatpak apps for Multimedia [Firefox, VLC, etc...]), `Development Tools`, `Administration Tools`, `Container Management`, `Desktop accessibility`, `Development Tools`, `RPM Development Tools`, `KDE (K Desktop Environment) (minimal)`, `Fonts`, `Hardware Support`, `System Tools` via `sudo dnf group install YOUR_GROUP`
 * Install `rpmconf`, `dnf-plugin-system-upgrade` and `remove-retired-packages`
-* Install `lact` (or `corectrl`) (for AMD GPU users), `nvtop` (for GPU monitoring), check `AMD-GPUs-Linux-Control-Panel.md` for additional configuration
+* Install `lact` (Flatpak is preferred) (or `corectrl`) (for AMD GPU users), `nvtop` (for GPU monitoring), check `AMD-GPUs-Linux-Control-Panel.md` for additional configuration
 
 ## Flatpaks
 * Check `flatpaks-to-install.txt`
