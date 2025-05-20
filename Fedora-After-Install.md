@@ -90,7 +90,7 @@
 
 ## *OPTIONAL* (if you don't use flatpaks): Install Mesa from RPMFusion - `sudo dnf swap mesa-*-drivers mesa-*-drivers-freeworld.* --allowerasing`
 
-## For Discord - install `Equibop`
+## For Discord - install `Vesktop`
 
 ## Check `fedora-dnf-history.log` for some tips about installing/removing initially.
 

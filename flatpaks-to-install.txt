@@ -38,5 +38,5 @@ org.soundconverter.SoundConverter
 org.telegram.desktop
 org.remmina.Remmina
 org.videolan.VLC
-io.github.equicord.equibop
+dev.vencord.Vesktop
 org.bunkus.mkvtoolnix-gui
