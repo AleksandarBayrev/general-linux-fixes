@@ -199,9 +199,6 @@ General Linux fixes
 ## Heroic-Mangohud.md
 * Describes how to setup `mangohud` for `Heroic Games Launcher`
 
-## ArmCord-HowTO.md
-* Describes how to setup `ArmCord`
-
 ## Bottles-Notes.md
 * Tips & tricks for `Bottles`
 
