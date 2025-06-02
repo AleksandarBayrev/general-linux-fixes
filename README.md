@@ -204,3 +204,6 @@ General Linux fixes
 
 ## KDE-Borderless-HowTO.md
 * Describes how to setup `Borderless Window` game mode if the game doesn't support it (Sleeping Dogs for example)
+
+## Thinkpad-Fingerprint-Scanner-Linux-HowTO.md
+* Describes how to setup the fingerprint scanner on Linux.
