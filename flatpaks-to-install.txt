@@ -40,3 +40,4 @@ org.remmina.Remmina
 org.videolan.VLC
 com.discordapp.Discord
 org.bunkus.mkvtoolnix-gui
+net.werwolv.ImHex
