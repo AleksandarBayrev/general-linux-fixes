@@ -5,6 +5,8 @@
 
 # After installation of Fedora
 
+## If you run a Thinkpad with a fingerprint scanner check `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`
+
 ## Install `fedora-repos-archive` package to use with `dnf rollback` if needed
 
 ## Clone `update-fedora` repo [https://github.com/AleksandarBayrev/update-fedora](https://github.com/AleksandarBayrev/update-fedora) and run `make install`, use the script  to update the system

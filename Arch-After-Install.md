@@ -1,3 +1,5 @@
+# If you run a Thinkpad with a fingerprint scanner check `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`
+
 # Install AppIndicator if you are running GNOME
 
 # If icons are missing check the .desktop file in /etc/xdg/autostart and remove NotShowIn line

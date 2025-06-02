@@ -1,0 +1,1 @@
+# Check [https://github.com/uunicorn/python-validity](https://github.com/uunicorn/python-validity) to see how to setup the fingerprint authentication.
