@@ -207,3 +207,6 @@ General Linux fixes
 
 ## Thinkpad-Fingerprint-Scanner-Linux-HowTO.md
 * Describes how to setup the fingerprint scanner on Linux.
+
+## Gaming-Linux-HowTO.md
+* Describes some gaming related stuff for Linux.
