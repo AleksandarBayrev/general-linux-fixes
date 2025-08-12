@@ -54,3 +54,4 @@ deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free no
 # To check if pipewire is being used: `LANG=C pactl info | grep '^Server Name'`
 # Install firmware
 * Check `Linux-Firmware-For-Hardware.md`
+# Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`

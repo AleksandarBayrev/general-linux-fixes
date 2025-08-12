@@ -34,3 +34,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Install firmware
 # Install `make gcc g++ flex bison clang` for development purposes
 * Check `Linux-Firmware-For-Hardware.md`
+# Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
