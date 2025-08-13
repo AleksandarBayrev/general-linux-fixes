@@ -36,3 +36,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 * Check `Linux-Firmware-For-Hardware.md`
 # Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
 # Check `Sound-Fixes-Linux.md` as well.
+# If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.pdf`

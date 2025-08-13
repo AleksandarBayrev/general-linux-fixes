@@ -56,3 +56,4 @@ deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free no
 * Check `Linux-Firmware-For-Hardware.md`
 # Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
 # Check `Sound-Fixes-Linux.md` as well.
+# If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.pdf`
