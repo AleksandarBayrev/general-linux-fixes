@@ -5,5 +5,6 @@
 ````ini
 options snd_hda_intel snoop=0
 options snd_hda_intel power_save=0
+options snd_hda_intel power_save_controller=N
 ````
 # And run `sudo update-initramfs -u`
