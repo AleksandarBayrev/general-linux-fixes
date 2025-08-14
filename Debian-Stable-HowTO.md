@@ -57,3 +57,4 @@ deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free no
 # Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
 # Check `Sound-Fixes-Linux.md` as well.
 # If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.pdf` (and [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/))
+# NOTE: If you use VMware Workstation on Debian - run `sudo systemctl enable --now vmware` and restart your PC in order for the network/USB passthrough to work
