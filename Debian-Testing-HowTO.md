@@ -32,6 +32,7 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # IMPORTANT!!! - Upgrade system with `sudo apt full-upgrade`
 # IMPORTANT!!! - Upgrading the system from testing branch should be done one release at a time. Example - current testing branch is pointing to `trixie` (Debian 13), if let's say you were running testing branch from `buster` at that time -> what you should do is this: upgrade `buster` to `bullseye` and then point `bullseye` to `bookworm`, and then point `bookworm` to `testing` (which is actually `trixie` at the time of writing the tutorial). More info here -> [https://www.debian.org/releases/](https://www.debian.org/releases/). Check current codename with `lsb_release -a`, sample output will be: `Codename: trixie`
 # Install firmware
+# If a newer kernel is missing, but you need it (for example a newer GPU) - use [xanmod's kernels](https://xanmod.org/)
 # Install `make gcc g++ flex bison clang gcc-multilib g++-multilib autoconf automake build-essential` for development purposes
 * Check `Linux-Firmware-For-Hardware.md`
 # Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
