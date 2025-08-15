@@ -1,5 +1,7 @@
 # If you want to change the sample rate - create `/etc/pipewire` directory if missing and copy `/usr/share/pipewire/pipewire.conf` to in, edit the `/etc/pipewire/pipewire.conf` and set `default.clock.rate` to whatever you need
 
+# To check current sample rate and bit depth use `pactl list short sinks`
+
 # If you have any problems with the sound do the things below
 
 # Remove `speech-dispatcher` to remove HDMI crackling
