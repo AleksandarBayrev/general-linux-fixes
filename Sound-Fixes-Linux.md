@@ -1,3 +1,7 @@
+# If you want to change the sample rate - create `/etc/pipewire` directory if missing and copy `/usr/share/pipewire/pipewire.conf` to in, edit the `/etc/pipewire/pipewire.conf` and set `default.clock.rate` to whatever you need
+
+# If you have any problems with the sound do the things below
+
 # Remove `speech-dispatcher` to remove HDMI crackling
 # Add `use_ucm=0 tsched=0` to `load-module module-udev-detect` in `/etc/pulse/default.pa` to fix crackling sound.
 # Comment out `load-module module-suspend-on-idle`, end result: `#load-module module-suspend-on-idle`
