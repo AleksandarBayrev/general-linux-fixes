@@ -47,3 +47,5 @@ DRI_PRIME=pci-0000_01_00_0
 VK_LAYER_NV_optimus=NVIDIA_only
 GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
+
+# If you install the NVIDIA driver from a run file - use the [nvidia-icd-vulkan-generator](https://github.com/AleksandarBayrev/nvidia-icd-vulkan-generator) to regenerate nvidia_icd.json file, do this after each driver update
