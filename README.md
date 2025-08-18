@@ -210,3 +210,6 @@ General Linux fixes
 
 ## Gaming-Linux-HowTO.md
 * Describes some gaming related stuff for Linux.
+
+## Disable-USB-Autosuspend-Linux.md
+* Describes how to disable automatic USB suspension under Linux.
