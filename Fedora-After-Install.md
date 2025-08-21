@@ -77,12 +77,7 @@
 * Install `envycontrol` to switch between graphics cards.
 * Check `NVIDIA-Fixes-Linux.md`
 
-## For KDE
-* Disable indexing in `File Search` if you experience stutter after installing apps.
-* Set `Start with an empty session` in `Settings -> Session -> Desktop Session`
-* Remove all bindings to screen edges in `Settings -> Mouse & Touchpad -> Screen Edges`
-* Disable automatic screen locking in `Settings -> Screen Locking -> Lock screen automatically`, set it to `Never`
-* Set default path in `Dolphin` file manager to home folder
+## Check `KDE-Settings.md` if you use KDE for some settings
 
 ## For Multimedia (FFmpeg/Mesa) from RPMFusion check this - [https://rpmfusion.org/Howto/Multimedia](https://rpmfusion.org/Howto/Multimedia)
 

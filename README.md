@@ -213,3 +213,6 @@ General Linux fixes
 
 ## Disable-USB-Autosuspend-Linux.md
 * Describes how to disable automatic USB suspension under Linux.
+
+## KDE-Settings.md
+* Provides some settings for KDE.
