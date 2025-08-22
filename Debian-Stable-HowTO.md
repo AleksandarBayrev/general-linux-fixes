@@ -49,7 +49,7 @@ deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free no
 ```
 # Install `linux-image-amd64` and `linux-headers-amd64` from `bookworm-backports` or `whatever release you are on-backports` for updated kernel
 # Or if a newer kernel is missing, but you need it (for example a newer GPU) - use [xanmod's kernels](https://xanmod.org/)
-# Install `make gcc g++ flex bison clang gcc-multilib g++-multilib autoconf automake build-essential` for development purposes
+# Install `cmake make gcc g++ flex bison clang gcc-multilib g++-multilib autoconf automake build-essential` for development purposes
 # IMPORTANT!!! - replace `bookworm` with the currently released stable version of Debian
 # IMPORTANT!!! - for pipewire - Ensure this continues working after a reboot. If not, you may need to "mask" the PulseAudio service by running:
 * `systemctl --user mask pulseaudio`
