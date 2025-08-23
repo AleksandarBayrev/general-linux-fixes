@@ -216,3 +216,6 @@ General Linux fixes
 
 ## KDE-Settings.md
 * Provides some settings for KDE.
+
+## Windows-98-VirtualMachine-HowTO.md
+* Some stuff for Windows 98 in a VM.

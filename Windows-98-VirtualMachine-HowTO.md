@@ -1,0 +1,2 @@
+# Install `Windows 98` with `patcher9x` if you are on a newer system
+# Disable 32 bit mode from `My Computer` -> `Properties` -> `Performance` -> `File System` -> `Troubleshooting` -> `Disable all 32 bit`
