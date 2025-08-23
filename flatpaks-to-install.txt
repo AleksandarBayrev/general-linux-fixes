@@ -41,3 +41,5 @@ org.videolan.VLC
 com.discordapp.Discord
 org.bunkus.mkvtoolnix-gui
 net.werwolv.ImHex
+org.freac.freac
+org.gnome.EasyTAG
