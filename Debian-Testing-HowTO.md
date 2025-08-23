@@ -41,3 +41,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.pdf` (and [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/))
 # NOTE: If you use VMware Workstation on Debian - run `sudo systemctl enable --now vmware` and restart your PC in order for the network/USB passthrough to work
 # Check `Disable-USB-Autosuspend-Linux.md`
+# Check `flatpaks-to-install.txt` if you need something as flatpak
