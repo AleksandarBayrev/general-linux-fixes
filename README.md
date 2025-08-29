@@ -219,3 +219,6 @@ General Linux fixes
 
 ## Windows-98-VirtualMachine-HowTO.md
 * Some stuff for Windows 98 in a VM.
+
+## Realtek-Wifi-Problems-Archer-T3U-Plus.md
+* Fix for random disconnects
