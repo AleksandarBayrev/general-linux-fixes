@@ -42,3 +42,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # NOTE: If you use VMware Workstation on Debian - run `sudo systemctl enable --now vmware` and restart your PC in order for the network/USB passthrough to work
 # Check `Disable-USB-Autosuspend-Linux.md`
 # Check `flatpaks-to-install.txt` if you need something as flatpak
+# Check Mediatek-WiFi-Debian.md for instructions on how to setup firmware
