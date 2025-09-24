@@ -42,11 +42,23 @@ deb-src http://security.debian.org/debian-security bookworm-security main contri
 
 deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
 deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
-
-# Backports allow you to install newer versions of software made available for this release
-deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
-deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 ```
+
+# To add backports:
+
+```text
+    Add a new file /etc/apt/sources.list.d/debian-backports.sources:
+
+    Types: deb deb-src
+    URIs: http://deb.debian.org/debian
+    Suites: trixie-backports
+    Components: main
+    Enabled: yes
+    Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+    Run apt update or apt-get update
+```
+
 # Install `linux-image-amd64` and `linux-headers-amd64` from `bookworm-backports` or `whatever release you are on-backports` for updated kernel
 # Or if a newer kernel is missing, but you need it (for example a newer GPU) - use [xanmod's kernels](https://xanmod.org/)
 # Install `linux-headers-$YOUR_ARCH cmake make gcc g++ flex bison clang gcc-multilib g++-multilib autoconf automake build-essential` for development purposes
