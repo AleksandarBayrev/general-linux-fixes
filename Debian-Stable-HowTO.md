@@ -26,7 +26,7 @@
 # Check `Gaming-Linux-HowTO.md` for gaming
 # Check `KDE-Settings.md` for some settings if you use KDE
 # To enable automatic time sync install `systemd-timesyncd`
-# To upgrade from one release to another - edit `/etc/apt/sources.list` and change codenames, don't skip versions because the system will break. Use `sudo apt full-upgrade` after changing release codename
+# To upgrade from one release to another - edit `/etc/apt/sources.list` and `/etc/apt/sources.list.d/* (all files)` and change codenames, don't skip versions because the system will break. Use `sudo apt full-upgrade` after changing release codename
 # If using other software such as NVIDIA drivers directly from NVIDIA's development repo - update this as well: `/etc/apt/sources.list.d/cuda-<distro>-x86_x64.list`. Rename it to next version and update the contents where `<distro>` is for example `debian12`
 ```
 deb [signed-by=/usr/share/keyrings/cuda-archive-keyring.gpg] https://developer.download.nvidia.com/compute/cuda/repos/<distro>/x86_64/
