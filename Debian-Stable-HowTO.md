@@ -4,6 +4,7 @@
 
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # Add `i386` architecture: `sudo dpkg --add-architecture i386`
+# Run `sudo apt modernize-sources` and remove `/etc/apt/sources.list` file and whatever else with suffix `~` or `.bak` (`sources.list~`, `sources.list.bak`)
 # Add user to `flatpak`, `libvirt`, `kvm`, `sudo` and `wheel` groups, then run `newgrp` to update them
 # Install `aptitude`, `apt-listbugs`, `apt-listchanges`
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
@@ -31,33 +32,53 @@
 ```
 deb [signed-by=/usr/share/keyrings/cuda-archive-keyring.gpg] https://developer.download.nvidia.com/compute/cuda/repos/<distro>/x86_64/
 ```
-# Example `/etc/apt/sources.list` for Debian Bookworm (version 12)
+# Example `/etc/apt/sources.list.d/debian.sources` for Debian Trixie (version 13)
 ```
-# See https://wiki.debian.org/SourcesList for more information.
-deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
-deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
-
-deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
-deb-src http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
-
-deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
-deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
-```
-
-# To add backports:
-
-```text
-Add a new file /etc/apt/sources.list.d/debian-backports.sources:
-
+# Main packages
 Types: deb deb-src
-URIs: http://deb.debian.org/debian
-Suites: trixie-backports
-Components: main
+URIs: http://deb.debian.org/debian/
+Suites: trixie
+Components: main contrib non-free non-free-firmware
 Enabled: yes
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
-Run apt update or apt-get update
+# Security
+Types: deb deb-src
+URIs: http://security.debian.org/debian-security/
+Suites: trixie-security
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Updates
+Types: deb deb-src
+URIs: http://deb.debian.org/debian/
+Suites: trixie-updates
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Debian Backports
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: trixie-backports
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 ```
+
+# To add backports add this to `/etc/apt/sources.list.d/debian.sources`:
+
+```text
+# Debian Backports
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: trixie-backports
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+```
+* Run `apt update && apt update -t trixie-backports`
 
 # Install `linux-image-amd64` and `linux-headers-amd64` from `bookworm-backports` or `whatever release you are on-backports` for updated kernel
 # Or if a newer kernel is missing, but you need it (for example a newer GPU) - use [xanmod's kernels](https://xanmod.org/)
