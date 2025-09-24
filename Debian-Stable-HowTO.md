@@ -47,16 +47,16 @@ deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-
 # To add backports:
 
 ```text
-    Add a new file /etc/apt/sources.list.d/debian-backports.sources:
+Add a new file /etc/apt/sources.list.d/debian-backports.sources:
 
-    Types: deb deb-src
-    URIs: http://deb.debian.org/debian
-    Suites: trixie-backports
-    Components: main
-    Enabled: yes
-    Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: trixie-backports
+Components: main
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
-    Run apt update or apt-get update
+Run apt update or apt-get update
 ```
 
 # Install `linux-image-amd64` and `linux-headers-amd64` from `bookworm-backports` or `whatever release you are on-backports` for updated kernel
