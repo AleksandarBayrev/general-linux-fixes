@@ -78,7 +78,7 @@ Components: main contrib non-free non-free-firmware
 Enabled: yes
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 ```
-* Run `apt update && apt update -t trixie-backports`
+* Run `apt update` and then install what you need from backports (I usually do `sudo apt dist-upgrade -t yourversion-backports` and then remove the kernel from backports, since I use xanmod's kernels)
 
 # Install `linux-image-amd64` and `linux-headers-amd64` from `bookworm-backports` or `whatever release you are on-backports` for updated kernel
 # Or if a newer kernel is missing, but you need it (for example a newer GPU) - use [xanmod's kernels](https://xanmod.org/)
