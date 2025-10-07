@@ -3,6 +3,7 @@
 ## If you run a Thinkpad with a fingerprint scanner check `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`
 
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
+# Check `mesa-custom-builds` when you need to run a newer Mesa version
 # Use `apt-mark $OPERATION` to mark as auto, hold, install package updates, etc.
 # Use `apt-cache policy PKG_NAME` to see available versions
 # Add `i386` architecture: `sudo dpkg --add-architecture i386`
