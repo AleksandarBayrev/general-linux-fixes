@@ -222,3 +222,6 @@ General Linux fixes
 
 ## Mediatek-WiFi-Debian.md
 * Debian specific stuff for running USB WiFi chips from Mediatek.
+
+## mesa-custom-builds
+* Describes how to compile and use custom mesa installs without replacing it system-wide
