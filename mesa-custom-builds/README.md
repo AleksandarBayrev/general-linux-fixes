@@ -22,3 +22,5 @@ OCL_ICD_VENDORS=$MESA/etc/OpenCL/vendors/rusticl.icd \
 ```
 * Copy it to `/bin`
 * Use `mesa-run your-executable` to point to the newer `mesa`
+* Or edit your application entries (for KDE an example with KDE Menu Editor):
+<img src="./kde-menu-howto.png" />
