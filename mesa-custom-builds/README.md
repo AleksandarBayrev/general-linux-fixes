@@ -2,6 +2,7 @@
 * Check prerequisites [here](https://docs.mesa3d.org/install.html)
 * Download the release
 * Unarchive the release and open it in a terminal
+* Recommended: use `distrobox` to create a container (whether Debian/Fedora/openSUSE) to compile the source and then remove it in order not to bloat your main system with stuff that you don't need globally
 * Run `meson setup build64 --libdir lib64 --prefix $HOME/path-to-mesa-build-result -Dbuildtype=release` (change --prefix to your folder)
 Example if compiling mesa 25.2.4: `meson setup build64 --libdir lib64 --prefix $HOME/mesa-custom/25.2.4 -Dbuildtype=release`
 * Run `meson compile -C build64` to compile it
