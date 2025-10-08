@@ -10,12 +10,12 @@ Example if compiling mesa 25.2.4: `meson setup build64 --libdir lib64 --prefix /
 * Run `meson compile -C build64` to compile it
 * Run `meson install -C build64` to install it to the prefix
 * Exit the container
-* Copy `./mesa-version` folder to `/opt/mesa-custom/mesa-version`
+* Copy `./mesa-version` folder to `$HOME/.mesa-custom/mesa-version`
 * Create a `mesa-run` bash script with the following content:
 ```bash
 #!/bin/sh
 
-MESA=/opt/mesa-custom/mesa-version \
+MESA=$HOME/.mesa-custom/mesa-version \
 LD_LIBRARY_PATH=$MESA/lib64:$MESA/lib:$LD_LIBRARY_PATH \
 LIBGL_DRIVERS_PATH=$MESA/lib64/dri:$MESA/lib/dri \
 VK_ICD_FILENAMES=$MESA/share/vulkan/icd.d/radeon_icd.x86_64.json:$MESA/share/vulkan/icd.d/radeon_icd.x86.json \
@@ -28,7 +28,7 @@ Example for 25.2.4
 ```bash
 #!/bin/sh
 
-MESA=/opt/mesa-custom/25.2.4 \
+MESA=$HOME/.mesa-custom/25.2.4 \
 LD_LIBRARY_PATH=$MESA/lib64:$MESA/lib:$LD_LIBRARY_PATH \
 LIBGL_DRIVERS_PATH=$MESA/lib64/dri:$MESA/lib/dri \
 VK_ICD_FILENAMES=$MESA/share/vulkan/icd.d/radeon_icd.x86_64.json:$MESA/share/vulkan/icd.d/radeon_icd.x86.json \
@@ -37,7 +37,8 @@ VDPAU_DRIVER_PATH=$MESA/lib64/vdpau \
 OCL_ICD_VENDORS=$MESA/etc/OpenCL/vendors/rusticl.icd \
     exec "$@"
 ```
-* Copy it to `/bin`
+* Copy it to `$HOME/.local/bin` (create the directory if missing)
+* Add in `.bashrc` after all path updates the line `export PATH=$PATH:~/.local/bin`
 * Use `mesa-run your-executable` to point to the newer `mesa`
 * Or edit your application entries (for KDE an example with KDE Menu Editor):
 <img src="./kde-menu-howto.png" />
