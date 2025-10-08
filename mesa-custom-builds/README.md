@@ -3,15 +3,32 @@
 * Download the release
 * Unarchive the release and open it in a terminal
 * Recommended: use `distrobox` to create a container (whether Debian/Fedora/openSUSE) to compile the source and then remove it in order not to bloat your main system with stuff that you don't need globally
-* Run `meson setup build64 --libdir lib64 --prefix $HOME/path-to-mesa-build-result -Dbuildtype=release` (change --prefix to your folder)
-Example if compiling mesa 25.2.4: `meson setup build64 --libdir lib64 --prefix $HOME/mesa-custom/25.2.4 -Dbuildtype=release`
+* Enter the newly created container
+* Install mesa build dependencies
+* Run `meson setup build64 --libdir lib64 --prefix /absolute-path-to-source/mesa-version -Dbuildtype=release` (change --prefix to your folder)
+Example if compiling mesa 25.2.4: `meson setup build64 --libdir lib64 --prefix /home/aleksandar/Downloads/mesa-25.2.4/25.2.4 -Dbuildtype=release`
 * Run `meson compile -C build64` to compile it
-* Run `sudo meson install -C build64` to install it to the prefix
+* Run `meson install -C build64` to install it to the prefix
+* Exit the container
+* Copy `./mesa-version` folder to `/opt/mesa-custom/mesa-version`
 * Create a `mesa-run` bash script with the following content:
 ```bash
 #!/bin/sh
 
-MESA=$HOME/path-to-mesa-build-result \
+MESA=/opt/mesa-custom/mesa-version \
+LD_LIBRARY_PATH=$MESA/lib64:$MESA/lib:$LD_LIBRARY_PATH \
+LIBGL_DRIVERS_PATH=$MESA/lib64/dri:$MESA/lib/dri \
+VK_ICD_FILENAMES=$MESA/share/vulkan/icd.d/radeon_icd.x86_64.json:$MESA/share/vulkan/icd.d/radeon_icd.x86.json \
+LIBVA_DRIVERS_PATH=$MESA/lib64/dri:$MESA/lib/dri \
+VDPAU_DRIVER_PATH=$MESA/lib64/vdpau \
+OCL_ICD_VENDORS=$MESA/etc/OpenCL/vendors/rusticl.icd \
+    exec "$@"
+```
+Example for 25.2.4
+```bash
+#!/bin/sh
+
+MESA=/opt/mesa-custom/25.2.4 \
 LD_LIBRARY_PATH=$MESA/lib64:$MESA/lib:$LD_LIBRARY_PATH \
 LIBGL_DRIVERS_PATH=$MESA/lib64/dri:$MESA/lib/dri \
 VK_ICD_FILENAMES=$MESA/share/vulkan/icd.d/radeon_icd.x86_64.json:$MESA/share/vulkan/icd.d/radeon_icd.x86.json \
