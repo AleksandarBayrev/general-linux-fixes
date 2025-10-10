@@ -225,3 +225,6 @@ General Linux fixes
 
 ## mesa-custom-builds
 * Describes how to compile and use custom mesa installs without replacing it system-wide
+
+## Kodi-How-TO.md
+* Describes how to set up Kodi and use Samba shares.

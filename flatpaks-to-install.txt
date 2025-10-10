@@ -44,3 +44,4 @@ net.werwolv.ImHex
 org.freac.freac
 org.gnome.EasyTAG
 no.mifi.losslesscut
+tv.kodi.Kodi
