@@ -3,6 +3,7 @@
 * Download the release
 * Unarchive the release and open it in a terminal
 * Recommended: use `distrobox` to create a container (whether Debian/Fedora/openSUSE) to compile the source and then remove it in order not to bloat your main system with stuff that you don't need globally
+* Recommended: if you are going to use [mesa-custom-launcher](https://github.com/AleksandarBayrev/mesa-custom-launcher) use the example compiling command to put the version in the correct folder (create `$HOME/.mesa-custom` if it does not exist beforehand)
 * Enter the newly created container
 * Install mesa build dependencies
 * Run `meson setup builddir --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=all -Dbuildtype=release` (change --prefix to your folder)
