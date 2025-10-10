@@ -5,10 +5,10 @@
 * Recommended: use `distrobox` to create a container (whether Debian/Fedora/openSUSE) to compile the source and then remove it in order not to bloat your main system with stuff that you don't need globally
 * Enter the newly created container
 * Install mesa build dependencies
-* Run `meson setup build64 --libdir lib64 --prefix /absolute-path-to-source/mesa-version -Dbuildtype=release` (change --prefix to your folder)
-Example if compiling mesa 25.2.4: `meson setup build64 --libdir lib64 --prefix /home/aleksandar/Downloads/mesa-25.2.4/25.2.4 -Dbuildtype=release`
-* Run `meson compile -C build64` to compile it
-* Run `meson install -C build64` to install it to the prefix
+* Run `meson setup builddir --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=all -Dbuildtype=release` (change --prefix to your folder)
+Example if compiling mesa 25.2.4: `meson setup builddir --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=all -Dbuildtype=release`
+* Run `meson compile -C builddir` to compile it
+* Run `meson install -C builddir` to install it to the prefix
 * Exit the container
 * Copy `./mesa-version` folder to `$HOME/.mesa-custom/mesa-version`
 * Create a `mesa-run` bash script with the following content:
