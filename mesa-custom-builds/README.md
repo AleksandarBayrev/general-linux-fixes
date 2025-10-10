@@ -6,8 +6,8 @@
 * Recommended: if you are going to use [mesa-custom-launcher](https://github.com/AleksandarBayrev/mesa-custom-launcher) use the example compiling command to put the version in the correct folder (create `$HOME/.mesa-custom` if it does not exist beforehand)
 * Enter the newly created container
 * Install mesa build dependencies
-* Run `meson setup builddir --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=all -Dbuildtype=release` (change --prefix to your folder)
-Example if compiling mesa 25.2.4: `meson setup builddir --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=all -Dbuildtype=release`
+* Run `meson setup builddir --libdir lib64 --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=all -Dgallium-rusticl=true -Dbuildtype=release` (change --prefix to your folder)
+Example if compiling mesa 25.2.4: `meson setup builddir --libdir lib64 --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=all -Dgallium-rusticl=true -Dbuildtype=release`
 * Run `meson compile -C builddir` to compile it
 * Run `meson install -C builddir` to install it to the prefix
 * Exit the container
