@@ -10,4 +10,4 @@
 * Run `sudo apt install -y ./*.deb` on the built packages and reboot your PC (example: `sudo apt install -y ./linux-headers-6.16.11+deb13-custom_6.16.11-13_amd64.deb ./linux-image-6.16.11+deb13-custom_6.16.11-13_amd64.deb ./linux-libc-dev_6.16.11-13_amd64.deb`)
 ## NOTE: If the `make bindeb-pkg -jNUM_THREADS LOCALVERSION=yourversion-architecture` fails - run it without the `-jNUM_THREADS` parameter to see the error (`make bindeb-pkg LOCALVERSION=yourversion-architecture`, example: `make bindeb-pkg LOCALVERSION=+deb13-custom-amd64`)
 
-## NOTE: If for some reason LACT breaks - edit `/etc/systemd/system/lactd.service`: set `ExecStart` to `ExecStart=/var/lib/flatpak/app/io.github.ilya_zlobintsev.LACT/x86_64/stable/active/files/bin/lact daemon`
+## NOTE: If for some reason LACT breaks - edit `/etc/systemd/system/lactd.service`: set `ExecStart` to `ExecStart=/var/lib/flatpak/app/io.github.ilya_zlobintsev.LACT/x86_64/stable/active/files/bin/lact daemon` (if you run flatpak (recommended!))
