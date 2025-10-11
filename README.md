@@ -228,3 +228,6 @@ General Linux fixes
 
 ## Kodi-How-TO.md
 * Describes how to set up Kodi and use Samba shares.
+
+## Android-Development-Setup.md
+* Describes how to setup your PC for Android development/use Virtual Devices.
