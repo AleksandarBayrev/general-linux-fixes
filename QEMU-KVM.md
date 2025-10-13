@@ -22,3 +22,5 @@
     <outbound average="6000" peak="6000" burst="6000"/>
 </bandwidth>
 ```
+
+# For Windows VM - use `QXL` display adapter, set Display to `Spice`, add Tablet `EvTouch Graphics Tablet` for mouse precision
