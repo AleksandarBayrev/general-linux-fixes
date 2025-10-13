@@ -52,3 +52,4 @@ options snd_hda_intel power_save=0
 options snd_hda_intel power_save_controller=N
 ````
 # And run `sudo update-initramfs -u`
+# Potential fix for audio distortion/stutter on older machines - https://wiki.debian.org/PipeWire#choppy_audio_on_systems_with_high_load
