@@ -13,6 +13,6 @@ Example if compiling mesa 25.2.4: `meson setup builddir --libdir lib64 --prefix=
 * Run `meson install -C builddir` to install it to the prefix
 * Exit the container
 * Add in `.bashrc` after all path updates the line `export PATH=$PATH:~/.local/bin`
-* Use `mesa-custom-launcher YOUR_MESA_VERSION your_app [...your_args]` to point to the newer `Mesa`
+* Use [mesa-custom-launcher](https://github.com/AleksandarBayrev/mesa-custom-launcher) like this: `mesa-custom-launcher YOUR_MESA_VERSION your_app [...your_args]` to point to the newer `Mesa`
 * Or edit your application entries (for KDE an example with KDE Menu Editor):
 <img src="./kde-menu-howto.png" />
