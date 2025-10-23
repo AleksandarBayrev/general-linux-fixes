@@ -82,7 +82,7 @@ Components: main contrib non-free non-free-firmware
 Enabled: yes
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 ```
-* Run `apt update` and then install what you need from backports (I usually do `sudo apt dist-upgrade -t yourversion-backports` and then downgrade the kernel metapackages from backports to stable (`linux-image-amd64`, `linux-headers-amd64` and `linux-libc-dev`) via `sudo apt install linux-image-amd64/stable-security linux-libc-dev/stable-security linux-headers-amd64/stable-security`, and then install custom kernels (since I use xanmod's kernels) (not anymore, I'm building my own))
+* Run `apt update` and then install what you need from backports (I usually do `sudo apt dist-upgrade -t yourversion-backports` and then downgrade the kernel metapackages from backports to stable (always use current codename) (`linux-image-amd64`, `linux-headers-amd64` and `linux-libc-dev`) via `sudo apt install linux-image-amd64/codename-security linux-libc-dev/codename-security linux-headers-amd64/codename-security`, and then install custom kernels (since I use xanmod's kernels) (not anymore, I'm building my own))
 
 # Install `linux-image-amd64` and `linux-headers-amd64` from `bookworm-backports` or `whatever release you are on-backports` for updated kernel
 # Or if a newer kernel is missing, but you need it (for example a newer GPU) - compile your own following the guide `Debian-Compile-Kernel-HowTO.md`
