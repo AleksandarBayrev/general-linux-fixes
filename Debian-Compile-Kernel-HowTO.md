@@ -1,6 +1,8 @@
 # Steps:
-* Use `distrobox` to create a container that will hold the required packages to compile the kernel (`make bindeb-pkg` will throw them as an error) (it is recommended to install either the latest Debian, or the one that you are currently running)
-* Run in the container: `sudo apt install zstd`
+* Use `distrobox` to create a container that will hold the required packages to compile the kernel
+* Use `debian` image
+* Check `Debian-Stable-HowTO.md` and update the sources from there
+* Enter the container and run `sudo apt-get build-dep linux`
 * Clone the version you want to compile (example 6.16.11)
 * Copy the existing config to the folder (Example: `cp -v /boot/config-6.12.48+deb13-amd64 .config`)
 * `make olddefconfig`
