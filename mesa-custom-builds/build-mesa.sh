@@ -9,12 +9,15 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+# Environment setup
 MESA_VERSION="$1"
 ARCHIVE_NAME="mesa-$MESA_VERSION.tar.xz"
 SOURCE_DIR="mesa-$MESA_VERSION"
 DOWNLOAD_URL="https://archive.mesa3d.org/$ARCHIVE_NAME"
 BUILD_DIR="builddir"
 PREFIX_PATH="$HOME/.mesa-custom/$MESA_VERSION"
+# End of environment setup
+
 if [ -d "$PREFIX_PATH" ]; then
     echo "ℹ️ Mesa version already exists: $MESA_VERSION"
     exit 0
