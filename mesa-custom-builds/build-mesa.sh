@@ -67,8 +67,11 @@ if command -v meson &> /dev/null; then
     meson install -C "$BUILD_DIR"
 
     echo "✅ Successfully downloaded, built, and installed Mesa $MESA_VERSION to $PREFIX_PATH"
+    cd ..
     echo "💥 Removing existing source directory: $SOURCE_DIR"
     rm -rf "$SOURCE_DIR"
+    echo "💥 Removing existing archive: $ARCHIVE_NAME"
+    rm -rf "$ARCHIVE_NAME"
 else 
     echo "❌ Error: meson is not installed."
     exit 1
