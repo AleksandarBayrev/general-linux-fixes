@@ -16,3 +16,5 @@ Example if compiling mesa 25.2.4: `meson setup builddir --libdir lib64 --prefix=
 * Use [mesa-custom-launcher](https://github.com/AleksandarBayrev/mesa-custom-launcher) like this: `mesa-custom-launcher YOUR_MESA_VERSION your_app [...your_args]` to point to the newer `Mesa`
 * Or edit your application entries (for KDE an example with KDE Menu Editor):
 <img src="./kde-menu-howto.png" />
+
+* Or add it to the `Steam` launch options for example directly: `mesa-custom-launcher my-version %command%`
