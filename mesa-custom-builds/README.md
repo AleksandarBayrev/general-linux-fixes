@@ -18,3 +18,5 @@ Example if compiling mesa 25.2.4: `meson setup builddir --libdir lib64 --prefix=
 <img src="./kde-menu-howto.png" />
 
 * Or add it to the `Steam` launch options for example directly: `mesa-custom-launcher my-version %command%`
+* For `Heroic Games Launcher` per game override use the `Wrapper command` in `Properties` -> `Advanced`:
+<img src="./custom-mesa-heroic.png" />
