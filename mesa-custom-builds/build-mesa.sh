@@ -36,12 +36,16 @@ if [ ! -f "$ARCHIVE_NAME" ]; then
     fi
 else
     echo "ℹ️ Archive already exists. Skipping download."
+    sleep 2
 fi
 
 echo "📦 Unpacking source code..."
+sleep 2
+
 if [ -d "$SOURCE_DIR" ]; then
     echo "💥 Removing existing source directory: $SOURCE_DIR"
     rm -rf "$SOURCE_DIR"
+    sleep 2
 fi
 tar -xvf "$ARCHIVE_NAME"
 
@@ -50,7 +54,11 @@ cd "$SOURCE_DIR"
 echo "🚀 Starting Mesa build for version: $MESA_VERSION"
 echo "Installation directory will be: $PREFIX_PATH"
 
+sleep 2
+
 echo "⚒️ Configuring build..."
+
+sleep 2
 
 if command -v meson &> /dev/null; then
     meson setup "$BUILD_DIR" \
