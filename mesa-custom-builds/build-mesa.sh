@@ -65,7 +65,7 @@ if command -v meson &> /dev/null; then
         --libdir lib64 \
         --prefix="$PREFIX_PATH" \
         -Dgallium-drivers=all \
-        -Dvulkan-drivers=radeon,intel,swrast \
+        -Dvulkan-drivers=amd,intel,swrast \
         -Dgallium-rusticl=true \
         -Dllvm=enabled \
         -Dvideo-codecs=all \
