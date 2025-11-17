@@ -7,8 +7,8 @@
 * Enter the newly created container
 * Install Mesa build dependencies
 * Two options: copy `build-mesa.sh` somewhere and follow the steps OR do it manually as described below
-* Run `meson setup builddir --libdir lib64 --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=all -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release` (change --prefix to your folder)
-Example if compiling mesa 25.2.4: `meson setup builddir --libdir lib64 --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=all -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release`
+* Run `meson setup builddir --libdir lib64 --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release` (change --prefix to your folder)
+Example if compiling mesa 25.2.4: `meson setup builddir --libdir lib64 --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release`
 * Run `meson compile -C builddir` to compile it
 * Run `meson install -C builddir` to install it to the prefix
 * Exit the container
