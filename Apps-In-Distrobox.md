@@ -1,0 +1,1 @@
+# If using `Google Chrome` for example via `distrobox` install `pipewire` to have sound in it
