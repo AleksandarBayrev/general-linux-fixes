@@ -1,0 +1,1 @@
+# Install `network-manager-openvpn` or whatever the name is of the package for other distros to add support for GUI connection to the OpenVPN server
