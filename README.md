@@ -231,3 +231,6 @@ General Linux fixes
 
 ## Android-Development-Setup.md
 * Describes how to setup your PC for Android development/use Virtual Devices.
+
+## Wine-Configuration-Per-App.md
+* Describes how to do per app overrides in wine instead of using multiple separate wine bottles (in that case the example is with Rockstar Games Launcher, I've installed multiple games there and I need a specific override only for GTA IV)
