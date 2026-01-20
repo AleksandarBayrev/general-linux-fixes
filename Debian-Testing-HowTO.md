@@ -48,3 +48,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Check `Mediatek-WiFi-Debian.md` for instructions on how to setup firmware (if you have problems)
 # Check `Apps-In-Distrobox.md`
 # For using `OpenVPN` configuration check `OpenVPN-Configuration-Linux.md`
+# If using APC UPS - check `Linux-UPS-APC-HowTO.md`

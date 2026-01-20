@@ -237,3 +237,6 @@ General Linux fixes
 
 ## Gaming-Software.md
 * Gaming software that I use (stores, launchers)
+
+## Linux-UPS-APC-HowTO.md
+* Describes how to configure APC UPS under Linux.
