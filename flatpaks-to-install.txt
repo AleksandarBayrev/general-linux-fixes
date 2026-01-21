@@ -45,3 +45,4 @@ org.freac.freac
 org.gnome.EasyTAG
 no.mifi.losslesscut
 tv.kodi.Kodi
+org.fooyin.fooyin
