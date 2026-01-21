@@ -1,4 +1,38 @@
 # Check `ALSA-Fixes.md`
+# For pipewire the general method is this:
+## For PipeWire (Modern Standard)
+
+### PipeWire is more flexible because it allows for a "list" of allowed sample rates, preventing unnecessary resampling.
+
+### Create a user config directory:
+```sh
+mkdir -p ~/.config/pipewire/
+```
+
+### Copy the default config to your user folder:
+
+```sh
+cp /usr/share/pipewire/pipewire.conf ~/.config/pipewire/
+```
+
+### Edit the file: Open it with a text editor (like nano or gedit).
+
+```sh
+nano ~/.config/pipewire/pipewire.conf
+```
+
+### Modify the clock rates: Find the context.properties section and look for these lines (remove the # to uncomment them):
+```ini
+default.clock.rate = 48000
+
+default.clock.allowed-rates = [ 44100, 48000, 88200, 96000, 192000 ]
+```
+### Save and Restart: Press Ctrl+O, Enter, and Ctrl+X. Then restart PipeWire:
+
+```sh
+systemctl --user restart pipewire
+```
+
 # If you use `wireplumber` with version higher than 0.5 it's easier to do it like this:
 * Run `wpctl status` and find `Audio` -> `Sources` -> your device
 ```text
