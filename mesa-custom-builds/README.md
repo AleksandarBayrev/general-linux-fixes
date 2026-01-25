@@ -3,7 +3,7 @@
 * Download the release
 * Unarchive the release and open it in a terminal
 * Recommended: use `distrobox` to create containers (for both 32 and 64-bit Mesa libraries) (whether Debian/Fedora/openSUSE) to compile the source and then remove it in order not to bloat your main system with stuff that you don't need globally
-* I suggest Debian 32-bit and 64-bit separate containers, to create them run these commands:
+* I suggest Debian 32-bit and 64-bit separate containers, to create them run these commands to install Debian x86 and x64 (change 13 to your version):
 ```sh
 distrobox create --image docker.io/i386/debian:13 --name debianx86 --platform linux/i386 # For the 32-bit
 distrobox create --image docker.io/debian:13 --name debianx64 --platform linux/amd64 # For the 64-bit
