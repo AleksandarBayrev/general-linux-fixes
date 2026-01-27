@@ -39,3 +39,5 @@ sudo modprobe ntsync
 ```
 
 # To check if it's working run `lsof /dev/ntsync` and you should see processes that use the driver.
+
+# To use the NTSYNC benefits - check `Lutris-NTSYNC.md` in the `random-important-stuff` repo
