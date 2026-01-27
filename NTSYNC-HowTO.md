@@ -37,3 +37,5 @@ If you don't want to restart your computer immediately to start using it, load i
 ```sh
 sudo modprobe ntsync
 ```
+
+# To check if it's working run `lsof /dev/ntsync` and you should see processes that use the driver.
