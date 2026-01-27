@@ -50,3 +50,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # For using `OpenVPN` configuration check `OpenVPN-Configuration-Linux.md`
 # If using APC UPS - check `Linux-UPS-APC-HowTO.md`
 # Install `fooyin` for listening to music (use flatpak)
+# Check `NTSYNC-HowTO.md`

@@ -105,3 +105,4 @@ Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 # For using `OpenVPN` configuration check `OpenVPN-Configuration-Linux.md`
 # If using APC UPS - check `Linux-UPS-APC-HowTO.md`
 # Install `fooyin` for listening to music (use flatpak)
+# Check `NTSYNC-HowTO.md`

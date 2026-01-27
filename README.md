@@ -240,3 +240,6 @@ General Linux fixes
 
 ## Linux-UPS-APC-HowTO.md
 * Describes how to configure APC UPS under Linux.
+
+## NTSYNC-HowTO.md
+* Describes how to configure NTSYNC
