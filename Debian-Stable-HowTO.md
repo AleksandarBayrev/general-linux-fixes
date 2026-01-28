@@ -33,6 +33,7 @@
 # To enable automatic time sync install `systemd-timesyncd`
 # IMPORTANT!!! - check with `apt-mark showhold` any hold package versions and unhold them before upgrading!
 # To upgrade from one release to another - edit `/etc/apt/sources.list` (or if using the method below `/etc/apt/sources.list.d/debian.sources`) and `/etc/apt/sources.list.d/* (all files)` and change codenames, don't skip versions because the system will break. Use `sudo apt full-upgrade` after changing release codename
+# IMPORTANT!!! - if using NVIDIA - do not use backports, install newer kernels manually and verify that the DKMS compiles the proprietary driver successfully!
 # If using other software such as NVIDIA drivers directly from NVIDIA's development repo - update this as well: `/etc/apt/sources.list.d/cuda-<distro>-x86_x64.list`. Rename it to next version and update the contents where `<distro>` is for example `debian12`
 ```
 deb [signed-by=/usr/share/keyrings/cuda-archive-keyring.gpg] https://developer.download.nvidia.com/compute/cuda/repos/<distro>/x86_64/
