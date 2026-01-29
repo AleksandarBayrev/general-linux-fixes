@@ -19,6 +19,13 @@ else
     echo "⏩ Symlink not found, skipping..."
 fi
 
+if [ -f "$BIN_DIR/gamescope-runner" ]; then
+    echo "🗑️ Removing file: $BIN_DIR/gamescope-runner"
+    rm "$BIN_DIR/gamescope-runner"
+else
+    echo "⏩ File not found, skipping..."
+fi
+
 # 2. Remove the shared files
 if [ -d "$INSTALL_DIR" ]; then
     echo "📁 Removing installation directory: $INSTALL_DIR"

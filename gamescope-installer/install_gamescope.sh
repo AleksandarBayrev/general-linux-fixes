@@ -35,6 +35,16 @@ echo "🔗 Creating symbolic link in $BIN_DIR..."
 ln -sf "$INSTALL_DIR/gamescope" "$BIN_DIR/gamescope"
 ln -sf "$INSTALL_DIR/gamescopereaper" "$BIN_DIR/gamescopereaper"
 
+GS_RUNNER_FILE="gamescope-runner"
+
+# Check if the source file exists in the current directory
+if [ ! -f "$GS_RUNNER_FILE" ]; then
+    echo "❌ Error: Source file '$GS_RUNNER_FILE' not found in $(pwd)!" >&2
+    exit 1
+fi
+
+cp $GS_RUNNER_FILE "$BIN_DIR/$GS_RUNNER_FILE"
+
 echo "---"
 echo "✅ Installation complete!"
 echo ""
