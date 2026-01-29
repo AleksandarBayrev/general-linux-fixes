@@ -27,3 +27,5 @@ wait $GS_PID
 
 # Clean up
 killall -9 -u $(whoami) gamescopereaper gamescope 2>/dev/null
+
+exit 0
