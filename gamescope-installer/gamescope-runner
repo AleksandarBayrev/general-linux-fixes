@@ -1,30 +1,29 @@
 #!/bin/bash
 
-# Extract arguments until the double dash "--"
-# Usage: gamescope-runner [gamescope-args] -- %command%
-
 GS_ARGS=()
-while [[ $# -gt 0 && "$1" != "--" ]]; do
-  GS_ARGS+=("$1")
-  shift
+COMMAND=()
+FOUND_SEPARATOR=false
+
+for arg in "$@"; do
+  if [[ "$arg" == "--" && "$FOUND_SEPARATOR" == false ]]; then
+    FOUND_SEPARATOR=true
+    continue
+  fi
+
+  if [[ "$FOUND_SEPARATOR" == true ]]; then
+    COMMAND+=("$arg")
+  else
+    GS_ARGS+=("$arg")
+  fi
 done
 
-# Shift away the "--" so only the game command remains
-if [[ "$1" == "--" ]]; then
-  shift
-fi
+# Safety check: if no -- was provided, the whole thing is GS_ARGS
+# You might want to handle that case depending on your Steam launch options.
 
-# 1. Launch Gamescope with the passed arguments
-gamescope "${GS_ARGS[@]}" -- "$@" &
-
-# 2. Capture Gamescope PID
+gamescope "${GS_ARGS[@]}" -- "${COMMAND[@]}" &
 GS_PID=$!
 
-# 3. Wait for Gamescope to exit
 wait $GS_PID
 
-# 4. Cleanup: Target only this user's reaper/gamescope instances
-# We use -u to avoid accidentally hitting system processes
+# Clean up
 killall -9 -u $(whoami) gamescopereaper gamescope 2>/dev/null
-
-exit 0
