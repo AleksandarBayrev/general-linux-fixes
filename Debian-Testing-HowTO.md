@@ -51,4 +51,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # If using APC UPS - check `Linux-UPS-APC-HowTO.md`
 # Install `fooyin` for listening to music (use flatpak)
 # Check `NTSYNC-HowTO.md`
-# If you want to use gamescope - check `gamescope-installer` folder
+# If you want to use gamescope - check `gamescope-installer` folder and `Gamescope-Notes.md` in `random-important-stuff`
