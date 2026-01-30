@@ -52,3 +52,4 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Install `fooyin` for listening to music (use flatpak)
 # Check `NTSYNC-HowTO.md`
 # If you want to use gamescope - check `gamescope-installer` folder and `Gamescope-Notes.md` in `random-important-stuff`
+# Check `Linux-Gaming-Notes.md` in `random-important-stuff` for useful tips mostly for old games (to limit CPU cores for example)
