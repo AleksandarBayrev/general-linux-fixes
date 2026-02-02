@@ -4,6 +4,14 @@ GS_ARGS=()
 COMMAND=()
 FOUND_SEPARATOR=false
 
+# 1. Check if the script was called with zero arguments
+if [ $# -eq 0 ]; then
+    echo "No arguments provided. Showing gamescope help:"
+    gamescope --help
+    exit 0
+fi
+
+# 2. Parse arguments
 for arg in "$@"; do
   if [[ "$arg" == "--" && "$FOUND_SEPARATOR" == false ]]; then
     FOUND_SEPARATOR=true
@@ -17,15 +25,13 @@ for arg in "$@"; do
   fi
 done
 
-# Safety check: if no -- was provided, the whole thing is GS_ARGS
-# You might want to handle that case depending on your Steam launch options.
-
+# 3. Execution
 gamescope "${GS_ARGS[@]}" -- "${COMMAND[@]}" &
 GS_PID=$!
 
 wait $GS_PID
 
-# Clean up
+# 4. Clean up
 killall -9 -u $(whoami) gamescopereaper gamescope 2>/dev/null
 
 exit 0
