@@ -19,6 +19,7 @@ deb http://security.debian.org/debian-security/ testing-security main contrib no
 deb-src http://security.debian.org/debian-security/ testing-security main contrib non-free non-free-firmware
 ```
 # Install `aptitude`, `apt-listbugs`, `apt-listchanges`
+# For AMD GPUs - check `AMD-GPUs-Linux-Control-Panel.md`
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `systemd-zram-generator` and `zram-tools`
