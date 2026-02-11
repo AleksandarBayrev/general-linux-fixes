@@ -243,3 +243,6 @@ General Linux fixes
 
 ## NTSYNC-HowTO.md
 * Describes how to configure NTSYNC
+
+## DOTNET-Development-Setup.md
+* Describes how to setup .NET under Linux/Mac.
