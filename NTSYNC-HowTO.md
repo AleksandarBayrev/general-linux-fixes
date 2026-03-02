@@ -1,4 +1,5 @@
 # NTSYNC Supposedly increases overall system performance
+# Debian backported kernels already have it enabled, skip to `Steps to enable it`
 # To add it it is recommended to compile a custom kernel, check `Debian-Compile-Kernel-HowTO.md`
 * If you want to run `make menuconfig` to setup additional stuff run `cp -v .config .config_bak` to preserve the original configuration. Pressing slash (/) on the keyboard opens up a search where you can look for modules that you want to include. (Suggested modules (it didn't have huge impact with version 6.16.11, could check with newer versions) - add ntsync (press M to compile it as a module and then use modprobe or create a config in `/etc/modules-load.d/` to load it)). For other additional settings check how they should be compiled
 # Steps to enable it
