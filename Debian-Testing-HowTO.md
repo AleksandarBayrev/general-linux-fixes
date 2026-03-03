@@ -45,7 +45,7 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.md` (and [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/))
 # NOTE: If you use VMware Workstation on Debian - run `sudo systemctl enable --now vmware` and restart your PC in order for the network/USB passthrough to work
 # Check `Disable-USB-Autosuspend-Linux.md`
-# Check `flatpaks-to-install.txt` if you need something as flatpak
+# Flatpaks: check `flatpaks-to-install.txt` (important: check this file every time you reinstall! (DBeaver for example is important when you use SQLite for example))
 # Check `Mediatek-WiFi-Debian.md` for instructions on how to setup firmware (if you have problems)
 # Check `Apps-In-Distrobox.md`
 # For using `OpenVPN` configuration check `OpenVPN-Configuration-Linux.md`

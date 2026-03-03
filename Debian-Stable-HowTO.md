@@ -20,7 +20,7 @@
 # Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `btop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `rar`, `unrar`, `usbutils`, `smartmontools`, `nvme-cli` and `qt6-wayland`
 # Install `bash-completion` for bash autocomplete
 # Install `nvtop` if you have a NVIDIA GPU
-# Flatpaks: check `flatpaks-to-install.txt`
+# Flatpaks: check `flatpaks-to-install.txt` (important: check this file every time you reinstall! (DBeaver for example is important when you use SQLite for example))
 # Install `Thumbnail Grid` task switcher for KDE.
 # Install `clinfo` to show display system info.
 # Install `acpi` to check battery status (on laptops)
@@ -101,7 +101,6 @@ Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 # If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.md` (and [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/))
 # NOTE: If you use VMware Workstation on Debian - run `sudo systemctl enable --now vmware` and restart your PC in order for the network/USB passthrough to work
 # Check `Disable-USB-Autosuspend-Linux.md`
-# Check `flatpaks-to-install.txt` if you need something as flatpak
 # Check `Mediatek-WiFi-Debian.md` for instructions on how to setup firmware (if you have problems)
 # Check `Apps-In-Distrobox.md`
 # For using `OpenVPN` configuration check `OpenVPN-Configuration-Linux.md`
