@@ -1,5 +1,24 @@
 # NVIDIA Fixes Linux
 
+## I mainly use Debian, so how I do it is download a driver installer (.run file) from the NVIDIA's site
+## Installation steps:
+* Main prerequisites are `dkms`, `kernel headers` and `32-bit` support, install them like this:
+```bash
+# Ensure 32-bit architecture is active
+sudo dpkg --add-architecture i386
+sudo apt update
+
+# Install DKMS and the 32-bit base libraries
+sudo apt install dkms libc6:i386 linux-headers-amd64
+```
+* Install it via `Ctrl+Alt+F3` or via `recovery mode` (I prefer recovery mode)
+* Run the script `sudo ./NVIDIA-Linux-x86_64-*.run` (if you have 32-bit problems append `--compat32-libdir=/usr/lib/i386-linux-gnu` argument)
+* When prompted for DKMS press yes
+* Remove `/etc/X11/xorg.conf` if you have a laptop with dual GPUs and no MUX switch.
+* Reboot
+
+# IMPORTANT!!! Use the fixes below only if you have any problems, otherwise stick to the steps above
+
 ## To use Wayland create a file `/etc/modprobe.d/nvidia.conf` with the following contents
 ```ini
 options nvidia_drm modeset=1
