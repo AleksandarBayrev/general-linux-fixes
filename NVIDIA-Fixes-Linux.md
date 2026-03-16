@@ -15,6 +15,7 @@ sudo apt install dkms libc6:i386 linux-headers-amd64
 * Run the script `sudo ./NVIDIA-Linux-x86_64-*.run` (if you have 32-bit problems append `--compat32-libdir=/usr/lib/i386-linux-gnu` argument)
 * When prompted for DKMS press yes
 * Remove `/etc/X11/xorg.conf` if you have a laptop with dual GPUs and no MUX switch.
+* Run `sudo dkms autoinstall` if you use DKMS to build the module (do it after reboot as well if it doesn't build for a newer kernel)
 * Reboot
 
 # IMPORTANT!!! Use the fixes below only if you have any problems, otherwise stick to the steps above
