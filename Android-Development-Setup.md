@@ -2,8 +2,8 @@
 ```bash
 # Android
 export ANDROID_HOME="$HOME/Android/sdk"
-export PATH=$PATH:"$ANDROID_HOME/cmdline-tools/latest/bin"
-export PATH=$PATH:"$ANDROID_HOME/platform-tools"
+export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export NDK_HOME="$ANDROID_HOME/ndk/28.2.13676358" # point it to the version you will install below
 ```
 # Download and extract `Android Studio`
