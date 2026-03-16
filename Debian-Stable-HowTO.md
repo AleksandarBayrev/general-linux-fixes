@@ -10,6 +10,7 @@
 # Run `sudo apt modernize-sources` and remove `/etc/apt/sources.list` file and whatever else with suffix `~` or `.bak` (`sources.list~`, `sources.list.bak`)
 # Add user to `flatpak`, `libvirt`, `kvm`, `sudo` and `wheel` groups, then run `newgrp` to update them
 # Install `aptitude`, `apt-listbugs`, `apt-listchanges`
+# Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)
 # To update the system - `sudo apt update && sudo apt update -t codename-backports && sudo apt dist-upgrade && sudo apt dist-upgrade -t codename-backports` where `codename` is your current Debian version
 # Upgrade system process - first update the current system, then change codename in `/etc/apt/sources.list` and then upgrade via `sudo apt dist-upgrade`

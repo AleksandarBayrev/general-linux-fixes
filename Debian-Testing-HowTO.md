@@ -6,6 +6,7 @@
 # Use `apt-mark $OPERATION` to mark as auto, hold, install package updates, etc.
 # Use `apt-cache policy PKG_NAME` to see available versions
 # Add `i386` architecture: `sudo dpkg --add-architecture i386`
+# Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
 # Add user to `flatpak`, `libvirt`, `kvm`, `sudo` and `wheel` groups, then run `newgrp` to update them
 # Update `/etc/apt/sources.list` like this:
 ```
