@@ -8,9 +8,10 @@
 Most modern Linux distributions (Arch, Fedora, Ubuntu, Debian) use systemd, which looks at the /etc/modules-load.d/ directory to determine which drivers to start at boot.
 
 Open your terminal and run the following command to create a new config file:
-Bash
 
+```sh
 sudo nano /etc/modules-load.d/ntsync.conf
+```
 
 ### Add the Module Name
 
