@@ -33,6 +33,7 @@
 # Check `Gaming-Linux-HowTO.md` for gaming
 # Check `KDE-Settings.md` for some settings if you use KDE
 # Check `Gaming-Software.md`
+# Install `rocm-smi` if you want to have GPU temps in `btop`
 # To enable automatic time sync install `systemd-timesyncd`
 # IMPORTANT!!! - check with `apt-mark showhold` any hold package versions and unhold them before upgrading!
 # To upgrade from one release to another - edit `/etc/apt/sources.list` (or if using the method below `/etc/apt/sources.list.d/debian.sources`) and `/etc/apt/sources.list.d/* (all files)` and change codenames, don't skip versions because the system will break. Use `sudo apt full-upgrade` after changing release codename
