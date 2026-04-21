@@ -1,0 +1,1 @@
+# Copy the `config.jsonc` file into `$HOME/.config/fastfetch` directory
