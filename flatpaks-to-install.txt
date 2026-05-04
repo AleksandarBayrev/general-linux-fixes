@@ -38,7 +38,7 @@ org.soundconverter.SoundConverter
 org.telegram.desktop
 org.remmina.Remmina
 org.videolan.VLC
-com.discordapp.Discord
+com.discordapp.Discord (or org.equicord.equibop)
 org.bunkus.mkvtoolnix-gui
 net.werwolv.ImHex
 org.freac.freac
