@@ -16,6 +16,13 @@ sudo apt install dkms libc6:i386 linux-headers-amd64 libc6-dev-i386
 * When prompted for DKMS press yes
 * Remove `/etc/X11/xorg.conf` if you have a laptop with dual GPUs and no MUX switch.
 * Run `sudo dkms autoinstall` if you use DKMS to build the module (do it after reboot as well if it doesn't build for a newer kernel)
+* Blacklist `nouveau` - create a file in `/etc/modprobe.d/blacklist-nouveau.conf`
+```ini
+blacklist nouveau
+options nouveau modeset=0
+alias nouveau off
+alias lbm-nouveau off
+```
 * Reboot
 
 # IMPORTANT!!! Use the fixes below only if you have any problems, otherwise stick to the steps above
