@@ -1,5 +1,7 @@
 # NVIDIA Fixes Linux
 
+## The best approach is via a Local Repository installation - [Link for download](https://developer.nvidia.com/cuda-downloads), [How to](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#local-repo-installation-for-debian)
+
 ## I mainly use Debian, so how I do it is download a driver installer (.run file) from the NVIDIA's site
 ## Installation steps:
 * Main prerequisites are `dkms`, `kernel headers` and `32-bit` support, install them like this:
