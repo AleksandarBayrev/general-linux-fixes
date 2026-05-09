@@ -9,7 +9,7 @@ sudo dpkg --add-architecture i386
 sudo apt update
 
 # Install DKMS and the 32-bit base libraries
-sudo apt install dkms libc6:i386 linux-headers-amd64
+sudo apt install dkms libc6:i386 linux-headers-amd64 libc6-dev-i386
 ```
 * Install it via `Ctrl+Alt+F3` or via `recovery mode` (I prefer recovery mode)
 * Run the script `sudo ./NVIDIA-Linux-x86_64-*.run` (if you have 32-bit problems append `--compat32-libdir=/usr/lib/i386-linux-gnu` argument)
