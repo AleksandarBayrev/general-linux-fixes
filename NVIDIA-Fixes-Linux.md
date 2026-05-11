@@ -33,7 +33,7 @@ alias lbm-nouveau off
 ```ini
 options nvidia_drm modeset=1
 options nvidia_drm fbdev=1
-options nvidia NVreg_EnableGpuFirmware=1 # Or 0 if you want to disable the open kernel modules
+options nvidia NVreg_EnableGpuFirmware=1 # Or 0 if you want to disable the open kernel modules (if there are problems with launching stuff for example)
 options nvidia NVreg_PreserveVideoMemoryAllocation=1
 options nvidia NVreg_TemporaryFilePath=/tmp/nvidia
 options nvidia NVreg_DynamicPowerManagement=0x02
