@@ -38,7 +38,75 @@
 # Install `rocm-smi` if you want to have GPU temps in `btop`
 # To enable automatic time sync install `systemd-timesyncd`
 # IMPORTANT!!! - check with `apt-mark showhold` any hold package versions and unhold them before upgrading!
-# To upgrade from one release to another - edit `/etc/apt/sources.list` (or if using the method below `/etc/apt/sources.list.d/debian.sources`) and `/etc/apt/sources.list.d/* (all files)` and change codenames, don't skip versions because the system will break. Use `sudo apt full-upgrade` after changing release codename
+# To upgrade from one release to another - edit `/etc/apt/sources.list.d/debian.sources` and `/etc/apt/sources.list.d/* (all files)` and change codenames, don't skip versions because the system will break. Set `Enabled: no` for the backports entry. Use `sudo apt full-upgrade` after changing release codename. If you still need backports in the newer release - set `Enabled: yes`.
+* Example before upgrading:
+```text
+# Main packages
+Types: deb deb-src
+URIs: http://deb.debian.org/debian/
+Suites: trixie
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Security
+Types: deb deb-src
+URIs: http://security.debian.org/debian-security/
+Suites: trixie-security
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Updates
+Types: deb deb-src
+URIs: http://deb.debian.org/debian/
+Suites: trixie-updates
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Debian Backports
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: trixie-backports
+Components: main contrib non-free non-free-firmware
+Enabled: no
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+```
+* Example after upgrading:
+```text
+# Main packages
+Types: deb deb-src
+URIs: http://deb.debian.org/debian/
+Suites: new-codename
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Security
+Types: deb deb-src
+URIs: http://security.debian.org/debian-security/
+Suites: new-codename-security
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Updates
+Types: deb deb-src
+URIs: http://deb.debian.org/debian/
+Suites: new-codename-updates
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Debian Backports
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: new-codename-backports
+Components: main contrib non-free non-free-firmware
+Enabled: yes # only if you need them in the newer version
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+```
 # IMPORTANT!!! - if using NVIDIA - do not use backports, install newer kernels manually and verify that the DKMS compiles the proprietary driver successfully!
 # If using other software such as NVIDIA drivers directly from NVIDIA's development repo - update this as well: `/etc/apt/sources.list.d/cuda-<distro>-x86_x64.list`. Rename it to next version and update the contents where `<distro>` is for example `debian12`
 ```
