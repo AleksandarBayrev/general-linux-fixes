@@ -8,7 +8,7 @@ distrobox create --image fedora:44 --name fedoramesacompile# For the 64-bit
 ```
 * You are going to use [mesa-custom-launcher](https://github.com/AleksandarBayrev/mesa-custom-launcher), use the example compiling command to put the version in the correct folder (create `$HOME/.mesa-custom` if it does not exist beforehand)
 * Enter the newly created container
-* Install some prerequisites: `sudo dnf group install development-tools` and `sudo dnf install gcc gcc-c++ meson ninja-build git` and `sudo dnf install libstdc++-devel.i686 libstdc++-static.i686 libstdc++-devel.x86_64 libstdc++-static.x86_64` and `sudo dnf install libglvnd-devel.i686 libva-devel.i686 llvm-devel.i686 rust-std-static-i686-unknown-linux-gnu` and `sudo dnf install libclc-devel.* libatomic.* libdrm-devel.* libpciaccess-devel.* llvm-devel.* clang-devel.* systemd-devel.* rust-bindgen-devel.*`
+* Install some prerequisites: `sudo dnf group install development-tools` and `sudo dnf install gcc gcc-c++ meson ninja-build git` and `sudo dnf install libstdc++-devel.* libstdc++-static.* libstdc++-devel.* libstdc++-static.*` and `sudo dnf install libglvnd-devel.* libva-devel.* llvm-devel.* rust-std-static-i686-unknown-linux-gnu` and `sudo dnf install libclc-devel.* libatomic.* libdrm-devel.* libpciaccess-devel.* llvm-devel.* clang-devel.* systemd-devel.* rust-bindgen-devel.* libunwind-devel.* spirv-tools-devel.* libzstd-devel.* spirv-llvm-translator-devel.* spirv-tools-devel.* libzstd-devel.* libunwind-devel.* elfutils-libelf-devel.* wayland-devel.* wayland-protocols-devel.* libffi-devel.* libX11-devel.* libxcb-devel.* libXau-devel.* libxshmfence-devel.* libXfixes-devel.* libXdamage-devel.* libXxf86vm-devel.* libXrandr-devel.* libXrender-devel.*`
 * Install Mesa build dependencies (`sudo dnf builddep mesa`)
 * Create crosscompile.ini file with the following contents:
 ```ini
@@ -35,8 +35,8 @@ endian = 'little'
 * Run `meson setup builddirx64 --libdir lib64 --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release` (change --prefix to your folder) (for 64-bit Mesa)
 Example if compiling mesa 25.2.4: `meson setup builddirx64 --libdir lib64 --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release`
 * Run `meson subprojects update` to update the dependencies again for 32-bit
-* Run `meson setup builddirx32 --cross-file crosscompile.ini --libdir lib --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release` (change --prefix to your folder) (for 32-bit Mesa)
-Example if compiling mesa 25.2.4: `meson setup builddirx32 --libdir lib --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=true -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release`
+* Run `PKG_CONFIG_LIBDIR=/usr/lib/pkgconfig:/usr/share/pkgconfig meson setup builddirx32 --cross-file crosscompile.ini --libdir lib --prefix=$HOME/.mesa-custom/mesa-version -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=false -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release` (change --prefix to your folder) (for 32-bit Mesa)
+Example if compiling mesa 25.2.4: `PKG_CONFIG_LIBDIR=/usr/lib/pkgconfig:/usr/share/pkgconfig meson setup builddirx32 --cross-file crosscompile.ini --libdir lib --prefix=$HOME/.mesa-custom/25.2.4 -Dgallium-drivers=all -Dvulkan-drivers=amd,intel,swrast -Dgallium-rusticl=false -Dllvm=enabled -Dvideo-codecs=all -Dbuildtype=release`
 * Run `meson compile -C builddirx64` to compile it (64-bit)
 * Run `meson compile -C builddirx32` to compile it (32-bit)
 * Run `meson install -C builddirx64` to install it to the prefix (64-bit libraries)
