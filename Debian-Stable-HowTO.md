@@ -108,7 +108,7 @@ Enabled: yes # only if you need them in the newer version
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 ```
 # IMPORTANT!!! - if using NVIDIA - do not use backports, install newer kernels manually and verify that the DKMS compiles the proprietary driver successfully!
-# If using other software such as NVIDIA drivers directly from NVIDIA's development repo - update this as well: `/etc/apt/sources.list.d/cuda-<distro>-x86_x64.list`. Rename it to next version and update the contents where `<distro>` is for example `debian12`
+# NVIDIA GPU Owner - check `NVIDIA-Fixes-Linux.md` file, it describes how to properly install the drivers. If using other software such as NVIDIA drivers directly from NVIDIA's development repo - update this as well: `/etc/apt/sources.list.d/cuda-<distro>-x86_x64.list`. Rename it to next version and update the contents where `<distro>` is for example `debian12`
 ```
 deb [signed-by=/usr/share/keyrings/cuda-archive-keyring.gpg] https://developer.download.nvidia.com/compute/cuda/repos/<distro>/x86_64/
 ```
