@@ -5,6 +5,7 @@
 # IMPORTANT!!! - Disable CSM in UEFI/BIOS since it interferes with `ReBAR` (Resizable BAR), it can't be enabled, which has huge performance penalty when OFF
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # Disable SELinux - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled` (or use `grubby --update-kernel ALL --args selinux=0`)
+# Delete java (`sudo dnf remove java*`), orca (`sudo dnf remove orca`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`)
 # Install `kernel-modules-extra` for additional device support
 # Check `ALSA-Fixes.md`
 # Install `kernel-tools` package and use `turbostat` command to monitor CPU stats
