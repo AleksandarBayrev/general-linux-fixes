@@ -39,9 +39,7 @@ sudo dnf system-upgrade reboot
 # To enable automatic time sync install `systemd-timesyncd`
 # IMPORTANT!!! - check with `apt-mark showhold` any hold package versions and unhold them before upgrading!
 # For AMD GPUs - check `AMD-GPUs-Linux-Control-Panel.md`
-# Or if a newer kernel is missing, but you need it (for example a newer GPU) - compile your own following the guide `Debian-Compile-Kernel-HowTO.md`
 # Install `linux-headers-$YOUR_ARCH cmake make gcc g++ flex bison clang gcc-multilib g++-multilib autoconf automake build-essential` for development purposes
-# IMPORTANT!!! - replace `bookworm` with the currently released stable version of Debian
 # IMPORTANT!!! - for pipewire - Ensure this continues working after a reboot. If not, you may need to "mask" the PulseAudio service by running:
 * `systemctl --user mask pulseaudio`
 # To check if pipewire is being used: `LANG=C pactl info | grep '^Server Name'`
@@ -49,8 +47,6 @@ sudo dnf system-upgrade reboot
 * Check `Linux-Firmware-For-Hardware.md`
 # Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
 # Check `Sound-Fixes-Linux.md` as well.
-# If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.md` (and [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/))
-# NOTE: If you use VMware Workstation on Debian - run `sudo systemctl enable --now vmware` and restart your PC in order for the network/USB passthrough to work
 # Check `Disable-USB-Autosuspend-Linux.md`
 # Check `Mediatek-WiFi-Debian.md` for instructions on how to setup firmware (if you have problems)
 # Check `Apps-In-Distrobox.md`
