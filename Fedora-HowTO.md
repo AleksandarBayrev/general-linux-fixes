@@ -30,7 +30,7 @@ sudo dnf system-upgrade reboot
 # Install `clinfo` to show display system info.
 # Install `acpi` to check battery status (on laptops)
 # Install `upower` to check battery status (on laptops) and enable `upower` service
-# Install `ttf-mscorefonts-installer` to add Microsoft fonts
+# Use [https://github.com/AleksandarBayrev/ttf-fonts-installer/](https://github.com/AleksandarBayrev/ttf-fonts-installer/) to add Microsoft fonts
 # Install `KSystemLog` to view logs
 # Check `Gaming-Linux-HowTO.md` for gaming
 # Check `KDE-Settings.md` for some settings if you use KDE

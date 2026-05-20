@@ -33,7 +33,7 @@ deb-src http://security.debian.org/debian-security/ testing-security main contri
 # Install `clinfo` to display system info.
 # Install `acpi` to check battery status (on laptops)
 # Install `upower` to check battery status (on laptops) and enable `upower` service
-# Install `ttf-mscorefonts-installer` to add Microsoft fonts
+# Use [https://github.com/AleksandarBayrev/ttf-fonts-installer/](https://github.com/AleksandarBayrev/ttf-fonts-installer/) to add Microsoft fonts
 # Install `KSystemLog` to view logs
 # Install `nvtop` if you have a NVIDIA GPU
 # Check `Gaming-Linux-HowTO.md` for gaming
