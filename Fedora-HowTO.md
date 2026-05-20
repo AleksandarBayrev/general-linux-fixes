@@ -9,6 +9,7 @@
 # Install `kernel-modules-extra` for additional device support
 # Check `ALSA-Fixes.md`
 # Install `kernel-tools` package and use `turbostat` command to monitor CPU stats
+# Install `rpmconf` to manage configurations after a system upgrade
 # Check `mesa-custom-builds` when you need to run a newer Mesa version
 # Add user to `flatpak`, `libvirt`, `kvm` groups, then run `newgrp` to update them
 # Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
@@ -17,6 +18,8 @@
 ```bash
 sudo dnf system-upgrade downoad --releasever NUMBER_HIGHER_THAN_THE_CURRENT_ONE
 sudo dnf system-upgrade reboot
+# After the upgrade run
+sudo rpmconf -a # to reconfigure new applications
 ```
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `net-tools` for the `netstat` command and other tools
