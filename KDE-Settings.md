@@ -5,3 +5,5 @@
 * Disable automatic screen locking in `Settings -> Screen Locking -> Lock screen automatically`, set it to `Never`
 * Set default path in `Dolphin` file manager to home folder
 * Enable `NumLock` on startup
+* For monitors enable scaling per system for legacy X11 apps
+<img src="./kde-monitor-settings.png" />

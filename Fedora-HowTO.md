@@ -8,6 +8,7 @@
 # Delete java (`sudo dnf remove java*`), orca (`sudo dnf remove orca`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`)
 # Install `kernel-modules-extra` for additional device support
 # Check `ALSA-Fixes.md`
+# Check `KDE-Settings.md`
 # Install `kernel-tools` package and use `turbostat` command to monitor CPU stats
 # Install `rpmconf` to manage configurations after a system upgrade
 # Check `mesa-custom-builds` when you need to run a newer Mesa version
