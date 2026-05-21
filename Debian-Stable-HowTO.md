@@ -170,7 +170,7 @@ Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 # To check if pipewire is being used: `LANG=C pactl info | grep '^Server Name'`
 # Install firmware
 * Check `Linux-Firmware-For-Hardware.md`
-# Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
+# Only remove `orca` to prevent sound issues if you have: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
 # Check `Sound-Fixes-Linux.md` as well.
 # If you want a newer kernel without waiting for backports check `Debian-Compile-Kernel-HowTO.md` (and [https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/))
 # NOTE: If you use VMware Workstation on Debian - run `sudo systemctl enable --now vmware` and restart your PC in order for the network/USB passthrough to work

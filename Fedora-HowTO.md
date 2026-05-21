@@ -5,7 +5,7 @@
 # IMPORTANT!!! - Disable CSM in UEFI/BIOS since it interferes with `ReBAR` (Resizable BAR), it can't be enabled, which has huge performance penalty when OFF
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # Disable SELinux - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled` (or use `grubby --update-kernel ALL --args selinux=0`)
-# Delete java (`sudo dnf remove java*`), orca (`sudo dnf remove orca`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`)
+# Delete java (`sudo dnf remove java*`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`)
 # Install `kernel-modules-extra` for additional device support
 # Check `ALSA-Fixes.md`
 # Check `KDE-Settings.md`
@@ -49,7 +49,6 @@ sudo rpmconf -a # to reconfigure new applications
 # To check if pipewire is being used: `LANG=C pactl info | grep '^Server Name'`
 # Install firmware
 * Check `Linux-Firmware-For-Hardware.md`
-# Remove `orca` to prevent sound issues: `sudo apt remove orca && sudo apt purge orca && sudo apt autoremove`
 # Check `Sound-Fixes-Linux.md` as well.
 # Check `Disable-USB-Autosuspend-Linux.md`
 # Check `Mediatek-WiFi-Debian.md` for instructions on how to setup firmware (if you have problems)
