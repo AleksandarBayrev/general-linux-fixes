@@ -43,6 +43,7 @@ sudo rpmconf -a # to reconfigure new applications
 # To enable automatic time sync install `systemd-timesyncd`
 # IMPORTANT!!! - check with `apt-mark showhold` any hold package versions and unhold them before upgrading!
 # For AMD GPUs - check `AMD-GPUs-Linux-Control-Panel.md`
+# For NVIDIA GPUs - after updating via the `update-fedora` script, if the GPU does not have drivers run in recovery mode and run `sudo akmods --force`
 # Install `linux-headers-$YOUR_ARCH cmake make gcc g++ flex bison clang gcc-multilib g++-multilib autoconf automake build-essential` for development purposes
 # IMPORTANT!!! - for pipewire - Ensure this continues working after a reboot. If not, you may need to "mask" the PulseAudio service by running:
 * `systemctl --user mask pulseaudio`
