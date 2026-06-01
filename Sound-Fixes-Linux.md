@@ -6,26 +6,29 @@
 
 ### Create a user config directory:
 ```sh
-mkdir -p ~/.config/pipewire/
+mkdir -p ~/.config/pipewire/pipewire.conf.d
 ```
 
-### Copy the default config to your user folder:
-
+### Create a file `10-rates.conf`
 ```sh
-cp /usr/share/pipewire/pipewire.conf ~/.config/pipewire/
+touch ~/.config/pipewire/pipewire.conf.d/10-rates.conf
 ```
 
 ### Edit the file: Open it with a text editor (like nano or gedit).
 
 ```sh
-nano ~/.config/pipewire/pipewire.conf
+nano ~/.config/pipewire/pipewire.conf.d/10-rates.conf
 ```
 
 ### Modify the clock rates: Find the context.properties section and look for these lines (remove the # to uncomment them):
 ```ini
-default.clock.rate = 48000
-
-default.clock.allowed-rates = [ 44100, 48000, 88200, 96000, 192000 ]
+context.properties = {
+    # The default rate if nothing specific is playing
+    default.clock.rate = 48000 
+    
+    # The rates PipeWire is allowed to dynamically switch between
+    default.clock.allowed-rates = [ 44100 48000 88200 96000 192000 ] 
+}
 ```
 ### Save and Restart: Press Ctrl+O, Enter, and Ctrl+X. Then restart PipeWire:
 
@@ -33,7 +36,7 @@ default.clock.allowed-rates = [ 44100, 48000, 88200, 96000, 192000 ]
 systemctl --user restart pipewire
 ```
 
-# If you use `wireplumber` with version higher than 0.5 it's easier to do it like this:
+# !!!(NOT RECOMMENDED)!!! If you use `wireplumber` with version higher than 0.5 it's easier to do it like this:
 * Run `wpctl status` and find `Audio` -> `Sources` -> your device
 ```text
 Audio
@@ -69,7 +72,7 @@ monitor.alsa.rules = [
 ]
 ```
 
-# OR the legacy variant below
+# !!!(NOT RECOMMENDED)!!! OR the legacy variant below
 # If you want to change the sample rate - create `/etc/pipewire` directory if missing and copy `/usr/share/pipewire/pipewire.conf` to in, edit the `/etc/pipewire/pipewire.conf` and set `default.clock.rate` to whatever you need and restart your PC
 
 # To check current sample rate and bit depth use `pactl list short sinks`
