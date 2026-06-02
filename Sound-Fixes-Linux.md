@@ -24,10 +24,10 @@ nano ~/.config/pipewire/pipewire.conf.d/10-rates.conf
 ```ini
 context.properties = {
     # The default rate if nothing specific is playing
-    default.clock.rate = 48000 
+    default.clock.rate = 48000 # or whatever you want the default to be
     
     # The rates PipeWire is allowed to dynamically switch between
-    default.clock.allowed-rates = [ 44100 48000 88200 96000 192000 ] 
+    default.clock.allowed-rates = [ 44100 48000 88200 96000 192000 ] # You can comment this out if you want a static clock rate
 }
 ```
 ### Save and Restart: Press Ctrl+O, Enter, and Ctrl+X. Then restart PipeWire:
