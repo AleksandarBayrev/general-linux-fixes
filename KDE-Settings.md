@@ -7,3 +7,4 @@
 * Enable `NumLock` on startup
 * For monitors enable scaling per system for legacy X11 apps or leave as default - check how it handles the apps
 <img src="./kde-monitor-settings.png" />
+* Disable `Pause Media during calls` in KDE Connect if the PC taskbar hangs when receiving a call (noticeable on KDE)
