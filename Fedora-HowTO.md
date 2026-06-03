@@ -8,7 +8,7 @@
 # If you want to use snapshots before update - install the OS to a btrfs formatted drive (best way to do it is to have a separate SSD for OS only), and then use btrfs-assistant, check guides on how to setup dnf for automatic snapshots
 # Disable SELinux - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled` (or use `grubby --update-kernel ALL --args selinux=0`)
 # Delete java (`sudo dnf remove java*`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`), ktorrent (`sudo dnf remove ktorrent`)
-# Install `kernel-modules-extra` for additional device support
+# Install `kernel-modules-extra` for additional device support (install via rpm-ostree on immutable system)
 # Check `ALSA-Fixes.md`
 # Check `KDE-Settings.md`
 # Install `kernel-tools` package and use `turbostat` command to monitor CPU stats
@@ -39,7 +39,7 @@ sudo rpmconf -a # to reconfigure new applications
 # Install `acpi` to check battery status (on laptops)
 # Install `upower` to check battery status (on laptops) and enable `upower` service
 # Use [https://github.com/AleksandarBayrev/ttf-fonts-installer/](https://github.com/AleksandarBayrev/ttf-fonts-installer/) to add Microsoft fonts
-# Install `KSystemLog` to view logs
+# Install `KSystemLog` to view logs (install via rpm-ostree on immutable system)
 # Check `Gaming-Linux-HowTO.md` for gaming
 # Check `KDE-Settings.md` for some settings if you use KDE
 # Check `Gaming-Software.md`
@@ -59,7 +59,7 @@ sudo rpmconf -a # to reconfigure new applications
 # Check `Mediatek-WiFi-Debian.md` for instructions on how to setup firmware (if you have problems)
 # Check `Apps-In-Distrobox.md`
 # For using `OpenVPN` configuration check `OpenVPN-Configuration-Linux.md`
-# If using APC UPS - check `Linux-UPS-APC-HowTO.md`
+# If using APC UPS - check `Linux-UPS-APC-HowTO.md` (install via rpm-ostree on immutable system)
 # Install `fooyin` for listening to music (use flatpak)
 # Check `NTSYNC-HowTO.md`
 # If you want to use gamescope - check `gamescope-installer` folder and `Gamescope-Notes.md` in `random-important-stuff`
