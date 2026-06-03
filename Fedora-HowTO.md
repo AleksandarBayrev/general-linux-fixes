@@ -16,8 +16,10 @@
 # Check `mesa-custom-builds` when you need to run a newer Mesa version
 # Add user to `flatpak`, `libvirt`, `kvm` groups, then run `newgrp` to update them
 # Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
-# To update the system - `sudo dnf update`
-# Upgrade system process:
+# To update the system on immutable system - `sudo rpm-ostree upgrade`
+# To update the system on mutable system - `sudo dnf update`
+# Upgrade system process on immutable system: `sudo rpm-ostree rebase fedora:fedora/NUMBER_HIGHER_THAN_THE_CURRENT_ONE/YOUR_ARCH/FLAVOR`, example: `sudo rpm-ostree rebase fedora:fedora/44/x86_64/kinoite`
+# Upgrade system process on mutable system:
 ```bash
 sudo dnf system-upgrade downoad --releasever NUMBER_HIGHER_THAN_THE_CURRENT_ONE
 sudo dnf system-upgrade reboot
@@ -29,7 +31,7 @@ sudo rpmconf -a # to reconfigure new applications
 # Install `pkexec` for GUI authorization
 # Install `fastfetch` and check `config-fastfetch/README.md`
 # Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `btop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `rar`, `unrar`, `usbutils`, `smartmontools`, `nvme-cli` and `qt6-wayland`
-# Install `bash-completion` for bash autocomplete
+# Install `bash-completion` for bash autocomplete if missing
 # Install `nvtop` if you have a NVIDIA GPU
 # Flatpaks: check `flatpaks-to-install.txt` (important: check this file every time you reinstall! (DBeaver for example is important when you use SQLite for example))
 # Install `Thumbnail Grid` task switcher for KDE (if missing).
