@@ -24,6 +24,7 @@ monitor.alsa.rules = [
   }
 ]
 ```
+* Only if the steps above don't work for pipewire/wireplumber do the stuff below
 * Then to disable the driver power savings use `lsmod | grep snd` to see what device you have (most of the motherboards are with `snd_hda_intel`)
 * Create a file in `/etc/modprobe.d` (example: `/etc/modprobe.d/snd_hda_intel_no_powersave.conf`) with the following content
 ```text
