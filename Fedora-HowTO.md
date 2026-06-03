@@ -7,7 +7,7 @@
 # IMPORTANT!!! - If you decide to install immutable Fedora (Silverblue, Kinoite) - definitely check `Apps-In-Distrobox.md` - you should use a container for Steam/Lutris if you want custom Mesa drivers
 # If you want to use snapshots before update - install the OS to a btrfs formatted drive (best way to do it is to have a separate SSD for OS only), and then use btrfs-assistant, check guides on how to setup dnf for automatic snapshots
 # Disable SELinux - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled` (or use `grubby --update-kernel ALL --args selinux=0`)
-# Delete java (`sudo dnf remove java*`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`), ktorrent (`sudo dnf remove ktorrent`)
+# Delete java (`sudo dnf remove java*`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`), ktorrent (`sudo dnf remove ktorrent`) or override in rpm-ostree
 # Install `kernel-modules-extra` for additional device support (install via rpm-ostree on immutable system)
 # Check `ALSA-Fixes.md`
 # Check `KDE-Settings.md`
@@ -26,7 +26,7 @@
 sudo dnf system-upgrade download --releasever NUMBER_HIGHER_THAN_THE_CURRENT_ONE
 sudo dnf system-upgrade reboot
 # After the upgrade run
-sudo rpmconf -a # to reconfigure new applications
+sudo rpmconf -a # to reconfigure new applications, not needed for rpm-ostree
 ```
 # Install security tools `firewalld` (if not present), `chkrootkit`, `rkhunter`
 # Install `net-tools` for the `netstat` command and other tools
