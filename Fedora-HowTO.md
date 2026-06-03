@@ -16,12 +16,14 @@
 # Check `mesa-custom-builds` when you need to run a newer Mesa version
 # Add user to `flatpak`, `libvirt`, `kvm` groups, then run `newgrp` to update them
 # Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
+# Packages to overlay in immutable system - `distrobox fastfetch gnome-disk-utility libvirt qemu virt-manager btop nvtp`, check others below if you need something else
+# Packages to remove via rpm-ostree override remove - `zram-generator zram-generator-defaults`
 # To update the system on immutable system - `sudo rpm-ostree upgrade`
 # To update the system on mutable system - `sudo dnf update`
 # Upgrade system process on immutable system: `sudo rpm-ostree rebase fedora:fedora/NUMBER_HIGHER_THAN_THE_CURRENT_ONE/YOUR_ARCH/FLAVOR`, example: `sudo rpm-ostree rebase fedora:fedora/44/x86_64/kinoite`
 # Upgrade system process on mutable system:
 ```bash
-sudo dnf system-upgrade downoad --releasever NUMBER_HIGHER_THAN_THE_CURRENT_ONE
+sudo dnf system-upgrade download --releasever NUMBER_HIGHER_THAN_THE_CURRENT_ONE
 sudo dnf system-upgrade reboot
 # After the upgrade run
 sudo rpmconf -a # to reconfigure new applications
