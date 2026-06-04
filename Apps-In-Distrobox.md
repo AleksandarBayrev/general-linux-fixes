@@ -13,9 +13,15 @@
 * Do this to persist the setting while on the host:
 * Create `/etc/tmpfiles.d/gamescope-container-fix.conf` in the host machine: `sudo nano /etc/tmpfiles.d/gamescope-container-fix.conf` with the following content:
 ```text
-D /tmp/.X11-unix 1777 your_username your_username -
+# Create the directory if it doesn't exist
+D /tmp/.X11-unix 1777 root root -
+# Force the ownership and permissions
+z /tmp/.X11-unix 1777 your_user your_user -
 ```
 Example:
 ```text
-D /tmp/.X11-unix 1777 aleksandar aleksandar -
+# Create the directory if it doesn't exist
+D /tmp/.X11-unix 1777 root root -
+# Force the ownership and permissions
+z /tmp/.X11-unix 1777 aleksandar aleksandar -
 ```
