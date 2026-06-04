@@ -1,2 +1,3 @@
+# First check the contents of `/etc/group` file.
 # If for example `usermod -aG libvirt,qemu,kvm YOUR_USER` didn't work - probably `/etc/group` file does not contain them. To fix it do like this: `grep -E '^(libvirt|qemu|kvm):' /usr/lib/group | sudo tee -a /etc/group`
 # If there are other groups - just get them from `/usr/lib/group` and add them to `/etc/group` and usermod command will work
