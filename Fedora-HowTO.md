@@ -1,4 +1,5 @@
-# Install latest Fedora
+# Install latest Fedora - either immutable or mutable
+# IMPORTANT!!! - If you choose the immutable variant read the whole document!
 
 ## IMPORTANT!!! - If you are going to use an immutable variant - create 4GiB for /boot/efi (EFI System partition) and 8GiB for /boot (ext4), rest of the drive should be btrfs. It is recommended to have a separate drive for the OS!
 
