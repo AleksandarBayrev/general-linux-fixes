@@ -8,6 +8,7 @@
 * Then run `steam` and `lutris` from the command line first to see if there are some missing commands. Mandatory packages to install before that: `lsb_release` `xrandr` `pulseaudio-utils` `pipewire` `pciutils`
 * For Steam after setting up everything - if you have previous runners (Proton Experimental, Steam Linux Runtime, etc.) - run file verification on all of them to avoid problems.
 # IMPORTANT!!! - Install `gamescope mangohud goverlay` inside the container and export them via `distrobox-export` to `~/.local/bin`
+# IMPORTANT!!! - Even if you export mangohud/gamescope they are not working sometimes in appimages, the workaround is to launch the appimage from the container: `distrobox-enter -n YOUR_CONTAINER -- /path/to/Your.AppImage`, example: `distrobox-enter -n gaming -- ~/Games/Heroic.AppImage`
 # IMPORTANT!!! - if you use gamescope installed inside a distrobox container exec this: `sudo chown -R $USER:$USER /tmp/.X11-unix` in the host machine.
 * Do this to persist the setting while on the host:
 * Create `/etc/tmpfiles.d/gamescope-container-fix.conf` in the host machine: `sudo nano /etc/tmpfiles.d/gamescope-container-fix.conf` with the following content:
