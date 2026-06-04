@@ -7,6 +7,8 @@
 
 ## IMPORTANT!!! - If you use the immutable variant - check `Fedora-Immutable-Groups-Fix.md` file on how to fix groups not working when using `usermod -aG` command
 
+## IMPORTANT!!! - If you use the immutable variant - `rpm-ostree` and `ostree` are your most important commands, check them thoroughly!
+
 ## IMPORTANT!!! - If you use the immutable variant - the default grub timeout is 1 second, to update it create a `/boot/grub2/user.cfg` file with the following content: `set timeout=YOUR_TIMEOUT`, example: `set timeout=5` for 5 seconds
 
 ## Use `rpm -qa` to show all installed packages on immutable variants.
