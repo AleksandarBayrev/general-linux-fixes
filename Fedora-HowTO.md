@@ -3,6 +3,8 @@
 
 ## IMPORTANT!!! - If you are going to use an immutable variant - create 4GiB for /boot/efi (EFI System partition) and 8GiB for /boot (ext4), rest of the drive should be btrfs. It is recommended to have a separate drive for the OS!
 
+## IMPORTANT!!! - If you use the immutable variant and you want to use gamescope inside a distrobox container check `Apps-In-Distrobox.md`
+
 ## IMPORTANT!!! - If you use the immutable variant - check `Fedora-Immutable-Groups-Fix.md` file on how to fix groups not working when using `usermod -aG` command
 
 ## IMPORTANT!!! - If you use the immutable variant - the default grub timeout is 1 second, to update it create a `/boot/grub2/user.cfg` file with the following content: `set timeout=YOUR_TIMEOUT`, example: `set timeout=5` for 5 seconds
