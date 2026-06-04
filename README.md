@@ -249,3 +249,6 @@ General Linux fixes
 
 ## PM2-DOTNET-HowTO.md
 * Describes how to use PM2 with .NET.
+
+## Fedora-Immutable-Groups-Fix.md
+* Describes a fix for Fedora immutable distros and groups.
