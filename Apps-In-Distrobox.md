@@ -7,6 +7,7 @@
 * Let's say you run Fedora 43, to upgrade to 44 run: `sudo dnf --releasever=44 distro-sync` and then `sudo rpmconf -a`
 * Then run `steam` and `lutris` from the command line first to see if there are some missing commands. Mandatory packages to install before that: `lsb_release` `xrandr` `pulseaudio-utils` `pipewire` `pciutils`
 * For Steam after setting up everything - if you have previous runners (Proton Experimental, Steam Linux Runtime, etc.) - run file verification on all of them to avoid problems.
+# IMPORTANT!!! - Install `gamescope mangohud goverlay` inside the container
 # IMPORTANT!!! - if you use gamescope installed inside a distrobox container exec this: `sudo chown -R $USER:$USER /tmp/.X11-unix` in the host machine.
 * Do this to persist the setting while on the host:
 * Create `/etc/tmpfiles.d/gamescope-container-fix.conf` in the host machine: `sudo nano /etc/tmpfiles.d/gamescope-container-fix.conf` with the following content:

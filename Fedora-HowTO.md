@@ -3,7 +3,7 @@
 
 ## IMPORTANT!!! - If you are going to use an immutable variant - create 4GiB for /boot/efi (EFI System partition) and 8GiB for /boot (ext4), rest of the drive should be btrfs. It is recommended to have a separate drive for the OS!
 
-## IMPORTANT!!! - If you use the immutable variant and you want to use gamescope inside a distrobox container check `Apps-In-Distrobox.md`
+## IMPORTANT!!! - If you use the immutable variant and you want to use gamescope and mangohud inside a distrobox container check `Apps-In-Distrobox.md`
 
 ## IMPORTANT!!! - If you use the immutable variant - check `Fedora-Immutable-Groups-Fix.md` file on how to fix groups not working when using `usermod -aG` command
 
@@ -27,7 +27,7 @@
 # Check `mesa-custom-builds` when you need to run a newer Mesa version
 # Add user to `flatpak`, `libvirt`, `kvm` groups, then run `newgrp` to update them
 # Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
-# Packages to overlay in immutable system - `distrobox fastfetch gnome-disk-utility libvirt qemu virt-manager btop nvtop fuse fuse-libs mangohud goverlay gamescope lm_sensors`, check others below if you need something else
+# Packages to overlay in immutable system - `distrobox fastfetch gnome-disk-utility libvirt qemu virt-manager btop nvtop fuse fuse-libs lm_sensors`, check others below if you need something else
 # Packages to remove via rpm-ostree override remove - `zram-generator zram-generator-defaults firefox firefox-langpacks`
 # To update the system on immutable system - `sudo rpm-ostree upgrade`
 # To update the system on mutable system - `sudo dnf update`
