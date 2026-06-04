@@ -4,6 +4,8 @@
 * Add it to `Autostart` (for `LACT` it is not mandatory) in KDE (or whathever the utility is for other DEs)
 * Add `amdgpu.ppfeaturemask=0xffffffff` to your bootloader config and rebuild it if necessary (or create a file `/etc/modprobe.d/99-amdgpu-overdrive.conf` with content: `options amdgpu ppfeaturemask=0xFFFFFFFF` and run `sudo update-initramfs -u`).
 
+## NOTE: If using an immutable distro from Fedora - update the amdgpu params like this: `rpm-ostree kargs --append="amdgpu.ppfeaturemask=0xFFFFFFFF"`
+
 ## NOTE: If for some reason LACT breaks - edit `/etc/systemd/system/lactd.service`: set `ExecStart` to `ExecStart=/var/lib/flatpak/app/io.github.ilya_zlobintsev.LACT/x86_64/stable/active/files/bin/lact daemon`
 
 # How to disable password prompt - [https://gitlab.com/corectrl/corectrl/-/wikis/Setup](https://gitlab.com/corectrl/corectrl/-/wikis/Setup)
