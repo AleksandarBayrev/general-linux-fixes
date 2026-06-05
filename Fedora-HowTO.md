@@ -14,7 +14,7 @@
 ## Use `rpm -qa` to show all installed packages on immutable variants.
 
 ## If you run a Thinkpad with a fingerprint scanner check `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`
-
+# IMPORTANT!!! - Add flathub if you use flatpaks `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 # IMPORTANT!!! - Disable CSM in UEFI/BIOS since it interferes with `ReBAR` (Resizable BAR), it can't be enabled, which has huge performance penalty when OFF
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # IMPORTANT!!! - by default install recommendation for Lutris/Steam is via flatpak on immutable Fedora (Silverblue, Kinoite), but I would recommend if you decide to install to use mesa-custom-launcher - definitely check `Apps-In-Distrobox.md` - you should use a container for Steam/Lutris if you want custom Mesa drivers, don't forget to upgrade the containers after a system upgrade
