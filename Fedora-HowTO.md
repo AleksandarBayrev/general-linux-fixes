@@ -29,7 +29,7 @@
 # Check `mesa-custom-builds` when you need to run a newer Mesa version
 # Add user to `flatpak`, `libvirt`, `kvm` groups, then run `newgrp` to update them
 # Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
-# Packages to overlay in immutable system - `distrobox fastfetch gnome-disk-utility libvirt qemu virt-manager btop nvtop fuse fuse-libs lm_sensors`, check others below if you need something else
+# Packages to overlay in immutable system - `distrobox fastfetch gnome-disk-utility libvirt qemu virt-manager btop nvtop fuse fuse-libs lm_sensors edk2-ovmf edk2-tools`, check others below if you need something else
 # Packages to remove via rpm-ostree override remove - `zram-generator zram-generator-defaults firefox firefox-langpacks`
 # To check what packages are going to be upgraded - `rpm-ostree upgrade --preview`
 # To update the system on immutable system - `sudo rpm-ostree upgrade`
