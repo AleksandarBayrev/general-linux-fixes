@@ -252,3 +252,6 @@ General Linux fixes
 
 ## Fedora-Immutable-Groups-Fix.md
 * Describes a fix for Fedora immutable distros and groups.
+
+## cpupower-Fixes.md
+* Describes fixes for CPU frequencies.

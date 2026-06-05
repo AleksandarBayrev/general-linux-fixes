@@ -11,6 +11,8 @@
 
 ## IMPORTANT!!! - If you use the immutable variant - the default grub timeout is 1 second, to update it create a `/boot/grub2/user.cfg` file with the following content: `set timeout=YOUR_TIMEOUT`, example: `set timeout=5` for 5 seconds
 
+## IMPORTANT!!! - If using a laptop, check `cpupower-Fixes.md`
+
 ## Use `rpm -qa` to show all installed packages on immutable variants.
 
 ## If you run a Thinkpad with a fingerprint scanner check `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`
