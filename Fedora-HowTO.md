@@ -29,7 +29,7 @@
 # Delete java (`sudo dnf remove java*`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`), ktorrent (`sudo dnf remove ktorrent`) or override in rpm-ostree
 # Install `kernel-modules-extra` for additional device support (install via rpm-ostree on immutable system)
 # Check `ALSA-Fixes.md`
-# Check `KDE-Settings.md`
+# Check `KDE-Settings.md`, disable auto updates (it is described there how)
 # Install `kernel-tools` package and use `turbostat` command to monitor CPU stats
 # Install `rpmconf` to manage configurations after a system upgrade
 # Check `mesa-custom-builds` when you need to run a newer Mesa version
@@ -69,7 +69,7 @@ sudo rpmconf -a # to reconfigure new applications, not needed for rpm-ostree
 # To enable automatic time sync install `systemd-timesyncd`
 # IMPORTANT!!! - check with `apt-mark showhold` any hold package versions and unhold them before upgrading!
 # For AMD GPUs - check `AMD-GPUs-Linux-Control-Panel.md`
-# For NVIDIA GPUs - after updating via the `update-fedora` script, if the GPU does not have drivers run in recovery mode and run `sudo akmods --force`
+# For NVIDIA GPUs - after updating via the `update-fedora` script, if the GPU does not have drivers run in recovery mode and run `sudo akmods --force`, this applies only to non-immutable OSes
 # Install `linux-headers-$YOUR_ARCH cmake make gcc g++ flex bison clang gcc-multilib g++-multilib autoconf automake build-essential` for development purposes
 # IMPORTANT!!! - for pipewire - Ensure this continues working after a reboot. If not, you may need to "mask" the PulseAudio service by running:
 * `systemctl --user mask pulseaudio`
