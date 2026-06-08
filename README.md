@@ -255,3 +255,6 @@ General Linux fixes
 
 ## cpupower-Fixes.md
 * Describes fixes for CPU frequencies.
+
+## RPMFusion-Immutable-HowTO.md
+* Describes how to setup RPM Fusion on Fedora Immutable distros.

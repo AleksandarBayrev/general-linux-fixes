@@ -1,6 +1,8 @@
 # Install latest Fedora - either immutable or mutable
 # IMPORTANT!!! - If you choose the immutable variant read the whole document!
 
+## IMPORTANT!!! - If you're on an immutable distro and have a NVIDIA GPU - read through `RPMFusion-Immutable-HowTO.md` file on how to setup RPMFusion correctly.
+
 ## IMPORTANT!!! - If you are going to use an immutable variant - create 4GiB for /boot/efi (EFI System partition) and 8GiB for /boot (ext4), rest of the drive should be btrfs. It is recommended to have a separate drive for the OS!
 
 ## IMPORTANT!!! - If you use the immutable variant and you want to use gamescope and mangohud inside a distrobox container check `Apps-In-Distrobox.md`
