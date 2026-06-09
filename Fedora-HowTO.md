@@ -41,7 +41,43 @@
 # To check what packages are going to be upgraded - `rpm-ostree upgrade --preview`
 # To update the system on immutable system - `sudo rpm-ostree upgrade`
 # To update the system on mutable system - `sudo dnf update`
-# Upgrade system process on immutable system: `sudo rpm-ostree rebase fedora:fedora/NUMBER_HIGHER_THAN_THE_CURRENT_ONE/YOUR_ARCH/FLAVOR`, example: `sudo rpm-ostree rebase fedora:fedora/44/x86_64/kinoite`
+# Upgrade system process on immutable system:
+* First run `ostree remote refs fedora | grep -i FLAVOR`, where `FLAVOR` is `silverblue`, `kinoite`, etc. It will give you a list of possible versions, example:
+```text
+fedora:fedora/40/aarch64/kinoite
+fedora:fedora/40/aarch64/updates/kinoite
+fedora:fedora/40/ppc64le/kinoite
+fedora:fedora/40/ppc64le/updates/kinoite
+fedora:fedora/40/x86_64/kinoite
+fedora:fedora/40/x86_64/updates/kinoite
+fedora:fedora/41/aarch64/kinoite
+fedora:fedora/41/aarch64/updates/kinoite
+fedora:fedora/41/ppc64le/kinoite
+fedora:fedora/41/ppc64le/updates/kinoite
+fedora:fedora/41/x86_64/kinoite
+fedora:fedora/41/x86_64/updates/kinoite
+fedora:fedora/42/aarch64/kinoite
+fedora:fedora/42/aarch64/testing/kinoite
+fedora:fedora/42/aarch64/updates/kinoite
+fedora:fedora/42/x86_64/kinoite
+fedora:fedora/42/x86_64/testing/kinoite
+fedora:fedora/42/x86_64/updates/kinoite
+fedora:fedora/43/aarch64/kinoite
+fedora:fedora/43/aarch64/testing/kinoite
+fedora:fedora/43/aarch64/updates/kinoite
+fedora:fedora/43/x86_64/kinoite
+fedora:fedora/43/x86_64/testing/kinoite
+fedora:fedora/43/x86_64/updates/kinoite
+fedora:fedora/44/aarch64/kinoite
+fedora:fedora/44/aarch64/testing/kinoite
+fedora:fedora/44/aarch64/updates/kinoite
+fedora:fedora/44/x86_64/kinoite
+fedora:fedora/44/x86_64/testing/kinoite
+fedora:fedora/44/x86_64/updates/kinoite
+fedora:fedora/rawhide/aarch64/kinoite
+fedora:fedora/rawhide/x86_64/kinoite
+```
+* Then run `sudo rpm-ostree rebase fedora:fedora/NUMBER_HIGHER_THAN_THE_CURRENT_ONE/YOUR_ARCH/FLAVOR`, example: `sudo rpm-ostree rebase fedora:fedora/44/x86_64/kinoite`
 # Upgrade system process on mutable system:
 ```bash
 sudo dnf system-upgrade download --releasever NUMBER_HIGHER_THAN_THE_CURRENT_ONE
