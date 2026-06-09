@@ -42,7 +42,8 @@
 # To update the system on immutable system - `sudo rpm-ostree upgrade`
 # To update the system on mutable system - `sudo dnf update`
 # Upgrade system process on immutable system:
-* First run `ostree remote refs fedora | grep -i FLAVOR`, where `FLAVOR` is `silverblue`, `kinoite`, etc. It will give you a list of possible versions, example:
+* It is recommended to upgrade the current system first to the latest version with `sudo rpm-ostree upgrade`, reboot and pin the deployment with `sudo ostree admin pin DEP_INDEX` (most probably 0, or 1 if you want to pin the previous deployment)
+* Then run `ostree remote refs fedora | grep -i FLAVOR`, where `FLAVOR` is `silverblue`, `kinoite`, etc. It will give you a list of possible versions, example:
 ```text
 fedora:fedora/40/aarch64/kinoite
 fedora:fedora/40/aarch64/updates/kinoite
