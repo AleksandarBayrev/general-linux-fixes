@@ -89,7 +89,7 @@ sudo rpmconf -a # to reconfigure new applications, not needed for rpm-ostree
 # Install `net-tools` for the `netstat` command and other tools
 # Install `pkexec` for GUI authorization
 # Install `fastfetch` and check `config-fastfetch/README.md`
-# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `btop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `rar`, `unrar`, `usbutils`, `smartmontools`, `nvme-cli` and `qt6-wayland`
+# Install `flatpak`, `libspa-0.2-bluetooth`, `sbc-tools`, `freeaptx-utils`, `bluetooth`, `galternatives`, `vlc`, `synaptic`, `wayland-protocols`, `pipewire`, `htop`, `btop`, `vim`, `openjdk-*-jre`, `libsdl2-dev`, `libcurl4-gnutls-dev`, `libopenal-dev`, `firewall-config`, `stress`, `s-tui`, `soundkonverter`, `rar`, `unrar`, `usbutils`, `smartmontools`, `nvme-cli` and `qt6-wayland` (if needed, and if possible in a distrobox container)
 # Install `bash-completion` for bash autocomplete if missing
 # Install `nvtop` if you have a NVIDIA GPU
 # Flatpaks: check `flatpaks-to-install.txt` (important: check this file every time you reinstall! (DBeaver for example is important when you use SQLite for example))
