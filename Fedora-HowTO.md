@@ -21,6 +21,8 @@
 
 ## Enable `ntsync`, check `NTSYNC-HowTO.md`
 
+## IMPORTANT!!! - If on Wi-Fi, check `NetworkManager-Linux-WiFi-Powersave.md`
+
 ## If you run a Thinkpad with a fingerprint scanner check `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`
 # IMPORTANT!!! - Add flathub if you use flatpaks `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 # IMPORTANT!!! - Disable CSM in UEFI/BIOS since it interferes with `ReBAR` (Resizable BAR), it can't be enabled, which has huge performance penalty when OFF
