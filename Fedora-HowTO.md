@@ -1,6 +1,8 @@
 # Install latest Fedora - either immutable or mutable
 # IMPORTANT!!! - If you choose the immutable variant read the whole document!
 
+## IMPORTANT!!! - If you use an immutable distro - disable automatic updates (if in KDE it is done via the GUI, check `KDE-Settings.md`), use `update-fedora` script or manually update via `rpm-ostree` (`--preview` to check changes, `upgrade` to update)
+
 ## IMPORTANT!!! - If you're on an immutable distro and have a NVIDIA GPU - read through `RPMFusion-Immutable-HowTO.md` file on how to setup RPMFusion correctly.
 
 ## IMPORTANT!!! - If you are going to use an immutable variant - create 4GiB for /boot/efi (EFI System partition) and 8GiB for /boot (ext4), rest of the drive should be btrfs. It is recommended to have a separate drive for the OS!
@@ -104,7 +106,7 @@ sudo rpmconf -a # to reconfigure new applications, not needed for rpm-ostree
 # Check `KDE-Settings.md` for some settings if you use KDE
 # Check `Gaming-Software.md`
 # Install `rocm-smi` if you want to have GPU temps in `btop`
-# To enable automatic time sync install `systemd-timesyncd`
+# To enable automatic time sync install `systemd-timesyncd` (check if needed, and probably another package name)
 # IMPORTANT!!! - check with `apt-mark showhold` any hold package versions and unhold them before upgrading!
 # For AMD GPUs - check `AMD-GPUs-Linux-Control-Panel.md`
 # For NVIDIA GPUs - after updating via the `update-fedora` script, if the GPU does not have drivers run in recovery mode and run `sudo akmods --force`, this applies only to non-immutable OSes
