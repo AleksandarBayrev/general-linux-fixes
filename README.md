@@ -258,3 +258,6 @@ General Linux fixes
 
 ## RPMFusion-Immutable-HowTO.md
 * Describes how to setup RPM Fusion on Fedora Immutable distros.
+
+## SMB-Server-Distrobox-Fix.md
+* Describes how to fix SMB Server inside distrobox.
