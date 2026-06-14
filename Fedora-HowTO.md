@@ -1,6 +1,8 @@
 # Install latest Fedora - either immutable or mutable
 # IMPORTANT!!! - If you choose the immutable variant read the whole document!
 
+## IMPORTANT!!! - to edit kernel arguments use `ostree kargs --editor` if using an immutable distro
+
 ## IMPORTANT!!! - If you use an immutable distro - disable automatic updates (if in KDE it is done via the GUI, check `KDE-Settings.md`), use `update-fedora` script or manually update via `rpm-ostree` (`--preview` to check changes, `upgrade` to update)
 
 ## IMPORTANT!!! - If you're on an immutable distro and have a NVIDIA GPU - read through `RPMFusion-Immutable-HowTO.md` file on how to setup RPMFusion correctly.
