@@ -49,39 +49,18 @@
 # To update the system on mutable system - `sudo dnf update`
 # Upgrade system process on immutable system:
 * It is recommended to upgrade the current system first to the latest version with `sudo rpm-ostree upgrade`, reboot and pin the deployment with `sudo ostree admin pin DEP_INDEX` (most probably 0, or 1 if you want to pin the previous deployment)
-* Then run `ostree remote refs fedora | grep -i FLAVOR`, where `FLAVOR` is `silverblue`, `kinoite`, etc. It will give you a list of possible versions, example:
+* Then run `ostree remote refs fedora | grep -i ARCH/FLAVOR`, where `ARCH` is your architecture (most likely x86_64) and `FLAVOR` is `silverblue`, `kinoite`, etc. It will give you a list of possible versions, example for `ostree remote refs fedora | grep -i x86_64/kinoite`:
 ```text
-fedora:fedora/40/aarch64/kinoite
-fedora:fedora/40/aarch64/updates/kinoite
-fedora:fedora/40/ppc64le/kinoite
-fedora:fedora/40/ppc64le/updates/kinoite
+fedora:fedora/35/x86_64/kinoite
+fedora:fedora/36/x86_64/kinoite
+fedora:fedora/37/x86_64/kinoite
+fedora:fedora/38/x86_64/kinoite
+fedora:fedora/39/x86_64/kinoite
 fedora:fedora/40/x86_64/kinoite
-fedora:fedora/40/x86_64/updates/kinoite
-fedora:fedora/41/aarch64/kinoite
-fedora:fedora/41/aarch64/updates/kinoite
-fedora:fedora/41/ppc64le/kinoite
-fedora:fedora/41/ppc64le/updates/kinoite
 fedora:fedora/41/x86_64/kinoite
-fedora:fedora/41/x86_64/updates/kinoite
-fedora:fedora/42/aarch64/kinoite
-fedora:fedora/42/aarch64/testing/kinoite
-fedora:fedora/42/aarch64/updates/kinoite
 fedora:fedora/42/x86_64/kinoite
-fedora:fedora/42/x86_64/testing/kinoite
-fedora:fedora/42/x86_64/updates/kinoite
-fedora:fedora/43/aarch64/kinoite
-fedora:fedora/43/aarch64/testing/kinoite
-fedora:fedora/43/aarch64/updates/kinoite
 fedora:fedora/43/x86_64/kinoite
-fedora:fedora/43/x86_64/testing/kinoite
-fedora:fedora/43/x86_64/updates/kinoite
-fedora:fedora/44/aarch64/kinoite
-fedora:fedora/44/aarch64/testing/kinoite
-fedora:fedora/44/aarch64/updates/kinoite
 fedora:fedora/44/x86_64/kinoite
-fedora:fedora/44/x86_64/testing/kinoite
-fedora:fedora/44/x86_64/updates/kinoite
-fedora:fedora/rawhide/aarch64/kinoite
 fedora:fedora/rawhide/x86_64/kinoite
 ```
 * Then run `sudo rpm-ostree rebase fedora:fedora/NUMBER_HIGHER_THAN_THE_CURRENT_ONE/YOUR_ARCH/FLAVOR`, example: `sudo rpm-ostree rebase fedora:fedora/44/x86_64/kinoite`
