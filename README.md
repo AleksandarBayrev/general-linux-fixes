@@ -261,3 +261,6 @@ General Linux fixes
 
 ## SMB-Server-Distrobox-Fix.md
 * Describes how to fix SMB Server inside distrobox.
+
+## Ollama-Local-How-TO.md
+* Describes how to run Ollama locally.
