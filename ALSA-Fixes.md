@@ -18,7 +18,11 @@ monitor.alsa.rules = [
     ]
     actions = {
       update-props = {
-        session.suspend-on-idle = false
+        session.suspend-timeout-seconds = 0
+        session.suspend-on-idle         = false
+        node.suspend-on-idle            = false
+        node.pause-on-idle              = false
+        session.idle-timeout-seconds    = 0
       }
     }
   }
