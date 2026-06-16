@@ -35,3 +35,29 @@ monitor.alsa.rules = [
 options snd_hda_intel power_save=0 power_save_controller=N
 ```
 and restart your PC.
+
+# If you want separate sample rate for an output device do this:
+* Create a separate file for the device you want to override, e.g. I bought a SMSL SU-1 DAC that supports 768kHz rate, `$HOME/.config/wireplumber/wireplumber.conf.d/01-smsl-sample-rate.conf` with the following content:
+```text
+monitor.alsa.rules = [
+  {
+    matches = [
+      {
+        # This matches SMSL
+        node.name = "~alsa_output.usb-SMSL_SMSL_USB_AUDIO-00.*"
+      }
+    ]
+    actions = {
+      update-props = {
+        audio.rate = 768000
+      }
+    }
+  }
+]
+```
+* For other device names use pactl list sinks short, example command output:
+```text
+68      alsa_output.usb-SMSL_SMSL_USB_AUDIO-00.analog-stereo    PipeWire        s32le 2ch 768000Hz      RUNNING
+73      alsa_output.pci-0000_0c_00.4.analog-stereo      PipeWire        s32le 2ch 192000Hz      IDLE
+```
+You can tell which is the device name
