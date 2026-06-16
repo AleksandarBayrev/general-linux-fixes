@@ -50,6 +50,7 @@ monitor.alsa.rules = [
     actions = {
       update-props = {
         audio.rate = 768000
+        audio.format = "S32LE"
       }
     }
   }
