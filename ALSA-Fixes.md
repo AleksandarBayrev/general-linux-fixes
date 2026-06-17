@@ -7,7 +7,7 @@
 # How to fix audio cracking
 * Create a directory in `$HOME/.config/wireplumber/wireplumber.conf.d` (create both `wireplumber` and `wireplumber.conf.d` if missing)
 * Create a file `01-disable-suspension.conf` with the following content:
-```text
+```conf
 monitor.alsa.rules = [
   {
     matches = [
@@ -38,7 +38,7 @@ and restart your PC.
 
 # If you want separate sample rate for an output device do this:
 * Create a separate file for the device you want to override, e.g. I bought a SMSL SU-1 DAC that supports 768kHz rate, `$HOME/.config/wireplumber/wireplumber.conf.d/01-smsl-sample-rate.conf` with the following content:
-```text
+```conf
 monitor.alsa.rules = [
   {
     matches = [
@@ -49,7 +49,7 @@ monitor.alsa.rules = [
     ]
     actions = {
       update-props = {
-        audio.rate = 768000
+        audio.rate = 192000 # I don't think over 192Khz there is any difference, although it supports up to 768000
         audio.format = "S32LE"
       }
     }
