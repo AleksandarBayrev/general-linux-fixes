@@ -1,4 +1,7 @@
 # Install latest Fedora - either immutable or mutable
+
+# IMPORTANT!!! - When Fedora migrates to `bootc` please check`Fedora_Bootc_Migration_Guide.pdf` (of course run it through an AI/check documentation manually since commands could be changed)
+
 # IMPORTANT!!! - If you choose the immutable variant read the whole document!
 
 ## IMPORTANT!!! - to edit kernel arguments use `ostree kargs --editor` if using an immutable distro
