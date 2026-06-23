@@ -1,5 +1,9 @@
 # Install latest Fedora - either immutable or mutable
 
+# IMPORTANT!!! - Don't forget to enable `Set Date/Time Automatically` in KDE Settings in Date & Time
+
+<img src="./set-date-time.png" />
+
 # IMPORTANT!!! - [ NOTE - it could be obsolete by the time it releases, since the plans are to integrate dnf5 and bootc to replace rpm-ostree ] When Fedora migrates to `bootc` please check`Fedora_Bootc_Migration_Guide.pdf` (of course run it through an AI/check documentation manually since commands could be changed)
 
 # IMPORTANT!!! - If you choose the immutable variant read the whole document!
