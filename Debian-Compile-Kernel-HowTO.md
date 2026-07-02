@@ -3,7 +3,8 @@
 * Use `debian` image
 * Check `Debian-Stable-HowTO.md` and update the sources from there
 * Enter the container and run `sudo apt-get build-dep linux`
-* Clone the version you want to compile (example 6.16.11)
+* Clone the version you want to compile (example 6.16.11) and enter the unzipped folder
+* Run `make clean` and `make mrproper` just in case you have rebuilt once at least
 * Copy the existing config to the folder (Example: `cp -v /boot/config-6.12.48+deb13-amd64 .config`)
 * `make olddefconfig`
 * If you want to run `make menuconfig` to setup additional stuff run `cp -v .config .config_bak` to preserve the original configuration. Pressing slash (/) on the keyboard opens up a search where you can look for modules that you want to include. (Suggested modules (it didn't have huge impact with version 6.16.11, could check with newer versions) - add ntsync (press M to compile it as a module and then use modprobe or create a config in `/etc/modules-load.d/` to load it)). For other additional settings check how they should be compiled (check `NTSYNC-HowTO.md`)
