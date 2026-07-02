@@ -1,5 +1,7 @@
 # Install latest Fedora - either immutable or mutable
 
+# !!! IMPORTANT !!! - check `Hostname-Important-Info.md`
+
 # IMPORTANT!!! - Don't forget to enable `Set Date/Time Automatically` in KDE Settings in Date & Time
 
 <img src="./set-date-time.png" />

@@ -264,3 +264,6 @@ General Linux fixes
 
 ## Ollama-Local-How-TO.md
 * Describes how to run Ollama locally.
+
+## Hostname-Important-Info.md
+* Describes what to do when hostname is changed and you use containers.

@@ -1,3 +1,4 @@
+# !!! IMPORTANT !!! - check `Hostname-Important-Info.md`
 # If using `Google Chrome` for example via `distrobox` install `pipewire` to have sound in it
 # IMPORTANT!!! - pass `--nvidia` flag when creating a distrobox if using a NVIDIA GPU, example: `distrobox create --name gaming --image registry.fedoraproject.org/fedora-toolbox:44 --nvidia --volume /var/mnt/OtherStuff:/OtherStuff:rw`
 # If you want to use Fedora - setup the container like this:

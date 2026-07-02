@@ -1,5 +1,7 @@
 # Install latest Debian Stable
 
+# !!! IMPORTANT !!! - check `Hostname-Important-Info.md`
+
 ## If you run a Thinkpad with a fingerprint scanner check `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`
 
 # IMPORTANT!!! - Disable CSM in UEFI/BIOS since it interferes with `ReBAR` (Resizable BAR), it can't be enabled, which has huge performance penalty when OFF
