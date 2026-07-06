@@ -1,6 +1,7 @@
 # !!! IMPORTANT !!! - check `Hostname-Important-Info.md`
 # If using `Google Chrome` for example via `distrobox` install `pipewire` to have sound in it
 # !!! IMPORTANT !!! - before creating a NVIDIA container - make sure to install both 32 and 64-bit drivers (for Immutable distros check `RPMFusion-Immutable-HowTO.md`)
+# !!! IMPORTANT !!! - for NVIDIA containers - `sudo setenforce 0`
 # IMPORTANT!!! - pass `--nvidia` flag when creating a distrobox if using a NVIDIA GPU, example: `distrobox create --name gaming --image registry.fedoraproject.org/fedora-toolbox:44 --nvidia --volume /var/mnt/OtherStuff:/OtherStuff:rw`
 # If you want to use Fedora - setup the container like this:
 * First create the home: `mkdir -p ~/.distrobox-homes/gaming`
@@ -9,7 +10,7 @@
 # If using Fedora immutable distros and you run Steam/Lutris from a Fedora based container, upgrading the system without recreating a container happens like this:
 * Let's say you run Fedora 43, to upgrade to 44 run: `sudo dnf --releasever=44 distro-sync` and then `sudo rpmconf -a`
 * Install `gamescope mangohud mangoapp goverlay protontricks steam lutris`
-* Then run `steam` and `lutris` from the command line first to see if there are some missing commands. Mandatory packages to install before that: `fuse` `fuse-libs` `lsb_release` `xrandr` `pulseaudio-utils` `pipewire` `pciutils`
+* Then run `steam` and `lutris` from the command line first to see if there are some missing commands. Mandatory packages to install before that: `fuse` `fuse-libs` `lsb_release` `xrandr` `pulseaudio-utils` `pipewire` `pciutils` `libwayland-server.*`
 * For Steam after setting up everything - if you have previous runners (Proton Experimental, Steam Linux Runtime, etc.) - run file verification on all of them to avoid problems.
 # IMPORTANT!!! - Install `gamescope mangohud goverlay protontricks` inside the container and export them via `distrobox-export` to `~/.local/bin`
 # IMPORTANT!!! - Even if you export mangohud/gamescope they are not working sometimes in appimages, the workaround is to launch the appimage from the container: `distrobox-enter -n YOUR_CONTAINER -- /path/to/Your.AppImage`, example: `distrobox-enter -n gaming -- ~/Games/Heroic.AppImage`
