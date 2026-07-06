@@ -10,3 +10,4 @@
 * Disable `Pause Media during calls` in KDE Connect if the PC taskbar hangs when receiving a call (noticeable on KDE)
 * Disable Auto updates, make notifications daily
 <img src="./kde-updates.png" />
+* Disable Alternate Characters `Show popup when holding a key` in `Settings -> Keyboard -> On-Screen Keyboard`
