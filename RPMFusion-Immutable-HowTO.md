@@ -21,6 +21,6 @@ $ systemctl reboot
 
 * Reboot again and you're ready to use it.
 
-# For NVIDIA GPUs install the default packages: `akmod-nvidia` and `xorg-x11-drv-nvidia-cuda`, or if you want to lock driver versions, examplefor 580 series driver: `akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda xorg-x11-drv-nvidia-580xx-libs.i686`
+# For NVIDIA GPUs install the default packages: `akmod-nvidia`, `xorg-x11-drv-nvidia`, `xorg-x11-drv-nvidia-cuda` and `xorg-x11-drv-nvidia-libs.i686`, or if you want to lock driver versions, examplefor 580 series driver: `akmod-nvidia-580xx xorg-x11-drv-nvidia-580xx xorg-x11-drv-nvidia-580xx-cuda xorg-x11-drv-nvidia-580xx-libs.i686`
 
 # !!!IMPORTANT!!! - Make sure you check https://rpmfusion.org/Howto/NVIDIA?highlight=%28%5CbCategoryHowto%5Cb%29#OSTree_.28Silverblue.2FKinoite.2Fetc.29 for the most important step - blacklisting nouveau and nova drivers
