@@ -42,7 +42,7 @@
 # IMPORTANT!!! - Add a root password after installation of the OS in order to have `sudo` cofigured out-of-the-box after installation instead of adding your current user to `sudo` group
 # IMPORTANT!!! - by default install recommendation for Lutris/Steam is via flatpak on immutable Fedora (Silverblue, Kinoite), but I would recommend if you decide to install to use mesa-custom-launcher - definitely check `Apps-In-Distrobox.md` - you should use a container for Steam/Lutris if you want custom Mesa drivers, don't forget to upgrade the containers after a system upgrade
 # If you want to use snapshots before update - install the OS to a btrfs formatted drive (best way to do it is to have a separate SSD for OS only), and then use btrfs-assistant, check guides on how to setup dnf for automatic snapshots
-# Disable SELinux - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled` (or use `grubby --update-kernel ALL --args selinux=0` )or if running an immutable distro `rpm-ostree kargs --editor` and append `selinux=0`)
+# Disable SELinux !!! only if you have problems! !!! - edit `/etc/selinux/config` file, find line `SELINUX=` and set it to `disabled` => `SELINUX=disabled` (or use `grubby --update-kernel ALL --args selinux=0` )or if running an immutable distro `rpm-ostree kargs --editor` and append `selinux=0`)
 # Delete java (`sudo dnf remove java*`), zram-generator (`sudo dnf remove zram-generator*`), dragon (`sudo dnf remove dragon`), elisa-player (`sudo dnf remove elisa-player`), ktorrent (`sudo dnf remove ktorrent`) or override in rpm-ostree
 # Install `kernel-modules-extra` for additional device support (install via rpm-ostree on immutable system)
 # Check `ALSA-Fixes.md`
