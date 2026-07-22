@@ -26,3 +26,6 @@
 # For Windows VM - use `QXL` display adapter, set Display to `Spice`, add Tablet `EvTouch Graphics Tablet` for mouse precision
 
 # Check `Virt-Manager_ECore_Pinning_Guide.pdf` if you run a CPU with P-Cores and E-Cores.
+
+# If the DNS/DHCP service stops working check the Firewall - enable the following services for `FedoraWorkstation` (or whatever the default profile is, sometimes it's `public`), `libvirt` and `libvirt-routed`:
+<img src="./firewall-fixes-qemu-kvm.png">
