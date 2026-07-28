@@ -48,3 +48,4 @@ tv.kodi.Kodi
 org.fooyin.fooyin
 org.kde.kid3
 io.dbeaver.DBeaverCommunity
+org.kde.gwenview
