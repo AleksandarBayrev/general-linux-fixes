@@ -1,5 +1,5 @@
 # Install latest Fedora - either immutable or mutable
-
+# !!! IMPORTANT !!! - check `AMD-GPUs-Linux-Control-Panel.md` for the kernel parameters that are useful.
 # !!! IMPORTANT !!! - check `Hostname-Important-Info.md`
 
 # IMPORTANT!!! - Don't forget to enable `Set Date/Time Automatically` in KDE Settings in Date & Time

@@ -10,4 +10,8 @@
 
 # How to disable password prompt - [https://gitlab.com/corectrl/corectrl/-/wikis/Setup](https://gitlab.com/corectrl/corectrl/-/wikis/Setup)
 
-# To enable AMD Freesync - add `amdgpu.freesync_video=1` parameter to GRUB_CMDLINE_LINUX and run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg` (on newer Linux distros it already works OOB)
+# To see all kernel parameters check [https://docs.kernel.org/gpu/amdgpu/module-parameters.html](https://docs.kernel.org/gpu/amdgpu/module-parameters.html)
+
+# To enable AMD Freesync - add `amdgpu.freesync_video=1` parameter to your bootloader and refresh your configuration.
+
+# To reduce stuttering - add `amdgpu.vm_update_mode=3` parameter to your bootloader and refresh your configuration
