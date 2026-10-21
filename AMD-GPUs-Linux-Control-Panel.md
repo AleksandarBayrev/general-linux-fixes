@@ -16,4 +16,4 @@
 
 # To reduce stuttering - add `amdgpu.vm_update_mode=3` parameter to your bootloader and refresh your configuration (use only if you have issues)
 
-# To enable AMD HDMI FRL - call first `printf 'amdgpu.dcfeaturemask=0x%x\n' "$(( $(cat /sys/module/amdgpu/parameters/dcfeaturemask) | 0x400 ))"`, this will print out the value for the kernel argument, then add `amdgpu.dcfeaturemask=the output of the command above`
+# If a 4K TV + HDMI is connected (either HDMI cable or HDMI -> DP) and 60+ HZ is nott available - enable AMD HDMI FRL - call first `printf 'amdgpu.dcfeaturemask=0x%x\n' "$(( $(cat /sys/module/amdgpu/parameters/dcfeaturemask) | 0x400 ))"`, this will print out the value for the kernel argument, then add `amdgpu.dcfeaturemask=the output of the command above`
