@@ -267,3 +267,6 @@ General Linux fixes
 
 ## Hostname-Important-Info.md
 * Describes what to do when hostname is changed and you use containers.
+
+## LM_Studio_VS_Code_Guide_BG.pdf
+* Describes how to connect LM Studio with Visual Studio Code.
