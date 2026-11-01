@@ -9,6 +9,11 @@ sudo apt update
 sudo apt install apcupsd
 ```
 
+Or if running Fedora Kinoite:
+```sh
+sudo rpm-ostree install apcupsd
+```
+
 2. Edit the configuration
 
 You need to tell the software you are using a USB cable. Open the config file:
