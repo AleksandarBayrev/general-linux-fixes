@@ -270,3 +270,6 @@ General Linux fixes
 
 ## LM_Studio_VS_Code_Guide_BG.pdf
 * Describes how to connect LM Studio with Visual Studio Code.
+
+## openSUSE-MicroOS-HowTO.md
+* Describes how to setup openSUSE MicroOS with KDE.
