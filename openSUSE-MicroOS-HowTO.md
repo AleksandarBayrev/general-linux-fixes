@@ -1,4 +1,4 @@
-# Install openSUSE MicroOS — KDE Plasma + systemd-boot + optional Discover updates
+# Install openSUSE MicroOS - KDE Plasma + systemd-boot + optional Discover updates
 
 Personal installation and maintenance checklist, based on our MicroOS discussions and the supplied Fedora checklist. Checked against current documentation on **5 November 2026**.
 
@@ -8,7 +8,7 @@ The main command examples use **Zypper/transactional-update**. **PackageKit is o
 
 This describes your customized **MicroOS + KDE** setup. MicroOS itself is presented as a container/server OS; Kalpa is the separate Plasma desktop project derived from it. Installer choices and support policies differ. In particular, do not apply this custom partitioning checklist to a Kalpa installer that requires its own automatic layout. [MicroOS downloads](https://get.opensuse.org/microos/) · [Kalpa documentation](https://kalpadesktop.org/documentation/)
 
-# !!! IMPORTANT !!! — Read these before installing
+# !!! IMPORTANT !!! - Read these before installing
 
 - **Select systemd-boot in the installer.** Configure partitioning first, then recheck the bootloader selection before starting installation.
 - **Choose your host-update method.** Use “MicroOS via Zypper” for the main instructions. Optionally choose “MicroOS via PackageKit” for Discover host updates, as described in section 13.
@@ -19,7 +19,7 @@ This describes your customized **MicroOS + KDE** setup. MicroOS itself is presen
 - **systemd-boot uses `sdbootutil` and `/etc/kernel/cmdline` here.** Fedora's `ostree kargs`, `grubby`, and GRUB configuration commands do not apply.
 - **Snapshots protect OS state; keep separate backups of personal data, VMs, containers, and the EFI System Partition.**
 
-# IMPORTANT!!! — Check your existing notes
+# IMPORTANT!!! - Check your existing notes
 
 Keep these references from your original checklist nearby. Their distribution-specific commands still need adapting to openSUSE:
 
@@ -48,7 +48,7 @@ In firmware settings:
 - Enable hardware virtualization if you intend to use KVM.
 - Keep Secure Boot if the selected image and its signed boot chain support your configuration. Do not disable it merely because you selected systemd-boot.
 
-# 2. Partitioning — preserve the MicroOS defaults
+# 2. Partitioning - preserve the MicroOS defaults
 
 Use a separate OS SSD where practical, as in your existing plan. Keep the guided MicroOS layout and only make changes you need.
 
@@ -85,7 +85,7 @@ Do not taboo MicroOS packages on this system. Your separate Tumbleweed branding 
 
 The official MicroOS systemd-boot installation example also changes partitioning before selecting the bootloader: [installation workflow](https://microos.opensuse.org/blog/2024-09-03-quickstart-fde-yast2/).
 
-# 4. First boot — verify the actual installation
+# 4. First boot - verify the actual installation
 
 Run these **on the host**, outside Distrobox:
 
@@ -108,7 +108,13 @@ Check that `/` is Btrfs and has `ro` in its mount options, that your home drive 
 
 If `/` is writable, investigate the selected installation role and layout before treating it as the intended MicroOS setup. Adding `ro` to `fstab` alone does not create a complete transactional installation.
 
-## IMPORTANT!!! — Configure local hostname resolution after installation
+## IMPORTANT!!! - Arrange the minimize, maximize and close buttons
+<img src="./window-decorations-fix.png" />
+<img src="./titlebar-buttons.png" />
+
+* Drag & drop the buttons where you want them to be.
+
+## IMPORTANT!!! - Configure local hostname resolution after installation
 
 **Do this after the first boot.** Ensure that your computer's hostname is mapped in `/etc/hosts`. On this MicroOS installation, a missing mapping caused slow hostname lookups and very slow Flatpak Firefox startup; adding the entries below resolved the delay.
 
@@ -142,7 +148,7 @@ time flatpak run --command=getent org.mozilla.firefox ahosts "$(hostname)"
 
 **No reboot is needed for this edit.** Fully quit and reopen Firefox if it was already running. If you change the hostname later, update these mappings to match.
 
-# 5. IMPORTANT!!! — Configure manual host updates
+# 5. IMPORTANT!!! - Configure manual host updates
 
 For the manual update workflow you wanted, disable automatic staging:
 
@@ -227,7 +233,7 @@ sudo systemctl set-default graphical.target
 sudo systemctl enable --now sddm.service
 ```
 
-## IMPORTANT!!! — The SDDM fix that worked on your installation
+## IMPORTANT!!! - The SDDM fix that worked on your installation
 
 If the system boots to a terminal despite `graphical.target`, inspect:
 
@@ -248,7 +254,7 @@ The `--force` replaces the conflicting service alias. This is a service-selectio
 
 Reference: [Kalpa's documented SDDM workaround](https://kalpadesktop.org/documentation/), also reproduced successfully on your installation.
 
-# 7. IMPORTANT!!! — Time, hostname, and KDE settings
+# 7. IMPORTANT!!! - Time, hostname, and KDE settings
 
 In KDE System Settings, enable **Set Date/Time Automatically** and select **Europe/Sofia**.
 
@@ -282,7 +288,7 @@ hostnamectl status
 
 Apply your normal preferences from `KDE-Settings.md`. For the window buttons that appeared reversed on your MicroOS installation, open **Window Decorations → Titlebar Buttons** in System Settings and arrange minimize, maximize, and close as you prefer.
 
-# 8. IMPORTANT!!! — Install host tools in a batch
+# 8. IMPORTANT!!! - Install host tools in a batch
 
 Install tools on the host when they need host services, devices, or kernel integration. Use Flatpak/Distrobox for most other applications.
 
@@ -345,7 +351,7 @@ Review the proposed removals, then reboot after the selected command succeeds:
 sudo systemctl reboot
 ```
 
-# 9. IMPORTANT!!! — The rule for consecutive host changes
+# 9. IMPORTANT!!! - The rule for consecutive host changes
 
 Each ordinary transaction starts from the **running snapshot**. A second ordinary transaction before reboot can therefore omit the changes staged by the first.
 
@@ -568,7 +574,7 @@ Update system-wide Flatpaks with `flatpak update --system` and upgrade Distrobox
 
 Sources: [transaction command behavior](https://kubic.opensuse.org/documentation/man-pages/transactional-update.8.html) · [rolling-release update configuration](https://manpages.opensuse.org/Tumbleweed/transactional-update/transactional-update.conf.5.en.html).
 
-# 13. OPTIONAL — Host updates through Discover
+# 13. OPTIONAL - Host updates through Discover
 
 Skip this section if you prefer host updates entirely through the CLI in section 12. Discover can still manage Flatpaks using `discover6-backend-flatpak`.
 
@@ -579,7 +585,7 @@ For host updates inside Discover, choose **one** of the following options:
 | PackageKit | MicroOS's transaction-capable PackageKit setup plus Discover's PackageKit backend |
 | Custom Zypper backend | Keep Zypper/transactional-update and install the add-on we worked on |
 
-## Option A — PackageKit for Discover updates
+## Option A - PackageKit for Discover updates
 
 For a new installation, select **MicroOS via PackageKit** if offered. This selects the distribution's PackageKit package-management setup. PackageKit is not required for the default Zypper workflow.
 
@@ -606,7 +612,7 @@ The PackageKit route does not require the custom Zypper add-on below. Keep autom
 
 Sources: [Discover PackageKit backend](https://apps.kde.org/discover.packagekit/) · [openSUSE Discover packages](https://packagehub.suse.com/packages/discover6/) · [PackageKit CLI](https://www.freedesktop.org/software/PackageKit/pk-using.html) · [transactional package-manager integrations](https://github.com/openSUSE/transactional-update).
 
-## Option B — Custom Zypper backend
+## Option B - Custom Zypper backend
 
 This option keeps **Zypper/transactional-update for host updates**. Discover can manage Flatpaks alongside the custom MicroOS Zypper backend we worked on.
 
@@ -639,7 +645,7 @@ Reboot into an already pending snapshot before asking it to stage a fresh update
 
 If the add-on fails, the CLI update procedure in section 12 remains available.
 
-# 14. IMPORTANT!!! — systemd-boot configuration and kernel arguments
+# 14. IMPORTANT!!! - systemd-boot configuration and kernel arguments
 
 ## Keep the boot menu accessible
 
@@ -777,7 +783,7 @@ If the ESP, bootloader, disk, or encryption setup itself is damaged, use install
 
 Sources: [Snapper limits](https://manpages.opensuse.org/Tumbleweed/snapper/snapper-configs.5.en.html) · [snapshot modification](https://manpages.opensuse.org/Tumbleweed/snapper/snapper.8.en.html) · [rollback](https://manpages.opensuse.org/Tumbleweed/transactional-update/transactional-update.8.en.html) · [boot-entry integration](https://github.com/openSUSE/sdbootutil/blob/main/10-sdbootutil.snapper).
 
-# 16. Virtualization — KVM, QEMU, virt-manager, and UEFI guests
+# 16. Virtualization - KVM, QEMU, virt-manager, and UEFI guests
 
 Keep the hypervisor, libvirt daemons, and firmware on the **host**. Inspect available virtualization patterns:
 
@@ -878,7 +884,7 @@ Read-only queries such as `rpm -qa`, `zypper search`, and `zypper info` remain u
 
 Source: [Zypper command documentation](https://github.com/openSUSE/zypper/blob/master/doc/zypper.8.txt).
 
-# 18. IMPORTANT!!! — `/etc`, updates, and configuration files
+# 18. IMPORTANT!!! - `/etc`, updates, and configuration files
 
 `/etc` remains writable on the transactional system. You can edit configuration such as `/etc/fstab`, service overrides, and your boot command line.
 
@@ -892,7 +898,7 @@ Rolling back the root can also restore older system configuration. Your separate
 
 Sources: [current `/etc` handling](https://manpages.opensuse.org/Tumbleweed/transactional-update/transactional-update.8.en.html) · [transactional writable-data layout](https://kubic.opensuse.org/documentation/transactional-update-guide/tu-setup.html).
 
-# 19. Power cuts during updates — what to do
+# 19. Power cuts during updates - what to do
 
 A transaction prepares a new root snapshot while the running OS remains available. After an interrupted update, boot the existing working entry if necessary, inspect the failed operation, and retry once repository/network/disk problems are resolved.
 
@@ -958,10 +964,10 @@ Sources: [transactional update design](https://github.com/openSUSE/transactional
 # Daily command reminder
 
 ```bash
-# Host upgrade — reboot after success
+# Host upgrade - reboot after success
 sudo transactional-update dup
 
-# Host packages — reboot after success
+# Host packages - reboot after success
 sudo transactional-update pkg install PACKAGE_NAME
 sudo transactional-update pkg remove PACKAGE_NAME
 
