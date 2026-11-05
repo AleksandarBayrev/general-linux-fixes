@@ -108,6 +108,40 @@ Check that `/` is Btrfs and has `ro` in its mount options, that your home drive 
 
 If `/` is writable, investigate the selected installation role and layout before treating it as the intended MicroOS setup. Adding `ro` to `fstab` alone does not create a complete transactional installation.
 
+## IMPORTANT!!! — Configure local hostname resolution after installation
+
+**Do this after the first boot.** Ensure that your computer's hostname is mapped in `/etc/hosts`. On this MicroOS installation, a missing mapping caused slow hostname lookups and very slow Flatpak Firefox startup; adding the entries below resolved the delay.
+
+Check your hostname, then edit the file on the host:
+
+```bash
+hostname
+sudoedit /etc/hosts
+```
+
+**Known-working example from this installation (`ultra7-ws`):**
+
+```text
+127.0.0.1       localhost localhost.localdomain ultra7-ws
+::1             localhost localhost.localdomain ipv6-localhost ipv6-loopback ipv6-ultra7-ws ultra7-ws
+```
+
+Replace `ultra7-ws` with the exact output of `hostname`, including in the optional `ipv6-ultra7-ws` alias. Update the existing loopback lines while preserving the other entries in the file. The actual hostname must appear on both lines; the `ipv6-` alias is an additional name, not a replacement for it.
+
+Verify that resolution returns promptly:
+
+```bash
+time getent ahosts "$(hostname)"
+```
+
+After installing Flatpak Firefox, you can also check inside its sandbox:
+
+```bash
+time flatpak run --command=getent org.mozilla.firefox ahosts "$(hostname)"
+```
+
+**No reboot is needed for this edit.** Fully quit and reopen Firefox if it was already running. If you change the hostname later, update these mappings to match.
+
 # 5. IMPORTANT!!! — Configure manual host updates
 
 For the manual update workflow you wanted, disable automatic staging:
