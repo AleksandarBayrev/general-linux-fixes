@@ -30,6 +30,12 @@ Keep these references from your original checklist nearby. Their distribution-sp
 - `Gaming-Linux-HowTO.md`, `Gaming-Software.md`, `NTSYNC-HowTO.md`, and `Gamescope-Notes.md`.
 - `Fix-Linux-Sleep.md`, `cpupower-Fixes.md`, and `Thinkpad-Fingerprint-Scanner-Linux-HowTO.md`, where relevant.
 - `Linux-UPS-APC-HowTO.md` if using your APC UPS.
+- `Swap-Configuration.md` and `Swap-File-Creation.md` for swap settings and swapfile creation.
+- `NVIDIA-Fixes-Linux.md` if using an NVIDIA GPU and troubleshooting driver, display, or suspend issues.
+- `DOTNET-Development-Setup.md` if setting up .NET development.
+- `OpenVPN-Configuration-Linux.md` if importing an OpenVPN configuration.
+- `config-fastfetch/README.md` if Fastfetch does not detect your monitors correctly.
+- `Linux-Gaming-Notes.md` in `random-important-stuff` for additional gaming tips, including older games.
 
 # 1. Prepare the installer and firmware
 
