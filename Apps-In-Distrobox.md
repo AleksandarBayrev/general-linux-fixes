@@ -2,7 +2,10 @@
 # If using `Google Chrome` for example via `distrobox` install `pipewire` to have sound in it
 # !!! IMPORTANT !!! - before creating a NVIDIA container - make sure to install both 32 and 64-bit drivers (for Immutable distros check `RPMFusion-Immutable-HowTO.md`)
 # !!! IMPORTANT !!! - for NVIDIA containers - `sudo setenforce 0`
-# IMPORTANT!!! - pass `--nvidia` flag when creating a distrobox if using a NVIDIA GPU, example: `distrobox create --name gaming --image registry.fedoraproject.org/fedora-toolbox:44 --nvidia --volume /var/mnt/OtherStuff:/OtherStuff:rw`
+# IMPORTANT!!! - pass `--nvidia` flag when creating a distrobox if using a NVIDIA GPU, example: `distrobox create --name gaming --image your-image --nvidia --volume /var/mnt/OtherStuff:/OtherStuff:rw`
+# If you want to use OpenSUSE - setup the container like this:
+* First create the home: `mkdir -p ~/.distrobox-homes/gaming`
+* Then run `distrobox create --name gaming --image opensuse:distrobox --volume /var/MOUNT_POINT_DRIVE:/NAME_OF_DRIVE:rw`, example: `distrobox create --name gaming --image opensuse/distrobox --volume /var/mnt/OtherStuff:/OtherStuff:rw`
 # If you want to use Fedora - setup the container like this:
 * First create the home: `mkdir -p ~/.distrobox-homes/gaming`
 * Then run `distrobox create --name gaming --image registry.fedoraproject.org/fedora-toolbox:YOUR_VERSION --volume /var/MOUNT_POINT_DRIVE:/NAME_OF_DRIVE:rw`, example: `distrobox create --name gaming --image registry.fedoraproject.org/fedora-toolbox:44 --volume /var/mnt/OtherStuff:/OtherStuff:rw`
