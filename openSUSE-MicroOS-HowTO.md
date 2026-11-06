@@ -795,12 +795,13 @@ Where available, install the standard host/tool patterns:
 
 ```bash
 sudo transactional-update pkg install -t pattern kvm_server kvm_tools
+sudo transactional-update --continue pkg install qemu-spice
+sudo transactional-update --continue pkg install virt-manager qemu-ovmf-x86_64
 ```
 
-After success, extend that transaction with the GUI and x86_64 UEFI firmware:
+After success, reboot:
 
 ```bash
-sudo transactional-update --continue pkg install virt-manager qemu-ovmf-x86_64
 sudo systemctl reboot
 ```
 
