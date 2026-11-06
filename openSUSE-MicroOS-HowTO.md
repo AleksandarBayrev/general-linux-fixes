@@ -331,6 +331,12 @@ Optional additions for your setup:
 
 Do not copy Fedora's `fuse-libs`, `edk2-ovmf`, `kernel-modules-extra`, or Debian's `build-essential` package names blindly. Resolve the openSUSE package for the feature you need.
 
+## Install Ark
+
+```bash
+sudo transactional-update pkg install ark
+```
+
 ## Remove the Falkon browser
 
 If Falkon was installed with the desktop and you do not want it, remove its host package. With no pending transaction:
