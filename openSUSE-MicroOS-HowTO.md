@@ -337,6 +337,12 @@ Do not copy Fedora's `fuse-libs`, `edk2-ovmf`, `kernel-modules-extra`, or Debian
 sudo transactional-update pkg install ark
 ```
 
+* If you have duplicate `Compress` or `Extract` options in the context menu do this:
+  - Open `Dolphin` settings
+  <img src="./compress-extract-fix-1.png">
+  - Deselect the `Compress: Compress to...`, `Compress Here (as *)`, `Extract: Extract archive *` options.
+  <img src="./compress-extract-fix-2.png">
+
 ## Remove the Falkon browser
 
 If Falkon was installed with the desktop and you do not want it, remove its host package. With no pending transaction:
