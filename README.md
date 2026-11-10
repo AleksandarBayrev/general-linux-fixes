@@ -273,3 +273,6 @@ General Linux fixes
 
 ## openSUSE-MicroOS-HowTO.md
 * Describes how to setup openSUSE MicroOS with KDE.
+
+## start-nats.sh
+* Added `start-nats.sh` command for locally running NATS server to preserve data.
