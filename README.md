@@ -276,3 +276,6 @@ General Linux fixes
 
 ## start-nats.sh
 * Added `start-nats.sh` command for locally running NATS server to preserve data.
+
+## Mozilla-Firefox-Wayland-Stuttering-Fix.md
+* Fix for mouse/keyboard stuttering when Firefox is opened.

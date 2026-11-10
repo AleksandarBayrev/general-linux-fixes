@@ -1,0 +1,1 @@
+# If you use Mozilla Firefox from flatpaks - use `Flatseal` to add `MOZ_ENABLE_WAYLAND=0` into the environment variables - it should fix mouse/keyboard stutters.

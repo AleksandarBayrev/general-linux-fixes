@@ -14,6 +14,7 @@
 # Add `i386` architecture: `sudo dpkg --add-architecture i386`
 # Run `sudo apt modernize-sources` and remove `/etc/apt/sources.list` file and whatever else with suffix `~` or `.bak` (`sources.list~`, `sources.list.bak`)
 # Add user to `flatpak`, `libvirt`, `kvm`, `sudo` and `wheel` groups, then run `newgrp` to update them
+# Check `Mozilla-Firefox-Wayland-Stuttering-Fix.md`
 # Install `aptitude`, `apt-listbugs`, `apt-listchanges`
 # Check `Fix-Linux-Sleep.md` to disable hibernation or try to potentially fix some issues.
 # Remove `raspi-firmware` if not running Raspberry (`sudo apt purge raspi-firmware`)

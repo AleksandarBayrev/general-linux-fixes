@@ -116,7 +116,7 @@ If `/` is writable, investigate the selected installation role and layout before
 
 ## IMPORTANT!!! - Configure local hostname resolution after installation
 
-**Do this after the first boot.** Ensure that your computer's hostname is mapped in `/etc/hosts`. On this MicroOS installation, a missing mapping caused slow hostname lookups and very slow Flatpak Firefox startup; adding the entries below resolved the delay.
+**Do this after the first boot.** Ensure that your computer's hostname is mapped in `/etc/hosts`. On this MicroOS installation, a missing mapping caused slow hostname lookups and very slow Flatpak Firefox startup; adding the entries below resolved the delay. Also check `Mozilla-Firefox-Wayland-Stuttering-Fix.md`
 
 Check your hostname, then edit the file on the host:
 

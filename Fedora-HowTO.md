@@ -32,6 +32,8 @@
 
 ## Use `rpm -qa` to show all installed packages on immutable variants.
 
+## Check `Mozilla-Firefox-Wayland-Stuttering-Fix.md`
+
 ## Enable `ntsync`, check `NTSYNC-HowTO.md`
 
 ## IMPORTANT!!! - If on Wi-Fi, check `NetworkManager-Linux-WiFi-Powersave.md`
