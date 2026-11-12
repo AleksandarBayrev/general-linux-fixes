@@ -331,6 +331,8 @@ Optional additions for your setup:
 
 Do not copy Fedora's `fuse-libs`, `edk2-ovmf`, `kernel-modules-extra`, or Debian's `build-essential` package names blindly. Resolve the openSUSE package for the feature you need.
 
+## IMPORTANT!!! - to mount external drives do `sudo mkdir -p /var/mnt` if `/var/mnt` is missing and then mount there.
+
 ## Install Ark
 
 ```bash
