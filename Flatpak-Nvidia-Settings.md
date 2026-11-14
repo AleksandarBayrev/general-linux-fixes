@@ -1,5 +1,5 @@
 # Offloading NVIDIA GPU to flatpak applications
-* Install `Flatseal` and for each application add these lines
+* Install `Flatseal` and for each application add these lines (or prepend to the launch options for example in `Steam` or add as env vars in `Lutris`)
 
 ```
 __GL_SYNC_TO_VBLANK=0
