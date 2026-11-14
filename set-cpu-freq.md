@@ -6,7 +6,7 @@
 Description=Set-CPU-Freq
 
 [Service]
-ExecStart=/bin/set-cpu-freq.sh
+ExecStart=/bin/set-cpu-freq.sh # for openSUSE MicroOS it's /usr/local/bin/set-cpu-freq.sh
 
 [Install]
 WantedBy=multi-user.target
