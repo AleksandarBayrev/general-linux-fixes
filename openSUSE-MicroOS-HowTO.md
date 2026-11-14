@@ -938,7 +938,7 @@ Sources: [transactional update design](https://github.com/openSUSE/transactional
 - **AMD desktop:** start with the distro-provided kernel, firmware, and Mesa. Use your existing custom Mesa/container workflow only when needed. Preserve your tested TV settings for HDMI 2.1/high refresh separately from OS configuration.
 - **NVIDIA ThinkPad:** follow current openSUSE instructions matching MicroOS, the GPU, Secure Boot, and the installed kernel. Fedora's RPM Fusion and `akmods` procedure is not the openSUSE procedure.
 - **Sound:** apply your PipeWire notes after verifying the default setup. Check `LANG=C pactl info` when `pactl` is installed. Recheck high sample-rate overrides if a game has sound problems; your earlier 192 kHz setting affected some games.
-- **Gaming:** use your Flatpak or Distrobox setup and the matching notes for MangoHud, gamescope, custom Mesa, and NTSYNC. Install host kernel components on the host.
+- **Gaming:** use your Flatpak or Distrobox setup and the matching notes for MangoHud, gamescope, custom Mesa, and NTSYNC. Install host kernel components on the host. (flatpak is recommended for easier maintenance)
 - **SELinux:** keep the installed security policy unless troubleshooting establishes a specific issue. Do not copy `selinux=0` from the Fedora checklist as a routine setup step. The [Kalpa diagnostic examples](https://kalpadesktop.org/documentation/) include audit queries for identifying denials.
 - **Firmware and power management:** use the hardware-specific notes listed at the top. Do not carry over obsolete tweaks automatically.
 
