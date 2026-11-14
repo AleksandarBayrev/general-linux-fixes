@@ -298,7 +298,7 @@ Example base batch; adjust it to what is missing:
 sudo transactional-update pkg install \
   flatpak podman distrobox \
   btop fastfetch pciutils usbutils \
-  smartmontools nvme-cli lm_sensors \
+  smartmontools nvme-cli sensors \
   gnome-disk-utility ksystemlog \
   bash-completion
 ```
