@@ -1,4 +1,8 @@
-# DISCLAIMER - obsolete, use `distrobox` with `opensuse/tumbleweed` image, it is better experience when you need to use tools such as `libstrangle`
+# IMPORTANT!!! - if there is a problem with adding a library, add this to `Flatseal` - add `host-root:ro`
+
+<img src="./steam-flatseal.png" />
+
+# DISCLAIMER - use `distrobox` with `opensuse/tumbleweed` image, it is better experience when you need to use tools such as `libstrangle`, otherwise not recommended, flatpak is better
 # Install `steam` from flatpak
 # Install `protontricks` from flatpak
 # Install `flatseal` from flatpak
@@ -8,6 +12,7 @@
 # If you need only FPS limiter for games - use this as advanced options - `DXVK_FRAME_RATE=YOUR_FPS %command%`
 # How to setup `libstrangle` for Flatpak - `Steam-libstrangle-Flatpak.md` OR use MangoHud - `Steam-mangohud-Flatpak.md` (MangoHud recommended)
 # Disable shader pre-cache in `Settings -> Downloads`
-# If a controller is not detected - right click on the game -> `Properties -> Controller -> Switch Disable/Enable` and check if it works.            
+# If a controller is not detected - right click on the game -> `Properties -> Controller -> Switch Disable/Enable` and check if it works.  
+      
 
 <img src="./steam-flatpak.png" />
