@@ -11,3 +11,4 @@
 * Disable Auto updates, make notifications daily
 <img src="./kde-updates.png" />
 * Disable Alternate Characters `Show popup when holding a key` in `Settings -> Keyboard -> On-Screen Keyboard`
+* Click on `Apply Plasma Settings` for the Login Screen (SDDM) to transfer monitor/display settings
