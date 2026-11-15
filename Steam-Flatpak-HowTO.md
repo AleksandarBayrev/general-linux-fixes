@@ -1,4 +1,4 @@
-# IMPORTANT!!! - if there is a problem with adding a library, add this to `Flatseal` - add `host-root:ro`
+# IMPORTANT!!! - if there is a problem with adding a library to a different path than $HOME, add this to `Flatseal` - add `host-root:ro`
 
 <img src="./steam-flatseal.png" />
 
