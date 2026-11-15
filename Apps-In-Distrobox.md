@@ -1,3 +1,4 @@
+# !!! IMPORTANT !!! - use flatpak for Steam/Lutris/Heroic - better OOB experience with no problems whatsoever
 # !!! IMPORTANT !!! - check `Hostname-Important-Info.md`
 # If using `Google Chrome` for example via `distrobox` install `pipewire` to have sound in it
 # !!! IMPORTANT !!! - before creating a NVIDIA container - make sure to install both 32 and 64-bit drivers (for Immutable distros check `RPMFusion-Immutable-HowTO.md`)
