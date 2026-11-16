@@ -809,7 +809,7 @@ Where available, install the standard host/tool patterns:
 
 ```bash
 sudo transactional-update pkg install -t pattern kvm_server kvm_tools
-sudo transactional-update --continue pkg install qemu-spice
+sudo transactional-update --continue pkg install qemu-spice 'qemu-hw-usb-*'
 sudo transactional-update --continue pkg install virt-manager qemu-ovmf-x86_64
 ```
 
