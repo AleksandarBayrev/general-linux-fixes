@@ -747,6 +747,16 @@ sudo snapper -c root modify --cleanup-algorithm '' SNAPSHOT_NUMBER
 
 This prevents automatic cleanup of that snapshot until you assign a cleanup algorithm again. It is not an independent backup of the disk or ESP. Monitor space if retaining several snapshots.
 
+## Normal rollback
+
+Boot into a known snapshot and run:
+
+```bash
+sudo snapper list
+sudo snapper rollback
+sudo snapper rm ID_OF_BROKEN_SNAPSHOT
+```
+
 ## Roll back while the system still boots
 
 List snapshots, choose a known-good number, and run:
