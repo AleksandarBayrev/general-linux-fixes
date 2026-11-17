@@ -279,3 +279,6 @@ General Linux fixes
 
 ## Mozilla-Firefox-Wayland-Stuttering-Fix.md
 * Fix for mouse/keyboard stuttering when Firefox is opened.
+
+## NVIDIA-HOWTO-OPENSUSE-MICROOS-DKMS.md
+* How to setup NVIDIA on OpenSUSE MicroOS with DKMS.

@@ -1,19 +1,6 @@
 # NVIDIA Fixes Linux
 
-## For openSUSE MicroOS
-aleksandar@nitro5-ryzen7:~> zypper se nvidia | grep -i i+
-i+ | nvidia-compute-G07                                | NVIDIA driver for computing with GPGPU                                      | package
-i+ | nvidia-compute-G07-32bit                          | 32bit NVIDIA driver for computing with GPGPU                                | package
-i+ | nvidia-open-driver-G07-signed-cuda-default-devel  | Devel Package for nvidia-open-driver-G07-signed-cuda                        | package
-i+ | nvidia-open-driver-G07-signed-kmp-meta            | Meta package to select open nvidia driver in sync                           | package
-i+ | nvidia-persistenced                               | A daemon to maintain persistent software state in the NVIDIA driver         | package
-i+ | nvidia-settings                                   | Configure the NVIDIA graphics driver                                        | package
-i+ | nvidia-userspace-meta-G07                         | Meta package to autoselect NVIDIA userspace packages                        | package
-i+ | nvidia-video-G07                                  | NVIDIA graphics driver for GeForce 700 series and newer                     | package
-i+ | nvidia-video-G07-32bit                            | 32bit NVIDIA graphics driver for GeForce 700 series and newer               | package
-i+ | openSUSE-repos-Tumbleweed-NVIDIA                  | openSUSE NVIDIA repository definitions                                      | package
-
-* These are the packages required, first install `openSUSE-repos-Tumbleweed-NVIDIA`, then the rest (G07 means latest, check for others like G06, G05 suffixes, etc.)
+## For openSUSE MicroOS check `NVIDIA-HOWTO-OPENSUSE.md`
 
 ## The best approach is via a Local Repository installation - [Link for download](https://developer.nvidia.com/cuda-downloads), [How to](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#local-repo-installation-for-debian)
 
