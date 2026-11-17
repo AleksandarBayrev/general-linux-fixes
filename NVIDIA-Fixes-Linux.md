@@ -5,7 +5,7 @@ aleksandar@nitro5-ryzen7:~> zypper se nvidia | grep -i i+
 i+ | nvidia-compute-G07                                | NVIDIA driver for computing with GPGPU                                      | package
 i+ | nvidia-compute-G07-32bit                          | 32bit NVIDIA driver for computing with GPGPU                                | package
 i+ | nvidia-open-driver-G07-signed-cuda-default-devel  | Devel Package for nvidia-open-driver-G07-signed-cuda                        | package
-i+ | nvidia-open-driver-G07-signed-cuda-kmp-default    | NVIDIA open kernel module driver for GeForce 16 series (GTX 16xx) and newer | package
+i+ | nvidia-open-driver-G07-signed-kmp-meta            | Meta package to select open nvidia driver in sync                           | package
 i+ | nvidia-persistenced                               | A daemon to maintain persistent software state in the NVIDIA driver         | package
 i+ | nvidia-settings                                   | Configure the NVIDIA graphics driver                                        | package
 i+ | nvidia-userspace-meta-G07                         | Meta package to autoselect NVIDIA userspace packages                        | package
