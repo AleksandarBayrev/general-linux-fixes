@@ -20,12 +20,8 @@ Because NVIDIA and CUDA .run installers extract large temporary files, using the
     Create a temporary extraction directory on your /home drive:
     Bash
 
-    mkdir -p ~/nv-tmp
-
-    Export the TMPDIR variable to point to this directory:
-    Bash
-
-    export TMPDIR=/home/$USER/nv-tmp
+    mkdir -p /var/tmp/dkms
+    mkdir -p /var/lib/nvidia
 
     Blacklist the open-source nouveau driver:
     Bash
@@ -49,13 +45,7 @@ Enter a transactional shell, bind-mount /home so your files are accessible, and 
     Run the NVIDIA driver .run installer directly from your ~/Downloads folder with TMPDIR redirected, --dkms, and the explicit --kernel-source-path flag (Replace <driver-version> with your actual filename, and add -m=kernel-open if you want the open-source kernel modules for Turing/RTX 20-series and newer):
     Bash
 
-    TMPDIR=/home/$USER/nv-tmp sh /home/$USER/Downloads/NVIDIA-Linux-x86_64-<driver-version>.run \
-      --dkms \
-      --ui=none \
-      --no-questions \
-      --accept-license \
-      --kernel-name=$(uname -r) \
-      --kernel-source-path=/lib/modules/$(uname -r)/build
+    TMPDIR=/var/tmp sh /home/$USER/Downloads/NVIDIA-Linux-x86_64-<driver-version>.run --dkms
 
     Verify DKMS registered the module successfully:
     Bash
