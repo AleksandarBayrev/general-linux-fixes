@@ -300,7 +300,8 @@ sudo transactional-update pkg install \
   btop fastfetch pciutils usbutils \
   smartmontools nvme-cli sensors \
   gnome-disk-utility ksystemlog \
-  bash-completion
+  bash-completion \
+  usbutils
 ```
 
 After success, reboot before using newly installed host tools:
