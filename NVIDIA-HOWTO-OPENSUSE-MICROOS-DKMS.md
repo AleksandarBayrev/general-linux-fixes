@@ -42,7 +42,7 @@ Enter a transactional shell, bind-mount /home so your files are accessible, and 
 
     mount --bind /home /home
 
-    Run the NVIDIA driver .run installer directly from your ~/Downloads folder with TMPDIR redirected, --dkms, and the explicit --kernel-source-path flag (Replace <driver-version> with your actual filename, and add -m=kernel-open if you want the open-source kernel modules for Turing/RTX 20-series and newer):
+    Run the NVIDIA driver .run installer directly from your ~/Downloads folder with TMPDIR redirected, --dkms, and the explicit --kernel-source-path flag (Replace <driver-version> with your actual filename, and add -m=kernel-open if you want the open-source kernel modules for Turing/RTX 20-series and newer), do not click rebuild initramfs, check dracut step below:
     Bash
 
     TMPDIR=/var/tmp sh /home/$USER/Downloads/NVIDIA-Linux-x86_64-<driver-version>.run --dkms
@@ -54,7 +54,7 @@ Enter a transactional shell, bind-mount /home so your files are accessible, and 
 
     (You should see nvidia/<version>, <kernel-version>, x86_64: installed).
 
-Phase 4: Install the CUDA Toolkit (Inside the Shell)
+Phase 4: Install the CUDA Toolkit (Inside the Shell) (OPTIONAL)
 
 While still inside the same transactional shell, install the CUDA Toolkit without overwriting your newly installed driver.
 
