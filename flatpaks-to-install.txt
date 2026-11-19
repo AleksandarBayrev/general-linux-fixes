@@ -17,11 +17,9 @@ io.github.ilya_zlobintsev.LACT
 io.missioncenter.MissionCenter
 net.lutris.Lutris
 net.mediaarea.MediaInfo
-net.pcsx2.PCSX2
 org.audacityteam.Audacity
 org.avidemux.Avidemux
 org.bunkus.mkvtoolnix-gui
-org.duckstation.DuckStation
 org.filezillaproject.Filezilla
 org.gimp.GIMP
 org.inkscape.Inkscape
