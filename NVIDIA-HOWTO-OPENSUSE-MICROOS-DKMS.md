@@ -1,4 +1,6 @@
 Here is your updated and optimized step-by-step guide for openSUSE MicroOS with a separate /home drive. This version implements TMPDIR redirection (preventing space/mktemp issues on the default tmpfs /tmp) and bind-mounting /home directly inside the transactional shell so you can execute the .run files straight from your ~/Downloads directory without copying them.
+
+# IMPORTANT !!! - after update and reboot - run flatpak update to update the flatpak drivers
 Phase 1: Install Build Dependencies & Sync Kernel
 
 Install DKMS, build tools, and matching kernel and header packages into a new transactional snapshot.
