@@ -302,7 +302,8 @@ sudo transactional-update pkg install \
   gnome-disk-utility ksystemlog \
   bash-completion \
   usbutils \
-  kio-admin
+  kio-admin \
+  'libGLU1*'
 ```
 
 After success, reboot before using newly installed host tools:
