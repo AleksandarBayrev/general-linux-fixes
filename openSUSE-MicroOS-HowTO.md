@@ -301,7 +301,8 @@ sudo transactional-update pkg install \
   smartmontools nvme-cli sensors \
   gnome-disk-utility ksystemlog \
   bash-completion \
-  usbutils
+  usbutils \
+  kio-admin
 ```
 
 After success, reboot before using newly installed host tools:
