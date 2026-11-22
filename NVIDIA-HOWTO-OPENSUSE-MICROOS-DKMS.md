@@ -10,6 +10,9 @@ Install DKMS, build tools, and matching kernel and header packages into a new tr
 
     sudo transactional-update pkg install dkms kernel-default kernel-default-devel gcc make
 
+    Enable DKMS service
+    sudo systemctl enable dkms.service
+
     Reboot into the new snapshot so your running kernel (uname -r) matches the newly installed kernel-default-devel headers:
     Bash
 

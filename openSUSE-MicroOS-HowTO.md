@@ -336,6 +336,8 @@ Do not copy Fedora's `fuse-libs`, `edk2-ovmf`, `kernel-modules-extra`, or Debian
 
 ## IMPORTANT!!! - to mount external drives do `sudo mkdir -p /var/mnt` if `/var/mnt` is missing and then mount there.
 
+## IMPORTANT!!! - if you are going to use NVIDIA drivers - install `dkms` (`sudo transactional-update pkg install dkms`) and enable the service via `systemctl enable dkms`
+
 ## Install Ark
 
 ```bash
